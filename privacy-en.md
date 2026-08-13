@@ -7,7 +7,7 @@ permalink: /privacy-en/
 
 **App:** Envelopes: My Budget (Android)
 **Developer:** Ivanov Oleg
-**Contact:** envelopes.support@gmail.com
+**Contact:** support@envelopesbudget.org
 **Effective date:** 13 August 2026
 
 ## In short
@@ -130,4 +130,4 @@ If the policy changes materially, the effective date will be updated.
 
 ## Contact
 
-Privacy questions: envelopes.support@gmail.com
+Privacy questions: support@envelopesbudget.org

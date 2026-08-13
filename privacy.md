@@ -7,7 +7,7 @@ permalink: /privacy/
 
 **Приложение:** Envelopes: Мой бюджет (Android)
 **Разработчик:** Ivanov Oleg
-**Контакт:** envelopes.support@gmail.com
+**Контакт:** support@envelopesbudget.org
 **Дата вступления в силу:** 13 августа 2026
 
 ## Коротко
@@ -131,4 +131,4 @@ Google Drive, Dropbox или сервер WebDAV. Данные передают�
 
 ## Контакт
 
-Вопросы о конфиденциальности: envelopes.support@gmail.com
+Вопросы о конфиденциальности: support@envelopesbudget.org

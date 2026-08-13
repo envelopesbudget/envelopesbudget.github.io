@@ -36,7 +36,7 @@ technical means of seeing it.
 
 ## Support
 
-Questions, bug reports and suggestions: **envelopes.support@gmail.com**
+Questions, bug reports and suggestions: **support@envelopesbudget.org**
 
 ---
 
