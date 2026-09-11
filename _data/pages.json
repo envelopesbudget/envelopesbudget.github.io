@@ -21,11 +21,14 @@
      "Кредитные карты по правилам конвертов: трата с карты сразу резервирует деньги на её погашение.",
      "Переводы между счетами, в том числе с конвертацией по курсу.",
      "Операции: сплиты, получатели, заметки, флаги, фото чеков, сверка счёта, массовые действия, поиск и фильтры.",
-     "Быстрый ввод: голосом («Продукты 250») и виджетом на домашнем экране.",
+     "Быстрый ввод: голосом («Продукты 250») и виджетами на домашнем экране - операция, голос, чек.",
      "Плановые платежи с напоминаниями; наступивший платёж можно подтвердить, сдвинуть или записать в любой другой день.",
-     "Отчёты: тренд расходов с линией динамики и средним, структура доходов, таблица «доходы и расходы» по месяцам.",
+     "Чек по QR-коду: сумма и дата подставляются из фискального кода, а магазин и категорию приложение помнит по прошлым чекам той же кассы (Украина, Россия, Португалия).",
+     "Отчёты: куда ушли деньги, тренд расходов с линией динамики и средним, структура доходов, таблица «доходы и расходы» по месяцам, топ получателей, чистая стоимость и долг по картам.",
      "Возраст денег - сколько дней вашим деньгам к моменту траты.",
-     "Несколько независимых бюджетов, у каждого своя валюта."
+     "Несколько независимых бюджетов, у каждого своя валюта.",
+     "Переезд из YNAB: импорт файла YNAB 4 (.y4backup) и выгрузки веб-YNAB - счета, категории, получатели и операции переносятся целиком.",
+     "Тёмная тема, режим «скрыть суммы» от чужих глаз, палитра для тех, кто не различает красный и зелёный, экспорт в CSV."
     ]
    },
    {
@@ -76,11 +79,14 @@
      "Credit cards the envelope way: a card purchase immediately sets aside money to pay it off.",
      "Transfers between accounts, with an exchange rate when currencies differ.",
      "Transactions: splits, payees, memos, flags, receipt photos, reconciliation, bulk edits, search and filters.",
-     "Quick entry: by voice or from a home screen widget.",
+     "Quick entry: by voice or from home screen widgets - transaction, voice, receipt.",
      "Scheduled payments with reminders. A due payment can be confirmed, moved, or entered on any other day without touching the schedule.",
-     "Reports: spending trend with average and trend lines, income breakdown, income-and-expense table by month.",
+     "Receipt from a QR code: the amount and date come from the fiscal code, while the shop and category are remembered from your earlier receipts at the same till (Ukraine, Russia, Portugal).",
+     "Reports: where the money went, spending trend with average and trend lines, income breakdown, income-and-expense table by month, top payees, net worth and credit card debt.",
      "Age of Money - how old your money is by the time you spend it.",
-     "Several independent budgets, each with its own currency."
+     "Several independent budgets, each with its own currency.",
+     "Moving from YNAB: import a YNAB 4 file (.y4backup) or a web YNAB export - accounts, categories, payees and transactions come across in full.",
+     "Dark theme, a \"hide amounts\" mode for prying eyes, a palette for red-green colour blindness, CSV export."
     ]
    },
    {
@@ -131,12 +137,14 @@
      "Кредитні картки за правилами конвертів: витрата з картки одразу резервує гроші на її погашення.",
      "Перекази між рахунками, зокрема з конвертацією за курсом.",
      "Операції: розділення, отримувачі, нотатки, прапорці, фото чеків, звірка рахунку, масові дії, пошук і фільтри.",
-     "Швидке введення: голосом та віджетом на домашньому екрані.",
+     "Швидке введення: голосом і з віджетів на домашньому екрані - операція, голос, чек.",
      "Чек за QR-кодом: сума й дата підставляються з фіскального QR-коду чека, а магазин і категорію застосунок згадує з ваших попередніх чеків тієї ж каси - і що більше чеків, то менше вводити вручну.",
      "Планові платежі з нагадуваннями; платіж, якому настав час, можна підтвердити, посунути або записати будь-яким іншим днем.",
-     "Звіти: тренд витрат із лінією динаміки та середнім, структура доходів, таблиця «доходи і витрати» по місяцях.",
+     "Звіти: куди пішли гроші, тренд витрат із лінією динаміки та середнім, структура доходів, таблиця «доходи і витрати» за місяцями, топ отримувачів, чиста вартість і борг за картками.",
      "Вік грошей - скільки днів вашим грошам на момент витрати.",
-     "Кілька незалежних бюджетів, у кожного своя валюта."
+     "Кілька незалежних бюджетів, у кожного своя валюта.",
+     "Перехід з YNAB: імпорт файлу YNAB 4 (.y4backup) або вивантаження веб-YNAB - рахунки, категорії, отримувачі й операції переносяться повністю.",
+     "Темна тема, режим «сховати суми» від чужих очей, палітра для тих, хто не розрізняє червоний і зелений, експорт у CSV."
     ]
    },
    {
@@ -187,11 +195,14 @@
      "Kreditkarten nach der Umschlagmethode: Ein Kartenkauf legt sofort Geld für die Tilgung zurück.",
      "Überträge zwischen Konten, bei verschiedenen Währungen mit Wechselkurs.",
      "Buchungen: Splitts, Zahlungsempfänger, Notizen, Markierungen, Belegfotos, Kontenabgleich, Massenänderungen, Suche und Filter.",
-     "Schnelle Eingabe: per Sprache und über ein Widget auf dem Startbildschirm.",
+     "Schnelle Eingabe: per Sprache und über Widgets auf dem Startbildschirm - Buchung, Sprache, Beleg.",
      "Geplante Zahlungen mit Erinnerungen. Eine fällige Zahlung lässt sich bestätigen, verschieben oder an einem anderen Tag erfassen.",
-     "Berichte: Ausgabentrend mit Durchschnitts- und Trendlinie, Aufbau der Einnahmen, Einnahmen-Ausgaben-Tabelle nach Monaten.",
+     "Beleg per QR-Code: Betrag und Datum kommen aus dem fiskalischen Code, Geschäft und Kategorie merkt sich die App von früheren Belegen derselben Kasse (Ukraine, Russland, Portugal).",
+     "Berichte: wohin das Geld ging, Ausgabentrend mit Durchschnitts- und Trendlinie, Aufbau der Einnahmen, Einnahmen-Ausgaben-Tabelle nach Monaten, Top-Zahlungsempfänger, Vermögen und Kreditkartenschulden.",
      "Alter des Geldes - wie alt Ihr Geld beim Ausgeben ist.",
-     "Mehrere unabhängige Budgets, jedes mit eigener Währung."
+     "Mehrere unabhängige Budgets, jedes mit eigener Währung.",
+     "Umstieg von YNAB: Import einer YNAB-4-Datei (.y4backup) oder eines Web-YNAB- Exports - Konten, Kategorien, Zahlungsempfänger und Buchungen kommen vollständig mit.",
+     "Dunkles Design, Modus „Beträge verbergen\" gegen fremde Blicke, Palette für Rot-Grün-Sehschwäche, CSV-Export."
     ]
    },
    {
@@ -242,11 +253,14 @@
      "Cartes de crédit à la manière des enveloppes : un achat par carte met aussitôt de côté de quoi la rembourser.",
      "Virements entre comptes, avec taux de change si les devises diffèrent.",
      "Opérations : ventilations, bénéficiaires, notes, marqueurs, photos de reçus, rapprochement, actions groupées, recherche et filtres.",
-     "Saisie rapide : à la voix ou depuis un widget sur l’écran d’accueil.",
+     "Saisie rapide : à la voix ou depuis des widgets sur l’écran d’accueil - opération, voix, reçu.",
      "Paiements planifiés avec rappels. Un paiement dû peut être confirmé, décalé ou saisi un autre jour sans toucher à l’échéancier.",
-     "Rapports : tendance des dépenses avec moyenne et droite de tendance, structure des revenus, tableau recettes-dépenses par mois.",
+     "Reçu par QR code : le montant et la date viennent du code fiscal, tandis que le magasin et la catégorie sont repris de vos reçus précédents de la même caisse (Ukraine, Russie, Portugal).",
+     "Rapports : où est passé l’argent, tendance des dépenses avec moyenne et droite de tendance, structure des revenus, tableau recettes-dépenses par mois, principaux bénéficiaires, patrimoine net et dette des cartes.",
      "Âge de l’argent - depuis combien de jours vous détenez l’argent dépensé.",
-     "Plusieurs budgets indépendants, chacun avec sa devise."
+     "Plusieurs budgets indépendants, chacun avec sa devise.",
+     "Migration depuis YNAB : import d’un fichier YNAB 4 (.y4backup) ou d’un export du YNAB web - comptes, catégories, bénéficiaires et opérations sont repris intégralement.",
+     "Thème sombre, mode « masquer les montants » à l’abri des regards, palette pour le daltonisme rouge-vert, export CSV."
     ]
    },
    {
@@ -297,11 +311,14 @@
      "Tarjetas de crédito al estilo de los sobres: una compra con tarjeta reserva al instante el dinero para pagarla.",
      "Transferencias entre cuentas, con tipo de cambio cuando las monedas difieren.",
      "Operaciones: desgloses, beneficiarios, notas, marcas, fotos de recibos, conciliación, acciones en lote, búsqueda y filtros.",
-     "Registro rápido: por voz o desde un widget en la pantalla de inicio.",
+     "Registro rápido: por voz o desde widgets en la pantalla de inicio - operación, voz, recibo.",
      "Pagos programados con recordatorios. Un pago vencido se puede confirmar, aplazar o anotar en otro día sin tocar la programación.",
-     "Informes: tendencia de gastos con media y línea de tendencia, estructura de ingresos y tabla de ingresos y gastos por meses.",
+     "Recibo por código QR: el importe y la fecha se toman del código fiscal, y la tienda y la categoría se recuerdan de recibos anteriores de la misma caja (Ucrania, Rusia, Portugal).",
+     "Informes: adónde fue el dinero, tendencia de gasto con media y línea de tendencia, estructura de ingresos, tabla de ingresos y gastos por mes, principales beneficiarios, patrimonio neto y deuda de tarjetas.",
      "Edad del dinero: cuántos días lleva contigo el dinero que gastas.",
-     "Varios presupuestos independientes, cada uno con su moneda."
+     "Varios presupuestos independientes, cada uno con su moneda.",
+     "Cambio desde YNAB: importa un archivo de YNAB 4 (.y4backup) o una exportación del YNAB web - cuentas, categorías, beneficiarios y operaciones pasan enteras.",
+     "Tema oscuro, modo «ocultar importes» ante miradas ajenas, paleta para el daltonismo rojo-verde, exportación a CSV."
     ]
    },
    {
@@ -352,11 +369,14 @@
      "Carte di credito secondo il metodo delle buste: un acquisto con carta mette subito da parte il denaro per estinguerlo.",
      "Trasferimenti tra conti, con tasso di cambio quando le valute differiscono.",
      "Movimenti: suddivisioni, beneficiari, note, contrassegni, foto degli scontrini, riconciliazione, azioni multiple, ricerca e filtri.",
-     "Inserimento rapido: a voce o da un widget nella schermata home.",
+     "Inserimento rapido: a voce o dai widget nella schermata iniziale - operazione, voce, scontrino.",
      "Pagamenti pianificati con promemoria. Un pagamento in scadenza si può confermare, rinviare o registrare in un altro giorno.",
-     "Report: andamento delle spese con media e linea di tendenza, struttura delle entrate, tabella entrate-uscite per mese.",
+     "Scontrino da QR: importo e data arrivano dal codice fiscale dello scontrino, mentre negozio e categoria vengono ricordati dagli scontrini precedenti della stessa cassa (Ucraina, Russia, Portogallo).",
+     "Report: dove sono finiti i soldi, andamento delle spese con media e linea di tendenza, struttura delle entrate, tabella entrate-uscite per mese, principali beneficiari, patrimonio netto e debito delle carte.",
      "Età del denaro: da quanti giorni possiedi il denaro che stai spendendo.",
-     "Più budget indipendenti, ciascuno con la propria valuta."
+     "Più budget indipendenti, ciascuno con la propria valuta.",
+     "Passaggio da YNAB: importa un file YNAB 4 (.y4backup) o un export del YNAB web - conti, categorie, beneficiari e operazioni passano per intero.",
+     "Tema scuro, modalità «nascondi importi» da occhi altrui, palette per il daltonismo rosso-verde, esportazione in CSV."
     ]
    },
    {
@@ -407,11 +427,14 @@
      "Karty kredytowe po kopertowemu: wydatek kartą od razu rezerwuje pieniądze na jej spłatę.",
      "Przelewy między kontami, z kursem wymiany przy różnych walutach.",
      "Operacje: podziały, odbiorcy, notatki, flagi, zdjęcia paragonów, uzgadnianie konta, działania zbiorcze, wyszukiwanie i filtry.",
-     "Szybkie wprowadzanie: głosem i widżetem na ekranie głównym.",
+     "Szybkie wprowadzanie: głosem lub z widżetów na ekranie głównym - operacja, głos, paragon.",
      "Płatności cykliczne z przypomnieniami. Nadchodzącą płatność można potwierdzić, przesunąć albo zapisać w innym dniu.",
-     "Raporty: trend wydatków ze średnią i linią trendu, struktura przychodów, tabela przychodów i wydatków według miesięcy.",
+     "Paragon z kodu QR: kwota i data pochodzą z kodu fiskalnego, a sklep i kategorię aplikacja pamięta z wcześniejszych paragonów tej samej kasy (Ukraina, Rosja, Portugalia).",
+     "Raporty: dokąd poszły pieniądze, trend wydatków ze średnią i linią trendu, struktura przychodów, tabela przychodów i wydatków według miesięcy, najczęstsi odbiorcy, majątek netto i dług kart.",
      "Wiek pieniądza - ile dni pieniądze są u ciebie, zanim je wydasz.",
-     "Kilka niezależnych budżetów, każdy z własną walutą."
+     "Kilka niezależnych budżetów, każdy z własną walutą.",
+     "Przejście z YNAB: import pliku YNAB 4 (.y4backup) lub eksportu z YNAB w przeglądarce - konta, kategorie, odbiorcy i operacje przenoszą się w całości.",
+     "Ciemny motyw, tryb „ukryj kwoty\" przed obcym wzrokiem, paleta dla daltonizmu czerwono-zielonego, eksport do CSV."
     ]
    },
    {
@@ -462,11 +485,14 @@
      "Cartões de crédito no estilo envelopes: uma compra no cartão já reserva o dinheiro para quitá-la.",
      "Transferências entre contas, com taxa de câmbio quando as moedas diferem.",
      "Lançamentos: divisões, favorecidos, observações, marcadores, fotos de recibos, conciliação, ações em lote, busca e filtros.",
-     "Registro rápido: por voz ou por um widget na tela inicial.",
+     "Registro rápido: por voz ou pelos widgets na tela inicial - lançamento, voz, recibo.",
      "Pagamentos agendados com lembretes. Um pagamento vencido pode ser confirmado, adiado ou lançado em outro dia sem mexer no agendamento.",
-     "Relatórios: tendência de gastos com média e linha de tendência, estrutura das receitas e tabela de receitas e despesas por mês.",
+     "Recibo por QR code: valor e data vêm do código fiscal, e a loja e a categoria são lembradas de recibos anteriores do mesmo caixa (Ucrânia, Rússia, Portugal).",
+     "Relatórios: para onde foi o dinheiro, tendência de gastos com média e linha de tendência, estrutura das receitas, tabela de receitas e despesas por mês, principais beneficiários, patrimônio líquido e dívida dos cartões.",
      "Idade do dinheiro - há quantos dias o dinheiro está com você quando o gasta.",
-     "Vários orçamentos independentes, cada um com sua moeda."
+     "Vários orçamentos independentes, cada um com sua moeda.",
+     "Mudança do YNAB: importe um arquivo do YNAB 4 (.y4backup) ou uma exportação do YNAB web - contas, categorias, beneficiários e lançamentos vêm por inteiro.",
+     "Tema escuro, modo \"ocultar valores\" diante de olhares alheios, paleta para daltonismo vermelho-verde, exportação em CSV."
     ]
    },
    {
@@ -517,12 +543,14 @@
      "Cartões de crédito à maneira dos envelopes: uma compra com cartão reserva logo o dinheiro para a liquidar.",
      "Transferências entre contas, com taxa de câmbio quando as moedas diferem.",
      "Movimentos: divisões, beneficiários, notas, marcadores, fotografias de recibos, reconciliação, ações em lote, pesquisa e filtros.",
-     "Registo rápido: por voz ou a partir de um widget no ecrã principal.",
+     "Registo rápido: por voz ou a partir dos widgets no ecrã principal - movimento, voz, fatura.",
      "Faturas portuguesas por código QR: aponte a câmara ao QR da fatura ou fatura simplificada e o valor e a data ficam preenchidos. A loja é reconhecida pelo NIF, por isso da segunda vez o beneficiário e a categoria já vêm sugeridos, e a mesma fatura lida duas vezes é assinalada como repetida. Tudo no telemóvel, sem consultar nenhum servidor.",
      "Pagamentos agendados com lembretes. Um pagamento vencido pode ser confirmado, adiado ou registado noutro dia sem mexer no agendamento.",
-     "Relatórios: tendência de gastos com média e linha de tendência, estrutura dos rendimentos e tabela de rendimentos e despesas por mês.",
+     "Relatórios: para onde foi o dinheiro, tendência de despesas com média e linha de tendência, estrutura das receitas, tabela de receitas e despesas por mês, principais beneficiários, património líquido e dívida dos cartões.",
      "Idade do dinheiro - há quantos dias o dinheiro está consigo quando o gasta.",
-     "Vários orçamentos independentes, cada um com a sua moeda."
+     "Vários orçamentos independentes, cada um com a sua moeda.",
+     "Mudança do YNAB: importe um ficheiro do YNAB 4 (.y4backup) ou uma exportação do YNAB web - contas, categorias, beneficiários e movimentos passam por inteiro.",
+     "Tema escuro, modo «ocultar valores» perante olhares alheios, paleta para daltonismo vermelho-verde, exportação em CSV."
     ]
    },
    {
@@ -573,11 +601,14 @@
      "Creditcards volgens de enveloppenmethode: een aankoop met de kaart zet meteen geld apart om hem af te lossen.",
      "Overboekingen tussen rekeningen, met wisselkoers als de valuta verschillen.",
      "Boekingen: splitsingen, begunstigden, notities, markeringen, bonfoto’s, afstemming, bulkacties, zoeken en filteren.",
-     "Snel invoeren: met je stem of via een widget op het startscherm.",
+     "Snel invoeren: met je stem of via widgets op het startscherm - boeking, stem, bon.",
      "Geplande betalingen met herinneringen. Een vervallen betaling kun je bevestigen, uitstellen of op een andere dag boeken.",
-     "Rapporten: uitgaventrend met gemiddelde en trendlijn, opbouw van de inkomsten en een tabel inkomsten-uitgaven per maand.",
+     "Bon via QR-code: bedrag en datum komen uit de fiscale code, en winkel en categorie worden onthouden van eerdere bonnen van dezelfde kassa (Oekraïne, Rusland, Portugal).",
+     "Rapporten: waar het geld heen ging, uitgaventrend met gemiddelde en trendlijn, opbouw van de inkomsten, tabel inkomsten en uitgaven per maand, grootste begunstigden, nettovermogen en creditcardschuld.",
      "Leeftijd van je geld - hoeveel dagen je het geld al hebt als je het uitgeeft.",
-     "Meerdere onafhankelijke budgetten, elk met een eigen valuta."
+     "Meerdere onafhankelijke budgetten, elk met een eigen valuta.",
+     "Overstappen van YNAB: importeer een YNAB 4-bestand (.y4backup) of een export uit web-YNAB - rekeningen, categorieën, begunstigden en boekingen komen volledig mee.",
+     "Donker thema, modus \"bedragen verbergen\" voor meekijkers, palet voor rood- groenblindheid, export naar CSV."
     ]
    },
    {
@@ -628,11 +659,14 @@
      "Kredi kartları zarf mantığıyla: kartla yapılan harcama, ödemesi için parayı hemen ayırır.",
      "Hesaplar arası transferler, para birimleri farklıysa kur ile.",
      "İşlemler: bölünmüş kayıtlar, alıcılar, notlar, işaretler, fiş fotoğrafları, hesap mutabakatı, toplu işlemler, arama ve filtreler.",
-     "Hızlı giriş: sesle veya ana ekrandaki widget’tan.",
+     "Hızlı giriş: sesle veya ana ekrandaki widget’lardan - işlem, ses, fiş.",
      "Planlı ödemeler ve hatırlatmalar. Vakti gelen ödeme onaylanabilir, ertelenebilir ya da başka bir güne yazılabilir.",
-     "Raporlar: ortalama ve eğilim çizgisiyle harcama eğilimi, gelirlerin yapısı, aylara göre gelir-gider tablosu.",
+     "QR koddan fiş: tutar ve tarih fiş üzerindeki mali koddan gelir, mağaza ve kategori ise aynı kasadaki önceki fişlerden hatırlanır (Ukrayna, Rusya, Portekiz).",
+     "Raporlar: para nereye gitti, ortalama ve eğilim çizgisiyle harcama eğilimi, gelir yapısı, aylara göre gelir-gider tablosu, en çok ödeme yapılanlar, net varlık ve kart borcu.",
      "Paranın yaşı - harcadığınız para kaç gündür sizde.",
-     "Her biri kendi para biriminde birden çok bağımsız bütçe."
+     "Her biri kendi para biriminde birden çok bağımsız bütçe.",
+     "YNAB’den geçiş: YNAB 4 dosyasını (.y4backup) veya web YNAB dışa aktarımını içe aktarın - hesaplar, kategoriler, alıcılar ve işlemler eksiksiz taşınır.",
+     "Koyu tema, başkalarının gözünden \"tutarları gizle\" modu, kırmızı-yeşil renk körlüğü için palet, CSV dışa aktarma."
     ]
    },
    {
