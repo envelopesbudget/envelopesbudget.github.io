@@ -29,7 +29,7 @@ third parties for marketing.
 ## What data the app handles
 
 Everything you enter yourself: accounts, transactions, amounts, categories,
-payees, notes, scheduled payments, goals and — if you wish — photos of
+payees, notes, scheduled payments, goals and - if you wish - photos of
 receipts. This information is kept in a database on your device.
 
 The app does **not** request or collect your name, address, phone number,
@@ -40,7 +40,7 @@ contacts, list of installed apps, advertising identifiers or location data.
 **On your device.** The primary storage is a database in the app's protected
 area. Uninstalling the app removes this data with it.
 
-**In your cloud — only if you connect it yourself.** The app can synchronise
+**In your cloud - only if you connect it yourself.** The app can synchronise
 your budget and store backups in one of these services: Google Drive, Dropbox
 or a WebDAV server. Data travels directly between your device and your own
 account in that service. The developer is not part of this chain and has no
@@ -63,12 +63,12 @@ budget sync file. The cipher is AES-GCM with a 256-bit key derived from the
 password via PBKDF2.
 
 The password is kept only on your device in the Android secure storage and is
-never transmitted — neither to the developer nor to the cloud. **If you
-forget this password, the files cannot be decrypted** — neither by you nor by
+never transmitted - neither to the developer nor to the cloud. **If you
+forget this password, the files cannot be decrypted** - neither by you nor by
 the developer.
 
 Without a password these files sit in your cloud in the clear. The sync file
-is compressed (plain gzip) — that saves mobile traffic and is not a security
+is compressed (plain gzip) - that saves mobile traffic and is not a security
 measure.
 
 ### The encrypted file format is open
@@ -84,7 +84,7 @@ Given the password, such a file can be decrypted by any tool that supports
 these standard algorithms. Files starting with `MB1E` are the same format
 from an earlier version with 100,000 iterations; the app still reads them.
 
-A decrypted sync file may turn out to be gzip — any archiver unpacks it, and
+A decrypted sync file may turn out to be gzip - any archiver unpacks it, and
 inside there is ordinary JSON.
 
 The app does all of this for you: Backups → the ⋮ menu → **"Save a readable
@@ -117,11 +117,11 @@ policy of that system's provider.
 
 The app contacts only the services you connect yourself:
 
-- **Google Drive** — [Google Privacy Policy](https://policies.google.com/privacy)
-- **Dropbox** — [Dropbox Privacy Policy](https://www.dropbox.com/privacy)
-- **WebDAV** — the server you specify; its terms are set by its owner
+- **Google Drive** - [Google Privacy Policy](https://policies.google.com/privacy)
+- **Dropbox** - [Dropbox Privacy Policy](https://www.dropbox.com/privacy)
+- **WebDAV** - the server you specify; its terms are set by its owner
 
-None of these services receive data from the developer — only from you and at
+None of these services receive data from the developer - only from you and at
 your initiative.
 
 ## Payments
@@ -140,11 +140,11 @@ data from them.
 
 The data is yours and stays under your control:
 
-- to delete data from the device — uninstall the app or use the reset option
+- to delete data from the device - uninstall the app or use the reset option
   in settings;
-- to delete data from the cloud — remove the app's folder in your Google
+- to delete data from the cloud - remove the app's folder in your Google
   Drive, Dropbox or on your WebDAV server;
-- to take your data with you — the app can export a backup as a file, export
+- to take your data with you - the app can export a backup as a file, export
   transactions to CSV, and turn an encrypted or compressed cloud file into a
   plain one ("Save a readable copy", see the Encryption section).
 

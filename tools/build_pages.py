@@ -89,9 +89,26 @@ def parse_listing(path):
             else:
                 buf.append(s)
         flush()
-        out[CODES[code]] = {'name': name, 'tagline': tagline,
-                            'intro': intro, 'sections': sections}
+        out[CODES[code]] = {
+            'name': plain_dashes(name), 'tagline': plain_dashes(tagline),
+            'intro': [plain_dashes(x) for x in intro],
+            'sections': [
+                {k: (plain_dashes(v) if isinstance(v, str)
+                     else [plain_dashes(i) for i in v])
+                 for k, v in sec.items()}
+                for sec in sections],
+        }
     return out
+
+
+def plain_dashes(text):
+    """Длинные и средние тире -> дефис (решение Олега, 11 сентября 2026).
+
+    Нормализуем ЗДЕСЬ, а не в `store/play-listing.md`: там лежит то, что
+    опубликовано в Google Play, и трогать его ради вида сайта нельзя — иначе
+    исходник разойдётся с магазином. Сайт получает свой вид при сборке.
+    """
+    return text.replace(chr(8212), '-').replace(chr(8211), '-')
 
 
 def clip(text, limit, seps=('. ', '; ', ': ', ' (', ' — ', ' - ', ', ')):
