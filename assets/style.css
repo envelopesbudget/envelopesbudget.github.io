@@ -73,9 +73,11 @@ li { margin: .35em 0; }
 }
 
 .cta { margin: 18px 0 6px; }
-/* Бейдж Google Play: высота не меньше 28px и свободное поле в четверть
-   высоты вокруг — требование Google Play Badge Guidelines. */
-.cta img { height: 60px; width: auto; margin: 15px 0; display: block; }
+/* Бейдж Google Play: высота не меньше 28px, а свободное поле вокруг — не
+   меньше четверти его высоты. Оба числа из Google Play Badge Guidelines,
+   поэтому и живут здесь константами: 71px высоты при 18px поля дают запас.
+   Перекрашивать, растягивать и обрезать бейдж нельзя — отсюда width:auto. */
+.cta .badge { height: 71px; width: auto; margin: 18px 0; display: block; }
 .cta-soon {
   display: inline-block; padding: 12px 20px; border-radius: 8px;
   background: var(--accent); color: #fff; font-weight: 600;

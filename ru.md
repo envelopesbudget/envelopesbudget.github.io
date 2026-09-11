@@ -29,15 +29,7 @@ app_schema: true
   <img width="540" height="960" src="/img/07-dark-budget.jpg" alt="Тёмная тема" loading="lazy">
 </div>
 
-<div class="cta">
-  <!-- ПОСЛЕ выхода в production: удалить ссылку-заглушку ниже и раскомментировать бейдж.
-  <a href="https://play.google.com/store/apps/details?id=com.personal.my_budget&referrer=utm_source%3Dsite">
-    <img src="/img/google-play-badge.png" alt="Доступно в Google Play">
-  </a>
-  -->
-  <a class="cta-soon" href="https://t.me/Envelopes_My_Budget">Скоро в Google Play</a>
-  <div class="cta-note">Приложение на закрытом тестировании. Заходите в чат, чтобы получить его раньше.</div>
-</div>
+{% include cta.html %}
 
 В начале месяца вы раскладываете уже заработанные деньги по категориям и
 дальше тратите из конкретного конверта, а не «из общей кучи».
@@ -78,5 +70,4 @@ Dropbox или на сервер WebDAV: у разработчика нет к �
   отвечают быстрее всего, на языке вопроса.
 - Почта: **support@envelopesbudget.org**
 
-<p class="cta-note">Google Play и логотип Google Play — товарные знаки
-Google LLC.</p>
+<p class="cta-note">{{ site.data.i18n[page.lang].trademark }}</p>

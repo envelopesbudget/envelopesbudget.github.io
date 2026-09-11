@@ -15,3 +15,10 @@ plugins:
 
 exclude:
   - README.md
+
+# Ссылка на карточку в Play и рубильник кнопки. Пока false — на всех витринах
+# стоит «Скоро в Google Play»; в день выхода в production ставим true, и
+# официальный бейдж появляется сразу на всех языках. Метка referrer видна в
+# Play Console как источник установок.
+play_url: "https://play.google.com/store/apps/details?id=com.personal.my_budget&referrer=utm_source%3Dsite"
+play_live: false

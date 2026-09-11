@@ -28,15 +28,7 @@ app_schema: true
   <img width="540" height="960" src="/img/07-dark-budget.jpg" alt="Dark theme" loading="lazy">
 </div>
 
-<div class="cta">
-  <!-- ПОСЛЕ выхода в production: удалить ссылку-заглушку ниже и раскомментировать бейдж.
-  <a href="https://play.google.com/store/apps/details?id=com.personal.my_budget&referrer=utm_source%3Dsite">
-    <img src="/img/google-play-badge.png" alt="Get it on Google Play">
-  </a>
-  -->
-  <a class="cta-soon" href="https://t.me/Envelopes_My_Budget">Coming soon to Google Play</a>
-  <div class="cta-note">The app is in closed testing. Join the chat to get in early.</div>
-</div>
+{% include cta.html %}
 
 You give every unit of money a job at the start of the month, then spend from
 a specific envelope instead of a vague total.
@@ -79,5 +71,4 @@ a plain, readable copy at any time.
   and bug reports get answered here fastest, in the language you ask in.
 - Email: **support@envelopesbudget.org**
 
-<p class="cta-note">Google Play and the Google Play logo are trademarks of
-Google LLC.</p>
+<p class="cta-note">{{ site.data.i18n[page.lang].trademark }}</p>

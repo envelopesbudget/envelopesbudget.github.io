@@ -1,0 +1,30 @@
+{%- comment -%}
+Кнопка в Google Play — одна на все витрины.
+
+Бейдж подставляется по языку страницы, а НАЛИЧИЕ файла проверяется по
+site.static_files: набор Google неполный (нидерландского в нём может не быть),
+и держать рядом ещё и список языков значило бы завести вторую правду, которая
+молча разойдётся с папкой. Положили файл — он подхватился сам; нет файла —
+стоит английский бейдж. Рисовать свой или подписывать чужой нельзя по правилам
+Google Play Badge Guidelines, английский — штатный выход.
+
+До выхода в production (site.play_live: false) вместо бейджа стоит кнопка
+«Скоро в Google Play», ведущая в чат: ссылка на карточку Play у того, кто не
+состоит в тестерах, открывается ошибкой, а это хуже честного «скоро».
+{%- endcomment -%}
+{%- assign t = site.data.i18n[page.lang] | default: site.data.i18n.en -%}
+{%- assign badge = '/img/badges/play-' | append: page.lang | append: '.png' -%}
+{%- assign found = site.static_files | where: 'path', badge | size -%}
+{%- if found == 0 -%}{%- assign badge = '/img/badges/play-en.png' -%}{%- endif -%}
+
+<div class="cta">
+{%- if site.play_live %}
+  <a href="{{ site.play_url }}">
+    <img class="badge" src="{{ badge }}" width="239" height="71"
+         alt="{{ t.badge_alt }}">
+  </a>
+{%- else %}
+  <a class="cta-soon" href="https://t.me/Envelopes_My_Budget">{{ t.cta_soon }}</a>
+  <div class="cta-note">{{ t.cta_note }}</div>
+{%- endif %}
+</div>
