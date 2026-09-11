@@ -1,0 +1,117 @@
+/* Оформление сайта. Один файл на все страницы: до этого стили лежали
+   копией в каждой, и правка одной расходилась с другой молча.
+
+   Без внешних шрифтов и скриптов СОЗНАТЕЛЬНО: приложение обещает отсутствие
+   трекеров, и сайт, тянущий чужие домены, спорил бы с этим обещанием. Заодно
+   страница открывается мгновенно на телефоне в метро. */
+
+:root {
+  --bg: #ffffff;
+  --fg: #1f2328;
+  --muted: #5b6570;
+  --line: #e2e5e9;
+  --accent: #1a73e8;
+  --card: #f6f8fa;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #14171a;
+    --fg: #e6e9ec;
+    --muted: #9aa4ae;
+    --line: #2b3036;
+    --accent: #6aa8f7;
+    --card: #1c2024;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Helvetica, Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+main {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 28px 20px 8px;
+}
+
+h1, h2, h3 { line-height: 1.25; }
+h2 {
+  margin-top: 2em;
+  padding-bottom: .3em;
+  border-bottom: 1px solid var(--line);
+  font-size: 1.35em;
+}
+a { color: var(--accent); }
+strong { font-weight: 650; }
+
+ul { padding-left: 1.2em; }
+li { margin: .35em 0; }
+
+/* Шапка: иконка и название рядом, как в карточке магазина. */
+.hero { display: flex; align-items: center; gap: 18px; margin: 0 0 6px; }
+.hero img { width: 88px; height: 88px; border-radius: 20px; flex: none; }
+.hero h1 { margin: 0 0 4px; font-size: 1.9em; }
+.hero p { margin: 0; color: var(--muted); }
+
+/* Лента скриншотов: на узком экране листается пальцем, на широком видна
+   целиком. Высота задана в разметке, чтобы страница не прыгала при загрузке. */
+.shots {
+  display: flex; gap: 12px; overflow-x: auto; padding: 14px 0;
+  scroll-snap-type: x proximity;
+}
+.shots img {
+  width: 210px; height: 373px; flex: none; border-radius: 12px;
+  scroll-snap-align: start; border: 1px solid var(--line);
+}
+
+.cta { margin: 18px 0 6px; }
+/* Бейдж Google Play: высота не меньше 28px и свободное поле в четверть
+   высоты вокруг — требование Google Play Badge Guidelines. */
+.cta img { height: 60px; width: auto; margin: 15px 0; display: block; }
+.cta-soon {
+  display: inline-block; padding: 12px 20px; border-radius: 8px;
+  background: var(--accent); color: #fff; font-weight: 600;
+  text-decoration: none;
+}
+.cta-note { font-size: .85em; color: var(--muted); margin-top: 8px; }
+
+.langbar { font-size: .9em; margin-bottom: 18px; color: var(--muted); }
+
+blockquote {
+  margin: 1.2em 0; padding: .6em 1em; border-left: 3px solid var(--line);
+  background: var(--card); color: var(--muted);
+}
+
+table { border-collapse: collapse; width: 100%; }
+th, td { border: 1px solid var(--line); padding: .5em .7em; text-align: left; }
+th { background: var(--card); }
+
+code {
+  background: var(--card); padding: .15em .35em; border-radius: 4px;
+  font-size: .9em;
+}
+
+footer {
+  max-width: 760px;
+  margin: 40px auto 0;
+  padding: 16px 20px 32px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: .88em;
+}
+
+@media (max-width: 520px) {
+  main { padding: 20px 16px 8px; }
+  .hero { gap: 12px; }
+  .hero img { width: 64px; height: 64px; border-radius: 15px; }
+  .hero h1 { font-size: 1.5em; }
+  .shots img { width: 165px; height: 293px; }
+}

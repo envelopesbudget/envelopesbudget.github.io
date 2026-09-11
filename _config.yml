@@ -1,3 +1,17 @@
 title: "Envelopes: My Budget"
-description: "Envelope budgeting without an account — your data stays on your device"
-theme: jekyll-theme-minimal
+description: "Envelope budgeting for Android without an account - your data stays on your device"
+url: "https://envelopesbudget.org"
+lang: en
+
+# Карту сайта строит плагин (поддерживается GitHub Pages, версия из
+# pages.github.com/versions.json). Руками её вести нельзя: забудешь страницу -
+# и поисковик о ней не узнает.
+plugins:
+  - jekyll-sitemap
+
+# Тему jekyll-theme-minimal сняли: её layout не отдаёт <head>, то есть ни
+# описания, ни canonical, ни превью при шеринге туда не вставить. Вместо неё -
+# свой _layouts/default.html и assets/style.css.
+
+exclude:
+  - README.md

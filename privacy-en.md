@@ -1,6 +1,12 @@
 ---
 layout: default
 permalink: /privacy-en/
+lang: en
+title: "Privacy Policy - Envelopes: My Budget"
+description: "What the app does with your data: everything stays on your device and in your own cloud, the developer has no access. Encryption, permissions and your rights."
+image: /img/og-en.jpg
+alt_en: /privacy-en/
+alt_ru: /privacy/
 ---
 
 # Privacy Policy
@@ -8,7 +14,7 @@ permalink: /privacy-en/
 **App:** Envelopes: My Budget (Android)
 **Developer:** Ivanov Oleg
 **Contact:** support@envelopesbudget.org
-**Effective date:** 13 August 2026
+**Effective date:** 11 September 2026
 
 ## In short
 
@@ -51,11 +57,39 @@ code that you enter manually.
 
 ## Encryption
 
-Backups that go to the cloud can be encrypted with a password you set
-(AES-GCM, key derived via PBKDF2). The password is kept only on your device
-in the Android secure storage and is never transmitted. **If you forget this
-password, the encrypted backup cannot be recovered** — neither by you nor by
+If you set a password (the Backups section in the app), it encrypts
+**everything that goes to your cloud**: backups, receipt photos and the
+budget sync file. The cipher is AES-GCM with a 256-bit key derived from the
+password via PBKDF2.
+
+The password is kept only on your device in the Android secure storage and is
+never transmitted — neither to the developer nor to the cloud. **If you
+forget this password, the files cannot be decrypted** — neither by you nor by
 the developer.
+
+Without a password these files sit in your cloud in the clear. The sync file
+is compressed (plain gzip) — that saves mobile traffic and is not a security
+measure.
+
+### The encrypted file format is open
+
+Your data should not depend on a single program, so the format is described
+here. Knowing it does not weaken anything: the strength rests on the
+password, not on the secrecy of the format.
+
+The file starts with the four bytes `MB2E`, followed by a 16-byte salt, a
+12-byte nonce, the ciphertext and a 16-byte GCM tag. The key is
+PBKDF2-HMAC-SHA256, 600,000 iterations, 256 bits; the cipher is AES-GCM-256.
+Given the password, such a file can be decrypted by any tool that supports
+these standard algorithms. Files starting with `MB1E` are the same format
+from an earlier version with 100,000 iterations; the app still reads them.
+
+A decrypted sync file may turn out to be gzip — any archiver unpacks it, and
+inside there is ordinary JSON.
+
+The app does all of this for you: Backups → the ⋮ menu → **"Save a readable
+copy"**. It strips both the encryption and the compression and gives you a
+plain file that anything can open.
 
 Wi-Fi transfers between devices are encrypted as well; the key is derived
 from the six-digit confirmation code, and the code itself is never sent over
@@ -110,8 +144,9 @@ The data is yours and stays under your control:
   in settings;
 - to delete data from the cloud — remove the app's folder in your Google
   Drive, Dropbox or on your WebDAV server;
-- to take your data with you — the app can export a backup as a file and
-  export transactions to CSV.
+- to take your data with you — the app can export a backup as a file, export
+  transactions to CSV, and turn an encrypted or compressed cloud file into a
+  plain one ("Save a readable copy", see the Encryption section).
 
 There is no need to send a deletion request to the developer: the developer
 does not hold your data.
