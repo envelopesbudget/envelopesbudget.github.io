@@ -6,6 +6,7 @@
    страница открывается мгновенно на телефоне в метро. */
 
 :root {
+  color-scheme: light dark;
   --bg: #ffffff;
   --fg: #1f2328;
   --muted: #5b6570;
@@ -34,7 +35,15 @@ body {
   font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
         Helvetica, Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
+  /* Адреса вроде envelopesbudget.org/privacy/ и имена файлов длиннее колонки
+     на узком экране: без этого они распирают страницу и появляется боковая
+     прокрутка - на телефоне это читается как сломанная вёрстка. */
+  overflow-wrap: break-word;
 }
+
+/* Картинка никогда не шире своей колонки. У ленты скриншотов размеры заданы
+   отдельно - там прокрутка своя. */
+img { max-width: 100%; }
 
 main {
   max-width: 760px;
@@ -92,6 +101,9 @@ li { margin: .35em 0; }
   line-height: 2;
 }
 .langbar span { color: var(--fg); font-weight: 600; }
+/* Зона нажатия: строчка в 0.85em - это ~11px, пальцем в неё не попасть.
+   Вертикальные поля растят цель, не раздвигая строку (line-height уже 2). */
+.langbar a, .langbar span { display: inline-block; padding: 4px 2px; }
 .langbar-footer { margin: 0 0 10px; }
 
 blockquote {
@@ -99,7 +111,14 @@ blockquote {
   background: var(--card); color: var(--muted);
 }
 
-table { border-collapse: collapse; width: 100%; }
+/* Таблица разрешений в политике - две колонки СПЛОШНОГО ТЕКСТА, и на 320px
+   она распирала бы страницу. Прокрутка вбок тут хуже переноса: читать таблицу,
+   таская её пальцем, невозможно. Поэтому table-layout:fixed - колонки делятся
+   поровну, текст переносится, и таблица влезает в любую ширину. */
+table {
+  border-collapse: collapse;
+  width: 100%; max-width: 100%; table-layout: fixed;
+}
 th, td { border: 1px solid var(--line); padding: .5em .7em; text-align: left; }
 th { background: var(--card); }
 
