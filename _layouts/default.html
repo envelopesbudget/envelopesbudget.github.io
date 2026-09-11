@@ -13,19 +13,29 @@
 <meta name="description" content="{{ page.description | default: site.description }}">
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 
-<!-- Языковые пары объявляет сама страница: пары две (витрина и политика),
-     и угадывать их по адресу нельзя. x-default — английская: она же основная
-     для тех, чей язык мы не знаем. -->
-{% if page.alt_en %}<link rel="alternate" hreflang="en" href="{{ page.alt_en | absolute_url }}">
+{%- comment -%}
+Языковые версии объявляются ЯВНО, иначе поисковик считает двенадцать витрин
+дублями и показывает одну на всех. Витрины перечисляются по _data/langs.json —
+одно место правды на страницы, переключатель и эти теги; политика переведена
+только на два языка и объявляет свою пару сама.
+{%- endcomment -%}
+{%- if page.layout == 'showcase' %}
+{%- for l in site.data.langs %}
+<link rel="alternate" hreflang="{{ l.code }}" href="{{ l.url | absolute_url }}">
+{%- endfor %}
+<link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+{%- elsif page.alt_en %}
+<link rel="alternate" hreflang="en" href="{{ page.alt_en | absolute_url }}">
 <link rel="alternate" hreflang="ru" href="{{ page.alt_ru | absolute_url }}">
-<link rel="alternate" hreflang="x-default" href="{{ page.alt_en | absolute_url }}">{% endif %}
+<link rel="alternate" hreflang="x-default" href="{{ page.alt_en | absolute_url }}">
+{%- endif %}
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{{ page.title | default: site.title }}">
 <meta property="og:description" content="{{ page.description | default: site.description }}">
 <meta property="og:url" content="{{ page.url | absolute_url }}">
-<meta property="og:locale" content="{% if page.lang == 'ru' %}ru_RU{% else %}en_US{% endif %}">
+<meta property="og:locale" content="{{ page.lang | default: 'en' | replace: '-', '_' }}">
 <meta property="og:image" content="{{ page.image | default: '/img/og-en.jpg' | absolute_url }}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -36,37 +46,42 @@
 <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
 <link rel="stylesheet" href="/assets/style.css">
 
-{% if page.app_schema %}
-<!-- Разметка приложения: она у нас ЧЕСТНАЯ и такой обязана остаться.
-     Оценок нет — aggregateRating не выдумываем; цена сегодня 0, и при
-     появлении подписки (#61) это поле придётся поправить вместе с ценой. -->
+{%- if page.layout == 'showcase' %}
+{%- assign p = site.data.pages[page.lang] %}
+<!-- Разметка приложения: она ЧЕСТНАЯ и такой обязана остаться. Оценок нет —
+     aggregateRating не выдумываем; цена сегодня 0, и при появлении подписки
+     (#61) это поле придётся поправить вместе с ценой. -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "SoftwareApplication",
-  "name": "Envelopes: My Budget",
+  "name": {{ p.name | jsonify }},
   "operatingSystem": "Android",
   "applicationCategory": "FinanceApplication",
   "description": {{ page.description | jsonify }},
   "url": {{ page.url | absolute_url | jsonify }},
   "image": {{ '/img/icon.png' | absolute_url | jsonify }},
   "screenshot": {{ '/img/01-overview.jpg' | absolute_url | jsonify }},
-  "inLanguage": ["en", "ru", "uk", "de", "fr", "es", "it", "pl", "pt", "nl", "tr"],
+  "inLanguage": [{% for l in site.data.langs %}{{ l.code | jsonify }}{% unless forloop.last %}, {% endunless %}{% endfor %}],
   "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
   "author": { "@type": "Person", "name": "Ivanov Oleg" }
 }
 </script>
-{% endif %}
+{%- endif %}
 </head>
 <body>
 <main>
+{% include langbar.html %}
 {{ content }}
 </main>
 <footer>
-  <a href="/">English</a> · <a href="/ru/">Русский</a> ·
-  <a href="/privacy-en/">Privacy</a> · <a href="/privacy/">Политика</a> ·
-  <a href="https://t.me/Envelopes_My_Budget">Telegram</a> ·
-  support@envelopesbudget.org
+  {% include langbar.html footer=true %}
+  <p>
+    <a href="/privacy-en/">Privacy Policy</a> ·
+    <a href="/privacy/">Политика конфиденциальности</a> ·
+    <a href="https://t.me/Envelopes_My_Budget">Telegram</a> ·
+    support@envelopesbudget.org
+  </p>
 </footer>
 </body>
 </html>

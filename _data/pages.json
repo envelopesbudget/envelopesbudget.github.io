@@ -1,0 +1,664 @@
+{
+ "ru": {
+  "name": "Envelopes: Мой бюджет",
+  "tagline": "Бюджет по конвертам: план на месяц, учёт трат и синхронизация без регистрации",
+  "intro": [
+   "Envelopes — приложение для планирования личных денег по методу конвертов (его же используют YNAB и «дзен-мани»-подобные программы). Смысл простой: в начале месяца вы раскладываете уже заработанные деньги по категориям, и дальше тратите не «из воздуха», а из конкретного конверта."
+  ],
+  "sections": [
+   {
+    "title": "БЕЗ РЕГИСТРАЦИИ И БЕЗ ОБЛАКА ПО УМОЛЧАНИЮ",
+    "body": [
+     "Данные лежат на устройстве в обычной базе SQLite. Аккаунт заводить не нужно, серверов у программы нет, реклама и трекеры отсутствуют."
+    ]
+   },
+   {
+    "title": "ЧТО УМЕЕТ",
+    "items": [
+     "Бюджет по месяцам: план, факт, остаток. Видно, где перерасход и где деньги кончатся раньше срока.",
+     "Цели категорий: «столько-то в месяц», «накопить к дате», «держать баланс» — и распределение свободных денег по целям одной кнопкой.",
+     "Счета: наличные, банковские, кредитные карты, кредиты, накопления вне бюджета. Своя валюта и своё число знаков у каждого счёта — включая крипто.",
+     "Кредитные карты по правилам конвертов: трата с карты сразу резервирует деньги на её погашение.",
+     "Переводы между счетами, в том числе с конвертацией по курсу.",
+     "Операции: сплиты, получатели, заметки, флаги, фото чеков, сверка счёта, массовые действия, поиск и фильтры.",
+     "Быстрый ввод: голосом («Продукты 250») и виджетом на домашнем экране.",
+     "Плановые платежи с напоминаниями; наступивший платёж можно подтвердить, сдвинуть или записать в любой другой день.",
+     "Отчёты: тренд расходов с линией динамики и средним, структура доходов, таблица «доходы и расходы» по месяцам.",
+     "Возраст денег — сколько дней вашим деньгам к моменту траты.",
+     "Несколько независимых бюджетов, у каждого своя валюта."
+    ]
+   },
+   {
+    "title": "СИНХРОНИЗАЦИЯ — ТОЛЬКО ЧЕРЕЗ ВАШЕ ХРАНИЛИЩЕ",
+    "body": [
+     "Google Drive, Dropbox, WebDAV — на выбор, в вашем аккаунте. Между двумя устройствами в одной сети работает прямая передача по Wi-Fi, вообще мимо интернета: адрес второго устройства не набирают, а считывают QR-кодом."
+    ]
+   },
+   {
+    "title": "БЭКАПЫ",
+    "body": [
+     "Ручные и автоматические копии: на устройство, в файл или в облако. Облачные копии можно закрыть паролем (AES-GCM)."
+    ]
+   },
+   {
+    "title": "ЗАЩИТА",
+    "body": [
+     "PIN-код и вход по отпечатку."
+    ]
+   },
+   {
+    "title": "ЯЗЫКИ",
+    "body": [
+     "Двенадцать языков интерфейса: русский, английский, немецкий, французский, испанский, итальянский, украинский, польский, португальский (Бразилия и Португалия), нидерландский, турецкий. Вид сумм и формат даты настраиваются отдельно от языка."
+    ]
+   }
+  ]
+ },
+ "en": {
+  "name": "Envelopes: My Budget",
+  "tagline": "Envelope budgeting: plan the month, track spending, sync without an account",
+  "intro": [
+   "Envelopes is a personal finance app built on envelope budgeting — the method behind YNAB. The idea is simple: at the start of the month you give every euro, dollar or hryvnia a job, and from then on you spend from a specific envelope instead of from a vague total."
+  ],
+  "sections": [
+   {
+    "title": "NO ACCOUNT, NO SERVER",
+    "body": [
+     "Your data lives on the device in a plain SQLite file. There is no sign-up, the app has no backend of its own, and there are no ads or trackers."
+    ]
+   },
+   {
+    "title": "FEATURES",
+    "items": [
+     "Monthly budget: planned, actual, remaining. Overspending and categories running out early are flagged before the month ends.",
+     "Category targets: monthly amount, save by a date, or keep a balance — plus one-tap allocation of the money you have left.",
+     "Accounts: cash, bank, credit cards, loans and off-budget tracking accounts. Each account has its own currency and decimal places, crypto included.",
+     "Credit cards the envelope way: a card purchase immediately sets aside money to pay it off.",
+     "Transfers between accounts, with an exchange rate when currencies differ.",
+     "Transactions: splits, payees, memos, flags, receipt photos, reconciliation, bulk edits, search and filters.",
+     "Quick entry: by voice or from a home screen widget.",
+     "Scheduled payments with reminders. A due payment can be confirmed, moved, or entered on any other day without touching the schedule.",
+     "Reports: spending trend with average and trend lines, income breakdown, income-and-expense table by month.",
+     "Age of Money — how old your money is by the time you spend it.",
+     "Several independent budgets, each with its own currency."
+    ]
+   },
+   {
+    "title": "SYNC THROUGH YOUR OWN STORAGE",
+    "body": [
+     "Google Drive, Dropbox or WebDAV — your account, your files. Two devices on the same network can also sync directly over Wi-Fi, without the internet at all — scan a QR code instead of typing the other device’s address."
+    ]
+   },
+   {
+    "title": "BACKUPS",
+    "body": [
+     "Manual and automatic copies to the device, to a file, or to the cloud. Cloud copies can be protected with a password (AES-GCM)."
+    ]
+   },
+   {
+    "title": "SECURITY",
+    "body": [
+     "PIN code and fingerprint unlock."
+    ]
+   },
+   {
+    "title": "LANGUAGES",
+    "body": [
+     "Twelve interface languages: English, Russian, German, French, Spanish, Italian, Ukrainian, Polish, Portuguese (Brazil and Portugal), Dutch and Turkish. Number and date formats are configurable independently of the language."
+    ]
+   }
+  ]
+ },
+ "uk": {
+  "name": "Envelopes: Мій бюджет",
+  "tagline": "Бюджет за конвертами: план на місяць, облік витрат і синхронізація без акаунта",
+  "intro": [
+   "Envelopes — застосунок для планування особистих грошей за методом конвертів (тим самим, на якому побудований YNAB). Суть проста: на початку місяця ви розкладаєте вже зароблені гроші по категоріях і далі витрачаєте не «з повітря», а з конкретного конверта."
+  ],
+  "sections": [
+   {
+    "title": "БЕЗ РЕЄСТРАЦІЇ І БЕЗ ХМАРИ ЗА ЗАМОВЧУВАННЯМ",
+    "body": [
+     "Дані лежать на пристрої у звичайній базі SQLite. Обліковий запис заводити не потрібно, власних серверів застосунок не має, реклами і трекерів немає."
+    ]
+   },
+   {
+    "title": "ЩО ВМІЄ",
+    "items": [
+     "Бюджет по місяцях: план, факт, залишок. Видно, де перевитрата і де гроші закінчаться раніше строку.",
+     "Цілі категорій: «стільки-то на місяць», «накопичити до дати», «тримати баланс» — і розподіл вільних грошей за цілями однією кнопкою.",
+     "Рахунки: готівка, банківські, кредитні картки, кредити, заощадження поза бюджетом. Своя валюта і своя кількість знаків у кожного рахунку — включно з криптовалютою.",
+     "Кредитні картки за правилами конвертів: витрата з картки одразу резервує гроші на її погашення.",
+     "Перекази між рахунками, зокрема з конвертацією за курсом.",
+     "Операції: розділення, отримувачі, нотатки, прапорці, фото чеків, звірка рахунку, масові дії, пошук і фільтри.",
+     "Швидке введення: голосом та віджетом на домашньому екрані.",
+     "Чек за QR-кодом: сума й дата підставляються з фіскального QR-коду чека, а магазин і категорію застосунок згадує з ваших попередніх чеків тієї ж каси — і що більше чеків, то менше вводити вручну.",
+     "Планові платежі з нагадуваннями; платіж, якому настав час, можна підтвердити, посунути або записати будь-яким іншим днем.",
+     "Звіти: тренд витрат із лінією динаміки та середнім, структура доходів, таблиця «доходи і витрати» по місяцях.",
+     "Вік грошей — скільки днів вашим грошам на момент витрати.",
+     "Кілька незалежних бюджетів, у кожного своя валюта."
+    ]
+   },
+   {
+    "title": "СИНХРОНІЗАЦІЯ — ЛИШЕ ЧЕРЕЗ ВАШЕ СХОВИЩЕ",
+    "body": [
+     "Google Drive, Dropbox, WebDAV — на вибір, у вашому обліковому записі. Між двома пристроями в одній мережі працює пряма передача через Wi-Fi, взагалі повз інтернет: адресу другого пристрою не набирають, а зчитують QR-кодом."
+    ]
+   },
+   {
+    "title": "РЕЗЕРВНІ КОПІЇ",
+    "body": [
+     "Ручні та автоматичні копії: на пристрій, у файл або в хмару. Хмарні копії можна закрити паролем (AES-GCM)."
+    ]
+   },
+   {
+    "title": "ЗАХИСТ",
+    "body": [
+     "PIN-код і вхід за відбитком пальця."
+    ]
+   },
+   {
+    "title": "МОВИ",
+    "body": [
+     "Дванадцять мов інтерфейсу: українська, російська, англійська, німецька, французька, іспанська, італійська, польська, португальська (Бразилія і Португалія), нідерландська, турецька. Вигляд сум і формат дати налаштовуються окремо від мови."
+    ]
+   }
+  ]
+ },
+ "de": {
+  "name": "Envelopes: Mein Budget",
+  "tagline": "Umschlagmethode: Monat planen, Ausgaben erfassen, Sync ohne Konto",
+  "intro": [
+   "Envelopes ist eine App für persönliche Finanzen nach der Umschlagmethode — derselben Methode, auf der YNAB aufbaut. Die Idee ist einfach: Zu Monatsbeginn verteilen Sie das bereits verdiente Geld auf Kategorien und geben danach nicht aus einem vagen Gesamtbetrag aus, sondern aus einem bestimmten Umschlag."
+  ],
+  "sections": [
+   {
+    "title": "KEIN KONTO, KEIN SERVER",
+    "body": [
+     "Ihre Daten liegen auf dem Gerät in einer gewöhnlichen SQLite-Datei. Eine Anmeldung ist nicht nötig, die App hat kein eigenes Backend, und es gibt weder Werbung noch Tracker."
+    ]
+   },
+   {
+    "title": "FUNKTIONEN",
+    "items": [
+     "Monatsbudget: geplant, tatsächlich, verbleibend. Überschreitungen und Kategorien, die früh leer laufen, werden vor Monatsende sichtbar.",
+     "Kategorienziele: Betrag pro Monat, Sparen bis zu einem Datum oder Guthaben halten — samt Verteilung des freien Geldes auf alle Ziele per Knopfdruck.",
+     "Konten: Bargeld, Bank, Kreditkarten, Kredite und Konten außerhalb des Budgets. Jedes Konto hat eigene Währung und Nachkommastellen, Krypto eingeschlossen.",
+     "Kreditkarten nach der Umschlagmethode: Ein Kartenkauf legt sofort Geld für die Tilgung zurück.",
+     "Überträge zwischen Konten, bei verschiedenen Währungen mit Wechselkurs.",
+     "Buchungen: Splitts, Zahlungsempfänger, Notizen, Markierungen, Belegfotos, Kontenabgleich, Massenänderungen, Suche und Filter.",
+     "Schnelle Eingabe: per Sprache und über ein Widget auf dem Startbildschirm.",
+     "Geplante Zahlungen mit Erinnerungen. Eine fällige Zahlung lässt sich bestätigen, verschieben oder an einem anderen Tag erfassen.",
+     "Berichte: Ausgabentrend mit Durchschnitts- und Trendlinie, Aufbau der Einnahmen, Einnahmen-Ausgaben-Tabelle nach Monaten.",
+     "Alter des Geldes — wie alt Ihr Geld beim Ausgeben ist.",
+     "Mehrere unabhängige Budgets, jedes mit eigener Währung."
+    ]
+   },
+   {
+    "title": "SYNC ÜBER IHREN EIGENEN SPEICHER",
+    "body": [
+     "Google Drive, Dropbox oder WebDAV — Ihr Konto, Ihre Dateien. Zwei Geräte im selben Netz können sich auch direkt über WLAN abgleichen, ganz ohne Internet — die Adresse des anderen Geräts scannen Sie als QR-Code, statt sie zu tippen."
+    ]
+   },
+   {
+    "title": "SICHERUNGEN",
+    "body": [
+     "Manuelle und automatische Kopien auf das Gerät, in eine Datei oder in die Cloud. Cloud-Kopien lassen sich mit einem Passwort schützen (AES-GCM)."
+    ]
+   },
+   {
+    "title": "SICHERHEIT",
+    "body": [
+     "PIN-Code und Entsperren per Fingerabdruck."
+    ]
+   },
+   {
+    "title": "SPRACHEN",
+    "body": [
+     "Zwölf Oberflächensprachen: Deutsch, Englisch, Russisch, Französisch, Spanisch, Italienisch, Ukrainisch, Polnisch, Portugiesisch (Brasilien und Portugal), Niederländisch und Türkisch. Zahlen- und Datumsformat sind unabhängig von der Sprache einstellbar."
+    ]
+   }
+  ]
+ },
+ "fr": {
+  "name": "Envelopes: Mon budget",
+  "tagline": "Méthode des enveloppes : planifiez le mois, suivez vos dépenses, sans compte",
+  "intro": [
+   "Envelopes est une application de finances personnelles fondée sur la méthode des enveloppes — celle sur laquelle repose YNAB. Le principe est simple : en début de mois, vous répartissez l’argent déjà gagné entre des catégories, puis vous dépensez depuis une enveloppe précise plutôt que depuis un total flou."
+  ],
+  "sections": [
+   {
+    "title": "SANS COMPTE ET SANS SERVEUR",
+    "body": [
+     "Vos données restent sur l’appareil, dans un simple fichier SQLite. Aucune inscription n’est nécessaire, l’application n’a pas de serveur à elle, et il n’y a ni publicité ni traceurs."
+    ]
+   },
+   {
+    "title": "FONCTIONS",
+    "items": [
+     "Budget mensuel : prévu, réalisé, restant. Les dépassements et les catégories qui s’épuisent trop tôt sont signalés avant la fin du mois.",
+     "Objectifs de catégorie : montant par mois, épargner pour une date, ou maintenir un solde — avec répartition de l’argent libre en une seule action.",
+     "Comptes : espèces, banque, cartes de crédit, prêts et comptes hors budget. Chaque compte a sa devise et ses décimales, crypto comprise.",
+     "Cartes de crédit à la manière des enveloppes : un achat par carte met aussitôt de côté de quoi la rembourser.",
+     "Virements entre comptes, avec taux de change si les devises diffèrent.",
+     "Opérations : ventilations, bénéficiaires, notes, marqueurs, photos de reçus, rapprochement, actions groupées, recherche et filtres.",
+     "Saisie rapide : à la voix ou depuis un widget sur l’écran d’accueil.",
+     "Paiements planifiés avec rappels. Un paiement dû peut être confirmé, décalé ou saisi un autre jour sans toucher à l’échéancier.",
+     "Rapports : tendance des dépenses avec moyenne et droite de tendance, structure des revenus, tableau recettes-dépenses par mois.",
+     "Âge de l’argent — depuis combien de jours vous détenez l’argent dépensé.",
+     "Plusieurs budgets indépendants, chacun avec sa devise."
+    ]
+   },
+   {
+    "title": "SYNCHRONISATION VIA VOTRE PROPRE STOCKAGE",
+    "body": [
+     "Google Drive, Dropbox ou WebDAV — votre compte, vos fichiers. Deux appareils sur le même réseau peuvent aussi se synchroniser directement en Wi-Fi, sans passer par Internet : l’adresse de l’autre appareil se scanne en QR code."
+    ]
+   },
+   {
+    "title": "SAUVEGARDES",
+    "body": [
+     "Copies manuelles et automatiques : sur l’appareil, dans un fichier ou dans le cloud. Les copies en ligne peuvent être protégées par mot de passe (AES-GCM)."
+    ]
+   },
+   {
+    "title": "SÉCURITÉ",
+    "body": [
+     "Code PIN et déverrouillage par empreinte."
+    ]
+   },
+   {
+    "title": "LANGUES",
+    "body": [
+     "Douze langues d’interface : français, anglais, russe, allemand, espagnol, italien, ukrainien, polonais, portugais (Brésil et Portugal), néerlandais et turc. Les formats de nombres et de dates se règlent indépendamment de la langue."
+    ]
+   }
+  ]
+ },
+ "es": {
+  "name": "Envelopes: Mi presupuesto",
+  "tagline": "Método de sobres: planifica el mes, controla gastos y sincroniza sin cuenta",
+  "intro": [
+   "Envelopes es una aplicación de finanzas personales basada en el método de los sobres, el mismo en el que se apoya YNAB. La idea es sencilla: al empezar el mes repartes el dinero que ya has ganado entre categorías y, a partir de ahí, gastas de un sobre concreto en lugar de hacerlo de un total difuso."
+  ],
+  "sections": [
+   {
+    "title": "SIN CUENTA Y SIN SERVIDOR",
+    "body": [
+     "Tus datos se quedan en el dispositivo, en un archivo SQLite corriente. No hay que registrarse, la aplicación no tiene servidor propio y no lleva anuncios ni rastreadores."
+    ]
+   },
+   {
+    "title": "QUÉ HACE",
+    "items": [
+     "Presupuesto mensual: previsto, real, restante. Se ve dónde hay exceso de gasto y qué categorías se agotarán antes de tiempo.",
+     "Objetivos por categoría: cantidad al mes, ahorrar para una fecha o mantener un saldo, con reparto del dinero libre entre los objetivos en un toque.",
+     "Cuentas: efectivo, banco, tarjetas de crédito, préstamos y cuentas fuera del presupuesto. Cada cuenta tiene su moneda y sus decimales, cripto incluida.",
+     "Tarjetas de crédito al estilo de los sobres: una compra con tarjeta reserva al instante el dinero para pagarla.",
+     "Transferencias entre cuentas, con tipo de cambio cuando las monedas difieren.",
+     "Operaciones: desgloses, beneficiarios, notas, marcas, fotos de recibos, conciliación, acciones en lote, búsqueda y filtros.",
+     "Registro rápido: por voz o desde un widget en la pantalla de inicio.",
+     "Pagos programados con recordatorios. Un pago vencido se puede confirmar, aplazar o anotar en otro día sin tocar la programación.",
+     "Informes: tendencia de gastos con media y línea de tendencia, estructura de ingresos y tabla de ingresos y gastos por meses.",
+     "Edad del dinero: cuántos días lleva contigo el dinero que gastas.",
+     "Varios presupuestos independientes, cada uno con su moneda."
+    ]
+   },
+   {
+    "title": "SINCRONIZACIÓN A TRAVÉS DE TU PROPIO ALMACENAMIENTO",
+    "body": [
+     "Google Drive, Dropbox o WebDAV: tu cuenta, tus archivos. Dos dispositivos en la misma red también pueden sincronizarse directamente por Wi-Fi, sin pasar por internet: la dirección del otro se escanea como código QR."
+    ]
+   },
+   {
+    "title": "COPIAS DE SEGURIDAD",
+    "body": [
+     "Copias manuales y automáticas: en el dispositivo, en un archivo o en la nube. Las copias en la nube pueden protegerse con contraseña (AES-GCM)."
+    ]
+   },
+   {
+    "title": "SEGURIDAD",
+    "body": [
+     "Código PIN y desbloqueo por huella."
+    ]
+   },
+   {
+    "title": "IDIOMAS",
+    "body": [
+     "Doce idiomas de interfaz: español, inglés, ruso, alemán, francés, italiano, ucraniano, polaco, portugués (Brasil y Portugal), neerlandés y turco. El formato de números y fechas se ajusta con independencia del idioma."
+    ]
+   }
+  ]
+ },
+ "it": {
+  "name": "Envelopes: Il mio budget",
+  "tagline": "Metodo delle buste: pianifica il mese, traccia le spese, sync senza account",
+  "intro": [
+   "Envelopes è un’app di finanza personale basata sul metodo delle buste, lo stesso su cui poggia YNAB. L’idea è semplice: a inizio mese distribuisci il denaro che hai già guadagnato tra le categorie e da lì in poi spendi da una busta precisa invece che da un totale generico."
+  ],
+  "sections": [
+   {
+    "title": "SENZA ACCOUNT E SENZA SERVER",
+    "body": [
+     "I dati restano sul dispositivo, in un normale file SQLite. Non serve registrarsi, l’app non ha un proprio server e non contiene pubblicità né tracker."
+    ]
+   },
+   {
+    "title": "COSA FA",
+    "items": [
+     "Budget mensile: previsto, effettivo, residuo. Si vede dove c’è uno sforamento e quali categorie finiranno in anticipo.",
+     "Obiettivi di categoria: importo al mese, risparmiare entro una data o mantenere un saldo, con distribuzione del denaro libero in un tocco.",
+     "Conti: contanti, banca, carte di credito, prestiti e conti fuori budget. Ogni conto ha la sua valuta e i suoi decimali, cripto comprese.",
+     "Carte di credito secondo il metodo delle buste: un acquisto con carta mette subito da parte il denaro per estinguerlo.",
+     "Trasferimenti tra conti, con tasso di cambio quando le valute differiscono.",
+     "Movimenti: suddivisioni, beneficiari, note, contrassegni, foto degli scontrini, riconciliazione, azioni multiple, ricerca e filtri.",
+     "Inserimento rapido: a voce o da un widget nella schermata home.",
+     "Pagamenti pianificati con promemoria. Un pagamento in scadenza si può confermare, rinviare o registrare in un altro giorno.",
+     "Report: andamento delle spese con media e linea di tendenza, struttura delle entrate, tabella entrate-uscite per mese.",
+     "Età del denaro: da quanti giorni possiedi il denaro che stai spendendo.",
+     "Più budget indipendenti, ciascuno con la propria valuta."
+    ]
+   },
+   {
+    "title": "SINCRONIZZAZIONE TRAMITE IL TUO SPAZIO",
+    "body": [
+     "Google Drive, Dropbox o WebDAV: il tuo account, i tuoi file. Due dispositivi sulla stessa rete possono sincronizzarsi anche direttamente via Wi-Fi, senza passare da internet: l’indirizzo dell’altro si legge da un codice QR."
+    ]
+   },
+   {
+    "title": "BACKUP",
+    "body": [
+     "Copie manuali e automatiche: sul dispositivo, in un file o nel cloud. Le copie nel cloud possono essere protette da password (AES-GCM)."
+    ]
+   },
+   {
+    "title": "SICUREZZA",
+    "body": [
+     "Codice PIN e sblocco con impronta."
+    ]
+   },
+   {
+    "title": "LINGUE",
+    "body": [
+     "Dodici lingue dell’interfaccia: italiano, inglese, russo, tedesco, francese, spagnolo, ucraino, polacco, portoghese (Brasile e Portogallo), olandese e turco. Il formato di numeri e date si imposta indipendentemente dalla lingua."
+    ]
+   }
+  ]
+ },
+ "pl": {
+  "name": "Envelopes: Mój budżet",
+  "tagline": "Metoda kopertowa: zaplanuj miesiąc, śledź wydatki, synchronizuj bez konta",
+  "intro": [
+   "Envelopes to aplikacja do finansów osobistych oparta na metodzie kopertowej — tej samej, na której zbudowany jest YNAB. Zasada jest prosta: na początku miesiąca rozdzielasz już zarobione pieniądze na kategorie, a potem wydajesz z konkretnej koperty, a nie z ogólnej kwoty."
+  ],
+  "sections": [
+   {
+    "title": "BEZ KONTA I BEZ SERWERA",
+    "body": [
+     "Dane zostają na urządzeniu, w zwykłym pliku SQLite. Nie trzeba się rejestrować, aplikacja nie ma własnego serwera, nie ma też reklam ani modułów śledzących."
+    ]
+   },
+   {
+    "title": "CO POTRAFI",
+    "items": [
+     "Budżet miesięczny: plan, wykonanie, pozostało. Widać, gdzie jest przekroczenie i które kategorie skończą się przed czasem.",
+     "Cele kategorii: kwota na miesiąc, uzbierać na termin albo utrzymać saldo — wraz z rozdzieleniem wolnych pieniędzy między cele jednym przyciskiem.",
+     "Konta: gotówka, bankowe, karty kredytowe, kredyty i konta poza budżetem. Każde konto ma własną walutę i liczbę miejsc po przecinku, także krypto.",
+     "Karty kredytowe po kopertowemu: wydatek kartą od razu rezerwuje pieniądze na jej spłatę.",
+     "Przelewy między kontami, z kursem wymiany przy różnych walutach.",
+     "Operacje: podziały, odbiorcy, notatki, flagi, zdjęcia paragonów, uzgadnianie konta, działania zbiorcze, wyszukiwanie i filtry.",
+     "Szybkie wprowadzanie: głosem i widżetem na ekranie głównym.",
+     "Płatności cykliczne z przypomnieniami. Nadchodzącą płatność można potwierdzić, przesunąć albo zapisać w innym dniu.",
+     "Raporty: trend wydatków ze średnią i linią trendu, struktura przychodów, tabela przychodów i wydatków według miesięcy.",
+     "Wiek pieniądza — ile dni pieniądze są u ciebie, zanim je wydasz.",
+     "Kilka niezależnych budżetów, każdy z własną walutą."
+    ]
+   },
+   {
+    "title": "SYNCHRONIZACJA PRZEZ TWÓJ WŁASNY DYSK",
+    "body": [
+     "Google Drive, Dropbox lub WebDAV — twoje konto, twoje pliki. Dwa urządzenia w tej samej sieci mogą też synchronizować się bezpośrednio przez Wi-Fi, zupełnie z pominięciem internetu — adres drugiego skanuje się kodem QR."
+    ]
+   },
+   {
+    "title": "KOPIE ZAPASOWE",
+    "body": [
+     "Kopie ręczne i automatyczne: na urządzenie, do pliku albo do chmury. Kopie w chmurze można zabezpieczyć hasłem (AES-GCM)."
+    ]
+   },
+   {
+    "title": "BEZPIECZEŃSTWO",
+    "body": [
+     "Kod PIN i odblokowanie odciskiem palca."
+    ]
+   },
+   {
+    "title": "JĘZYKI",
+    "body": [
+     "Dwanaście języków interfejsu: polski, angielski, rosyjski, niemiecki, francuski, hiszpański, włoski, ukraiński, portugalski (Brazylia i Portugalia), niderlandzki i turecki. Format liczb i dat ustawia się niezależnie od języka."
+    ]
+   }
+  ]
+ },
+ "pt": {
+  "name": "Envelopes: Meu orçamento",
+  "tagline": "Método dos envelopes: planeje o mês, controle gastos e sincronize sem conta",
+  "intro": [
+   "Envelopes é um aplicativo de finanças pessoais baseado no método dos envelopes, o mesmo em que o YNAB se apoia. A ideia é simples: no início do mês você distribui o dinheiro que já ganhou entre categorias e, a partir daí, gasta de um envelope específico em vez de um total vago."
+  ],
+  "sections": [
+   {
+    "title": "SEM CONTA E SEM SERVIDOR",
+    "body": [
+     "Seus dados ficam no aparelho, em um arquivo SQLite comum. Não é preciso se cadastrar, o aplicativo não tem servidor próprio e não traz anúncios nem rastreadores."
+    ]
+   },
+   {
+    "title": "O QUE FAZ",
+    "items": [
+     "Orçamento mensal: planejado, realizado, restante. Dá para ver onde houve gasto excedente e quais categorias vão acabar antes da hora.",
+     "Metas por categoria: valor por mês, juntar até uma data ou manter um saldo, com distribuição do dinheiro livre entre as metas em um toque.",
+     "Contas: dinheiro, banco, cartões de crédito, empréstimos e contas fora do orçamento. Cada conta tem sua moeda e suas casas decimais, cripto incluída.",
+     "Cartões de crédito no estilo envelopes: uma compra no cartão já reserva o dinheiro para quitá-la.",
+     "Transferências entre contas, com taxa de câmbio quando as moedas diferem.",
+     "Lançamentos: divisões, favorecidos, observações, marcadores, fotos de recibos, conciliação, ações em lote, busca e filtros.",
+     "Registro rápido: por voz ou por um widget na tela inicial.",
+     "Pagamentos agendados com lembretes. Um pagamento vencido pode ser confirmado, adiado ou lançado em outro dia sem mexer no agendamento.",
+     "Relatórios: tendência de gastos com média e linha de tendência, estrutura das receitas e tabela de receitas e despesas por mês.",
+     "Idade do dinheiro — há quantos dias o dinheiro está com você quando o gasta.",
+     "Vários orçamentos independentes, cada um com sua moeda."
+    ]
+   },
+   {
+    "title": "SINCRONIZAÇÃO PELO SEU PRÓPRIO ARMAZENAMENTO",
+    "body": [
+     "Google Drive, Dropbox ou WebDAV: sua conta, seus arquivos. Dois aparelhos na mesma rede também podem sincronizar direto por Wi-Fi, sem passar pela internet: o endereço do outro é lido por QR code."
+    ]
+   },
+   {
+    "title": "BACKUPS",
+    "body": [
+     "Cópias manuais e automáticas: no aparelho, em arquivo ou na nuvem. As cópias na nuvem podem ser protegidas por senha (AES-GCM)."
+    ]
+   },
+   {
+    "title": "SEGURANÇA",
+    "body": [
+     "Código PIN e desbloqueio por digital."
+    ]
+   },
+   {
+    "title": "IDIOMAS",
+    "body": [
+     "Doze idiomas de interface: português (Brasil e Portugal), inglês, russo, alemão, francês, espanhol, italiano, ucraniano, polonês, holandês e turco. O formato de números e datas é configurado separadamente do idioma."
+    ]
+   }
+  ]
+ },
+ "pt-PT": {
+  "name": "Envelopes: O meu orçamento",
+  "tagline": "Método dos envelopes: planeie o mês, controle gastos e sincronize sem conta",
+  "intro": [
+   "Envelopes é uma aplicação de finanças pessoais baseada no método dos envelopes, o mesmo em que o YNAB assenta. A ideia é simples: no início do mês distribui o dinheiro que já ganhou por categorias e, a partir daí, gasta de um envelope concreto em vez de um total vago."
+  ],
+  "sections": [
+   {
+    "title": "SEM CONTA E SEM SERVIDOR",
+    "body": [
+     "Os seus dados ficam no dispositivo, num ficheiro SQLite comum. Não é preciso registar-se, a aplicação não tem servidor próprio e não traz publicidade nem rastreadores."
+    ]
+   },
+   {
+    "title": "O QUE FAZ",
+    "items": [
+     "Orçamento mensal: planeado, efetivo, restante. Vê-se onde houve gasto excessivo e que categorias vão acabar antes do tempo.",
+     "Objetivos por categoria: valor por mês, juntar até uma data ou manter um saldo, com distribuição do dinheiro livre pelos objetivos num toque.",
+     "Contas: dinheiro, banco, cartões de crédito, empréstimos e contas fora do orçamento. Cada conta tem a sua moeda e as suas casas decimais, cripto incluída.",
+     "Cartões de crédito à maneira dos envelopes: uma compra com cartão reserva logo o dinheiro para a liquidar.",
+     "Transferências entre contas, com taxa de câmbio quando as moedas diferem.",
+     "Movimentos: divisões, beneficiários, notas, marcadores, fotografias de recibos, reconciliação, ações em lote, pesquisa e filtros.",
+     "Registo rápido: por voz ou a partir de um widget no ecrã principal.",
+     "Faturas portuguesas por código QR: aponte a câmara ao QR da fatura ou fatura simplificada e o valor e a data ficam preenchidos. A loja é reconhecida pelo NIF, por isso da segunda vez o beneficiário e a categoria já vêm sugeridos, e a mesma fatura lida duas vezes é assinalada como repetida. Tudo no telemóvel, sem consultar nenhum servidor.",
+     "Pagamentos agendados com lembretes. Um pagamento vencido pode ser confirmado, adiado ou registado noutro dia sem mexer no agendamento.",
+     "Relatórios: tendência de gastos com média e linha de tendência, estrutura dos rendimentos e tabela de rendimentos e despesas por mês.",
+     "Idade do dinheiro — há quantos dias o dinheiro está consigo quando o gasta.",
+     "Vários orçamentos independentes, cada um com a sua moeda."
+    ]
+   },
+   {
+    "title": "SINCRONIZAÇÃO PELO SEU PRÓPRIO ARMAZENAMENTO",
+    "body": [
+     "Google Drive, Dropbox ou WebDAV: a sua conta, os seus ficheiros. Dois dispositivos na mesma rede também podem sincronizar diretamente por Wi-Fi, sem passar pela internet: o endereço do outro é lido por código QR."
+    ]
+   },
+   {
+    "title": "CÓPIAS DE SEGURANÇA",
+    "body": [
+     "Cópias manuais e automáticas: no dispositivo, num ficheiro ou na nuvem. As cópias na nuvem podem ser protegidas com palavra-passe (AES-GCM)."
+    ]
+   },
+   {
+    "title": "SEGURANÇA",
+    "body": [
+     "Código PIN e desbloqueio por impressão digital."
+    ]
+   },
+   {
+    "title": "IDIOMAS",
+    "body": [
+     "Doze idiomas de interface: português (Portugal e Brasil), inglês, russo, alemão, francês, espanhol, italiano, ucraniano, polaco, neerlandês e turco. O formato de números e datas é definido independentemente do idioma."
+    ]
+   }
+  ]
+ },
+ "nl": {
+  "name": "Envelopes: Mijn budget",
+  "tagline": "Enveloppenmethode: plan de maand, volg uitgaven, synchroniseer zonder account",
+  "intro": [
+   "Envelopes is een app voor persoonlijke financiën volgens de enveloppenmethode — dezelfde methode waarop YNAB is gebouwd. Het idee is eenvoudig: aan het begin van de maand verdeel je het geld dat je al verdiend hebt over categorieën, en daarna geef je uit uit een concrete envelop in plaats van uit een vaag totaal."
+  ],
+  "sections": [
+   {
+    "title": "GEEN ACCOUNT, GEEN SERVER",
+    "body": [
+     "Je gegevens blijven op het apparaat, in een gewoon SQLite-bestand. Je hoeft je niet te registreren, de app heeft geen eigen server en bevat geen advertenties of trackers."
+    ]
+   },
+   {
+    "title": "WAT DE APP KAN",
+    "items": [
+     "Maandbudget: gepland, werkelijk, resterend. Je ziet waar je over budget gaat en welke categorieën eerder leeg raken.",
+     "Categoriedoelen: bedrag per maand, sparen tot een datum of een saldo aanhouden — met verdeling van het vrije geld over de doelen in één handeling.",
+     "Rekeningen: contant, bank, creditcards, leningen en rekeningen buiten het budget. Elke rekening heeft een eigen valuta en eigen decimalen, crypto inbegrepen.",
+     "Creditcards volgens de enveloppenmethode: een aankoop met de kaart zet meteen geld apart om hem af te lossen.",
+     "Overboekingen tussen rekeningen, met wisselkoers als de valuta verschillen.",
+     "Boekingen: splitsingen, begunstigden, notities, markeringen, bonfoto’s, afstemming, bulkacties, zoeken en filteren.",
+     "Snel invoeren: met je stem of via een widget op het startscherm.",
+     "Geplande betalingen met herinneringen. Een vervallen betaling kun je bevestigen, uitstellen of op een andere dag boeken.",
+     "Rapporten: uitgaventrend met gemiddelde en trendlijn, opbouw van de inkomsten en een tabel inkomsten-uitgaven per maand.",
+     "Leeftijd van je geld — hoeveel dagen je het geld al hebt als je het uitgeeft.",
+     "Meerdere onafhankelijke budgetten, elk met een eigen valuta."
+    ]
+   },
+   {
+    "title": "SYNCHRONISATIE VIA JE EIGEN OPSLAG",
+    "body": [
+     "Google Drive, Dropbox of WebDAV: jouw account, jouw bestanden. Twee apparaten in hetzelfde netwerk kunnen ook rechtstreeks via wifi synchroniseren, helemaal buiten internet om: het adres van het andere scan je als QR-code."
+    ]
+   },
+   {
+    "title": "BACK-UPS",
+    "body": [
+     "Handmatige en automatische kopieën: op het apparaat, naar een bestand of naar de cloud. Kopieën in de cloud kun je met een wachtwoord beveiligen (AES-GCM)."
+    ]
+   },
+   {
+    "title": "BEVEILIGING",
+    "body": [
+     "Pincode en ontgrendelen met vingerafdruk."
+    ]
+   },
+   {
+    "title": "TALEN",
+    "body": [
+     "Twaalf interfacetalen: Nederlands, Engels, Russisch, Duits, Frans, Spaans, Italiaans, Oekraïens, Pools, Portugees (Brazilië en Portugal) en Turks. Getal- en datumnotatie stel je los van de taal in."
+    ]
+   }
+  ]
+ },
+ "tr": {
+  "name": "Envelopes: Bütçem",
+  "tagline": "Zarf yöntemi: ayı planlayın, harcamaları izleyin, hesapsız senkronizasyon",
+  "intro": [
+   "Envelopes, YNAB’ın da dayandığı zarf yöntemiyle çalışan bir kişisel finans uygulamasıdır. Mantığı basit: ayın başında kazandığınız parayı kategorilere dağıtırsınız ve bundan sonra belirsiz bir toplamdan değil, belirli bir zarftan harcarsınız."
+  ],
+  "sections": [
+   {
+    "title": "HESAP YOK, SUNUCU YOK",
+    "body": [
+     "Verileriniz cihazda, sıradan bir SQLite dosyasında durur. Kayıt olmanız gerekmez, uygulamanın kendi sunucusu yoktur, reklam ve izleyici içermez."
+    ]
+   },
+   {
+    "title": "NELER YAPAR",
+    "items": [
+     "Aylık bütçe: planlanan, gerçekleşen, kalan. Nerede bütçe aşıldığı ve hangi kategorilerin erken biteceği ay bitmeden görünür.",
+     "Kategori hedefleri: ayda şu kadar, bir tarihe kadar biriktir ya da bakiyeyi koru — ve serbest parayı hedeflere tek dokunuşla dağıtma.",
+     "Hesaplar: nakit, banka, kredi kartları, krediler ve bütçe dışı hesaplar. Her hesabın kendi para birimi ve ondalık basamak sayısı vardır, kripto dahil.",
+     "Kredi kartları zarf mantığıyla: kartla yapılan harcama, ödemesi için parayı hemen ayırır.",
+     "Hesaplar arası transferler, para birimleri farklıysa kur ile.",
+     "İşlemler: bölünmüş kayıtlar, alıcılar, notlar, işaretler, fiş fotoğrafları, hesap mutabakatı, toplu işlemler, arama ve filtreler.",
+     "Hızlı giriş: sesle veya ana ekrandaki widget’tan.",
+     "Planlı ödemeler ve hatırlatmalar. Vakti gelen ödeme onaylanabilir, ertelenebilir ya da başka bir güne yazılabilir.",
+     "Raporlar: ortalama ve eğilim çizgisiyle harcama eğilimi, gelirlerin yapısı, aylara göre gelir-gider tablosu.",
+     "Paranın yaşı — harcadığınız para kaç gündür sizde.",
+     "Her biri kendi para biriminde birden çok bağımsız bütçe."
+    ]
+   },
+   {
+    "title": "SENKRONİZASYON KENDİ DEPOLAMANIZ ÜZERİNDEN",
+    "body": [
+     "Google Drive, Dropbox veya WebDAV: sizin hesabınız, sizin dosyalarınız. Aynı ağdaki iki cihaz doğrudan Wi-Fi üzerinden de eşitlenebilir, internete hiç çıkmadan: karşı cihazın adresi QR kodundan okunur."
+    ]
+   },
+   {
+    "title": "YEDEKLER",
+    "body": [
+     "Elle ve otomatik kopyalar: cihaza, dosyaya veya buluta. Buluttaki kopyalar parolayla korunabilir (AES-GCM)."
+    ]
+   },
+   {
+    "title": "GÜVENLİK",
+    "body": [
+     "PIN kodu ve parmak iziyle giriş."
+    ]
+   },
+   {
+    "title": "DİLLER",
+    "body": [
+     "On iki arayüz dili: Türkçe, İngilizce, Rusça, Almanca, Fransızca, İspanyolca, İtalyanca, Ukraynaca, Lehçe, Portekizce (Brezilya ve Portekiz) ve Felemenkçe. Sayı ve tarih biçimi dilden bağımsız olarak ayarlanır."
+    ]
+   }
+  ]
+ }
+}

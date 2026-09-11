@@ -1,0 +1,79 @@
+---
+layout: default
+---
+{%- comment -%}
+Витрина. Текст НЕ лежит в странице: он приходит из _data/pages.json (разобран
+из store/play-listing.md — тех самых описаний, что уже опубликованы в Play и
+проверены) и из _data/i18n.json (подписи вокруг них).
+
+Так сделано ради двенадцати языков: держи мы текст в страницах, правка одной
+фразы превращалась бы в двенадцать одинаковых правок, из которых одна
+забудется. Добавить язык = добавить блок в данные и файл-страницу в шесть
+строк.
+{%- endcomment -%}
+{%- assign p = site.data.pages[page.lang] -%}
+{%- assign t = site.data.i18n[page.lang] | default: site.data.i18n.en -%}
+
+<div class="hero">
+  <img width="88" height="88" src="/img/icon.png" alt="{{ p.name }}">
+  <div>
+    <h1>{{ p.name }}</h1>
+    <p>{{ p.tagline }}</p>
+  </div>
+</div>
+
+<div class="shots">
+  {%- assign shots = "01-overview,02-budget,03-transactions,05-spending,06-trend,07-dark-budget" | split: "," -%}
+  {%- for s in shots %}
+  <img width="540" height="960" src="/img/{{ s }}.jpg" alt="{{ p.name }}" loading="lazy">
+  {%- endfor %}
+</div>
+
+{% include cta.html %}
+
+{% for par in p.intro %}<p>{{ par }}</p>
+{% endfor %}
+
+{%- comment -%}
+Секции идут как в карточке Play, в том же порядке: «без аккаунта», функции,
+синхронизация, копии, безопасность, языки. Заголовки там набраны ЗАГЛАВНЫМИ —
+для магазина это норма, для страницы нет, поэтому выводим их обычным
+регистром через capitalize.
+{%- endcomment -%}
+{% for sec in p.sections %}
+<h2>{{ sec.title | downcase | capitalize }}</h2>
+{% if sec.body %}{% for par in sec.body %}<p>{{ par }}</p>
+{% endfor %}{% endif %}
+{%- if sec.items %}
+<ul>
+  {%- for item in sec.items %}
+  <li>{{ item }}</li>
+  {%- endfor %}
+</ul>
+{%- endif %}
+{% endfor %}
+
+<h2>{{ t.privacy_title }}</h2>
+<p>{{ t.privacy_body }}</p>
+<ul>
+  {%- comment -%}
+  Политика переведена только на два языка, и это решение: юридический текст,
+  за который мы отвечаем, не переводится машинно. С остальных языков ведём
+  честно — на английскую версию, не притворяясь, что она локализована.
+  {%- endcomment -%}
+  {%- if page.lang == 'ru' %}
+  <li><a href="/privacy/">{{ t.policy_own }}</a></li>
+  <li><a href="/privacy-en/">{{ t.policy_en }}</a></li>
+  {%- else %}
+  <li><a href="/privacy-en/">{{ t.policy_en }}</a></li>
+  {%- if page.lang != 'en' %}<li><a href="/privacy/">Политика конфиденциальности (русский)</a></li>{% endif %}
+  {%- endif %}
+</ul>
+
+<h2>{{ t.support_title }}</h2>
+<ul>
+  <li>{{ t.support_chat }}: <a href="https://t.me/Envelopes_My_Budget">t.me/Envelopes_My_Budget</a> — {{ t.support_chat_note }}.</li>
+  <li>{{ t.support_email }}: <strong>support@envelopesbudget.org</strong></li>
+</ul>
+
+<p class="cta-note">{{ t.trademark }}</p>

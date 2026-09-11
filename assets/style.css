@@ -85,7 +85,14 @@ li { margin: .35em 0; }
 }
 .cta-note { font-size: .85em; color: var(--muted); margin-top: 8px; }
 
-.langbar { font-size: .9em; margin-bottom: 18px; color: var(--muted); }
+/* Полоса выбора языка: двенадцать самоназваний должны переноситься, а не
+   уезжать за край на телефоне. */
+.langbar {
+  font-size: .85em; margin-bottom: 20px; color: var(--muted);
+  line-height: 2;
+}
+.langbar span { color: var(--fg); font-weight: 600; }
+.langbar-footer { margin: 0 0 10px; }
 
 blockquote {
   margin: 1.2em 0; padding: .6em 1em; border-left: 3px solid var(--line);

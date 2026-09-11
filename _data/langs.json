@@ -1,0 +1,62 @@
+[
+ {
+  "code": "en",
+  "url": "/",
+  "name": "English"
+ },
+ {
+  "code": "ru",
+  "url": "/ru/",
+  "name": "Русский"
+ },
+ {
+  "code": "uk",
+  "url": "/uk/",
+  "name": "Українська"
+ },
+ {
+  "code": "de",
+  "url": "/de/",
+  "name": "Deutsch"
+ },
+ {
+  "code": "fr",
+  "url": "/fr/",
+  "name": "Français"
+ },
+ {
+  "code": "es",
+  "url": "/es/",
+  "name": "Español"
+ },
+ {
+  "code": "it",
+  "url": "/it/",
+  "name": "Italiano"
+ },
+ {
+  "code": "pl",
+  "url": "/pl/",
+  "name": "Polski"
+ },
+ {
+  "code": "pt",
+  "url": "/pt/",
+  "name": "Português (BR)"
+ },
+ {
+  "code": "pt-PT",
+  "url": "/pt-pt/",
+  "name": "Português (PT)"
+ },
+ {
+  "code": "nl",
+  "url": "/nl/",
+  "name": "Nederlands"
+ },
+ {
+  "code": "tr",
+  "url": "/tr/",
+  "name": "Türkçe"
+ }
+]
