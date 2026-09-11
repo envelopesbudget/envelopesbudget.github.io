@@ -97,13 +97,28 @@ li { margin: .35em 0; }
 /* Свёрнутый выбор языка в шапке. Треугольник раскрытия рисует браузер -
    свой рисовать незачем, а display:flex в summary его в WebKit убирает. */
 .langpick { margin-bottom: 18px; font-size: .9em; }
+
+/* Плашка-чип: глобус, язык и свой шеврон в одной рамке.
+   Нативный треугольник УБРАН (list-style + ::-webkit-details-marker): он
+   стоит снаружи строки и с иконкой не выравнивается - на телефоне это
+   читалось как три несвязанных значка подряд.
+   Раскладка на inline-block, а не на flex: flex в summary скрывает маркер в
+   WebKit (нам всё равно, мы его убрали), но gap там понимает не всякий
+   Safari, а vertical-align работает везде. */
 .langpick summary {
-  cursor: pointer; color: var(--muted); padding: 4px 0;
-  width: fit-content;
+  display: inline-block; cursor: pointer;
+  padding: 7px 14px; border-radius: 999px;
+  border: 1px solid var(--line); background: var(--card);
+  color: var(--fg); list-style: none;
 }
-.langpick summary:hover { color: var(--fg); }
-.langpick .globe { vertical-align: -3px; margin-right: 6px; }
-.langpick .langbar { margin: 4px 0 0; padding-left: 21px; }
+.langpick summary::-webkit-details-marker { display: none; }
+.langpick summary::after {
+  content: "▾"; margin-left: 9px; color: var(--muted);
+}
+.langpick[open] summary::after { content: "▴"; }
+.langpick summary:hover { border-color: var(--muted); }
+.langpick .globe { vertical-align: -2px; margin-right: 9px; }
+.langpick .langbar { margin: 8px 0 0; padding-left: 2px; }
 
 /* Полоса выбора языка: двенадцать самоназваний должны переноситься, а не
    уезжать за край на телефоне. */
