@@ -3,7 +3,7 @@ layout: default
 ---
 {%- comment -%}
 Витрина. Текст НЕ лежит в странице: он приходит из _data/pages.json (разобран
-из store/play-listing.md — тех самых описаний, что уже опубликованы в Play и
+из store/play-listing.md - тех самых описаний, что уже опубликованы в Play и
 проверены) и из _data/i18n.json (подписи вокруг них).
 
 Так сделано ради двенадцати языков: держи мы текст в страницах, правка одной
@@ -36,7 +36,7 @@ layout: default
 
 {%- comment -%}
 Секции идут как в карточке Play, в том же порядке: «без аккаунта», функции,
-синхронизация, копии, безопасность, языки. Заголовки там набраны ЗАГЛАВНЫМИ —
+синхронизация, копии, безопасность, языки. Заголовки там набраны ЗАГЛАВНЫМИ -
 для магазина это норма, для страницы нет, поэтому выводим их обычным
 регистром через capitalize.
 {%- endcomment -%}
@@ -59,7 +59,7 @@ layout: default
   {%- comment -%}
   Политика переведена только на два языка, и это решение: юридический текст,
   за который мы отвечаем, не переводится машинно. С остальных языков ведём
-  честно — на английскую версию, не притворяясь, что она локализована.
+  честно - на английскую версию, не притворяясь, что она локализована.
   {%- endcomment -%}
   {%- if page.lang == 'ru' %}
   <li><a href="/privacy/">{{ t.policy_own }}</a></li>
@@ -72,7 +72,7 @@ layout: default
 
 <h2>{{ t.support_title }}</h2>
 <ul>
-  <li>{{ t.support_chat }}: <a href="https://t.me/Envelopes_My_Budget">t.me/Envelopes_My_Budget</a> — {{ t.support_chat_note }}.</li>
+  <li>{{ t.support_chat }}: <a href="https://t.me/Envelopes_My_Budget">t.me/Envelopes_My_Budget</a> - {{ t.support_chat_note }}.</li>
   <li>{{ t.support_email }}: <strong>support@envelopesbudget.org</strong></li>
 </ul>
 
