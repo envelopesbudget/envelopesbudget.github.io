@@ -94,6 +94,17 @@ li { margin: .35em 0; }
 }
 .cta-note { font-size: .85em; color: var(--muted); margin-top: 8px; }
 
+/* Свёрнутый выбор языка в шапке. Треугольник раскрытия рисует браузер -
+   свой рисовать незачем, а display:flex в summary его в WebKit убирает. */
+.langpick { margin-bottom: 18px; font-size: .9em; }
+.langpick summary {
+  cursor: pointer; color: var(--muted); padding: 4px 0;
+  width: fit-content;
+}
+.langpick summary:hover { color: var(--fg); }
+.langpick .globe { vertical-align: -3px; margin-right: 6px; }
+.langpick .langbar { margin: 4px 0 0; padding-left: 21px; }
+
 /* Полоса выбора языка: двенадцать самоназваний должны переноситься, а не
    уезжать за край на телефоне. */
 .langbar {

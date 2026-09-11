@@ -2,13 +2,26 @@
 Выбор языка. Самоназвания НЕ переводятся - «Deutsch» остаётся «Deutsch» на
 любой странице; то же правило, что у пикера языков в приложении.
 
-Текущий язык выводится текстом, а не ссылкой: ссылка на страницу, где ты уже
-стоишь, ничего не делает и сбивает с толку. Автоматической подстановки по
-языку браузера НЕТ сознательно - GitHub Pages серверных редиректов не умеет,
-JS-подмена мигает и мешает индексации, а угаданный неверно язык раздражает
-(русскоязычный в Германии получил бы немецкую страницу).
+Вверху страницы список СВЁРНУТ в <details>: двенадцать самоназваний занимали
+две строки до того, как человек увидит само приложение, а меняет язык он
+редко - чаще всего он уже пришёл на свой из Play, поиска или чата. В подвале
+список раскрыт целиком: там место ничьё.
+
+<details> взят вместо выпадающего списка сознательно: это нативный HTML,
+без единой строки JS, доступный с клавиатуры и читалкой. Индексации он не
+мешает - языковые версии объявлены через hreflang в <head> и в sitemap, а не
+этой полосой.
+
+В summary НЕ используется display:flex: в WebKit он убирает нативный
+треугольник раскрытия, и плашка перестаёт выглядеть нажимаемой.
 {%- endcomment -%}
-<nav class="langbar{% if include.footer %} langbar-footer{% endif %}">
+{%- assign current = '' -%}
+{%- for l in site.data.langs -%}
+  {%- if l.code == page.lang %}{%- assign current = l.name -%}{% endif -%}
+{%- endfor -%}
+
+{%- if include.footer -%}
+<nav class="langbar langbar-footer">
 {%- for l in site.data.langs -%}
 {%- if l.code == page.lang %}<span>{{ l.name }}</span>
 {%- else %}<a href="{{ l.url }}" hreflang="{{ l.code }}" lang="{{ l.code }}">{{ l.name }}</a>
@@ -16,3 +29,20 @@ JS-подмена мигает и мешает индексации, а угад
 {%- unless forloop.last %} · {% endunless %}
 {%- endfor -%}
 </nav>
+{%- else -%}
+<details class="langpick">
+  <summary><svg class="globe" viewBox="0 0 24 24" width="15" height="15"
+      fill="none" stroke="currentColor" stroke-width="1.8"
+      stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12"
+      r="9"/><path d="M3 12h18"/><path d="M12 3c2.5 2.6 3.8 5.6 3.8 9S14.5
+      18.4 12 21c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></svg>{{ current
+      | default: 'English' }}</summary>
+  <nav class="langbar">
+  {%- for l in site.data.langs -%}
+  {%- unless l.code == page.lang %}<a href="{{ l.url }}" hreflang="{{ l.code }}" lang="{{ l.code }}">{{ l.name }}</a>
+  {%- unless forloop.last %} · {% endunless %}
+  {%- endunless -%}
+  {%- endfor -%}
+  </nav>
+</details>
+{%- endif -%}
