@@ -23,7 +23,15 @@ layout: default
 </div>
 
 <div class="shots">
-  {%- assign shots = "01-overview,02-budget,03-transactions,05-spending,06-trend,07-dark-budget" | split: "," -%}
+  {%- comment -%}
+  Имена совпадают с набором в `store/screenshots/` мобильного репозитория
+  (английские кадры, родные — без плашки подписи: она нужна выдаче Play, а
+  здесь вокруг картинок и так есть текст). Из восьми кадров набора взяты
+  шесть: карточка категории и экран настроек в ленте шириной 210 px
+  читаются одними серыми строками. Меняешь набор — перегенери jpg 540x960
+  и поправь этот список.
+{%- endcomment -%}
+  {%- assign shots = "01-budget,02-overview,03-transactions,04-spending,05-trend,07-accounts" | split: "," -%}
   {%- for s in shots %}
   <img width="540" height="960" src="/img/{{ s }}.jpg" alt="{{ p.name }}" loading="lazy">
   {%- endfor %}
