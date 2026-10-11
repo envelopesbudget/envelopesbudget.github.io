@@ -19,7 +19,14 @@ Google Play Badge Guidelines, английский - штатный выход.
 
 <div class="cta">
 {%- if site.play_live %}
-  <a href="{{ site.play_url }}">
+  {%- comment -%}
+  К метке источника из _config.yml дописываем язык витрины (utm_campaign):
+  в отчёте Play о привлечении видно, какая из двенадцати страниц привела
+  человека. Амперсанд и «=» ВНУТРИ значения referrer закодированы (%26, %3D):
+  незакодированный & оборвал бы метку, и язык ушёл бы отдельным параметром
+  ссылки, которого Play не читает.
+  {%- endcomment %}
+  <a href="{{ site.play_url }}%26utm_campaign%3D{{ page.lang | default: 'en' }}">
     <img class="badge" src="{{ badge }}" width="239" height="71"
          alt="{{ t.badge_alt }}">
   </a>
