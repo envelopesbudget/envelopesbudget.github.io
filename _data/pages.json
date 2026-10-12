@@ -28,7 +28,7 @@
      "Возраст денег - сколько дней вашим деньгам к моменту траты.",
      "Несколько независимых бюджетов, у каждого своя валюта.",
      "Переезд из YNAB: импорт файла YNAB 4 (.y4backup) и выгрузки веб-YNAB - счета, категории, получатели и операции переносятся целиком.",
-     "Оформление под себя: шесть стилей (Классика, Неон, Аврора, Кислота, Конфета, Зефир) поверх светлой и тёмной темы, три варианта скруглений и семь шрифтов на весь интерфейс.",
+     "Оформление под себя: семь стилей (Классика, Неон, Аврора, Кислота, Конфета, Зефир, Графит) поверх светлой и тёмной темы, три варианта скруглений и семь шрифтов на весь интерфейс.",
      "Тёмная тема, режим «скрыть суммы» от чужих глаз, палитра для тех, кто не различает красный и зелёный, экспорт в CSV."
     ]
    },
@@ -86,7 +86,7 @@
      "Age of Money - how old your money is by the time you spend it.",
      "Several independent budgets, each with its own currency.",
      "Moving from YNAB: import a YNAB 4 file (.y4backup) or a web YNAB export - accounts, categories, payees and transactions come across in full.",
-     "Make it yours: six styles (Classic, Neon, Aurora, Acid, Candy, Marshmallow) on top of the light and dark themes, three corner shapes and seven typefaces for the whole interface.",
+     "Make it yours: seven styles (Classic, Neon, Aurora, Acid, Candy, Marshmallow, Graphite) on top of the light and dark themes, three corner shapes and seven typefaces for the whole interface.",
      "Dark theme, a \"hide amounts\" mode for prying eyes, a palette for red-green colour blindness, CSV export."
     ]
    },
@@ -145,7 +145,7 @@
      "Вік грошей - скільки днів вашим грошам на момент витрати.",
      "Кілька незалежних бюджетів, у кожного своя валюта.",
      "Перехід з YNAB: імпорт файлу YNAB 4 (.y4backup) або вивантаження веб-YNAB - рахунки, категорії, отримувачі й операції переносяться повністю.",
-     "Оформлення під себе: шість стилів (Класика, Неон, Аврора, Кислота, Цукерка, Зефір) поверх світлої й темної теми, три варіанти заокруглень і сім шрифтів на весь інтерфейс.",
+     "Оформлення під себе: сім стилів (Класика, Неон, Аврора, Кислота, Цукерка, Зефір, Графіт) поверх світлої й темної теми, три варіанти заокруглень і сім шрифтів на весь інтерфейс.",
      "Темна тема, режим «сховати суми» від чужих очей, палітра для тих, хто не розрізняє червоний і зелений, експорт у CSV."
     ]
    },
@@ -203,7 +203,7 @@
      "Alter des Geldes - wie alt Ihr Geld beim Ausgeben ist.",
      "Mehrere unabhängige Budgets, jedes mit eigener Währung.",
      "Umstieg von YNAB: Import einer YNAB-4-Datei (.y4backup) oder eines Web-YNAB- Exports - Konten, Kategorien, Zahlungsempfänger und Buchungen kommen vollständig mit.",
-     "Ihr eigener Look: sechs Stile (Klassisch, Neon, Aurora, Acid, Bonbon, Marshmallow) über dem hellen und dunklen Design, drei Eckenformen und sieben Schriften für die ganze Oberfläche.",
+     "Ihr eigener Look: sieben Stile (Klassisch, Neon, Aurora, Acid, Bonbon, Marshmallow, Graphit) über dem hellen und dunklen Design, drei Eckenformen und sieben Schriften für die ganze Oberfläche.",
      "Dunkles Design, Modus „Beträge verbergen\" gegen fremde Blicke, Palette für Rot-Grün-Sehschwäche, CSV-Export."
     ]
    },
@@ -261,7 +261,7 @@
      "Âge de l’argent - depuis combien de jours vous détenez l’argent dépensé.",
      "Plusieurs budgets indépendants, chacun avec sa devise.",
      "Migration depuis YNAB : import d’un fichier YNAB 4 (.y4backup) ou d’un export du YNAB web - comptes, catégories, bénéficiaires et opérations sont repris intégralement.",
-     "À votre goût : six styles (Classique, Néon, Aurora, Acidulé, Bonbon, Guimauve) par-dessus les thèmes clair et sombre, trois formes d’angles et sept polices pour toute l’interface.",
+     "À votre goût : sept styles (Classique, Néon, Aurora, Acidulé, Bonbon, Guimauve, Graphite) par-dessus les thèmes clair et sombre, trois formes d’angles et sept polices pour toute l’interface.",
      "Thème sombre, mode « masquer les montants » à l’abri des regards, palette pour le daltonisme rouge-vert, export CSV."
     ]
    },
@@ -319,7 +319,7 @@
      "Edad del dinero: cuántos días lleva contigo el dinero que gastas.",
      "Varios presupuestos independientes, cada uno con su moneda.",
      "Cambio desde YNAB: importa un archivo de YNAB 4 (.y4backup) o una exportación del YNAB web - cuentas, categorías, beneficiarios y operaciones pasan enteras.",
-     "A tu gusto: seis estilos (Clásico, Neón, Aurora, Ácido, Caramelo, Malvavisco) sobre los temas claro y oscuro, tres formas de esquinas y siete tipografías para toda la interfaz.",
+     "A tu gusto: siete estilos (Clásico, Neón, Aurora, Ácido, Caramelo, Malvavisco, Grafito) sobre los temas claro y oscuro, tres formas de esquinas y siete tipografías para toda la interfaz.",
      "Tema oscuro, modo «ocultar importes» ante miradas ajenas, paleta para el daltonismo rojo-verde, exportación a CSV."
     ]
    },
@@ -377,7 +377,7 @@
      "Età del denaro: da quanti giorni possiedi il denaro che stai spendendo.",
      "Più budget indipendenti, ciascuno con la propria valuta.",
      "Passaggio da YNAB: importa un file YNAB 4 (.y4backup) o un export del YNAB web - conti, categorie, beneficiari e operazioni passano per intero.",
-     "A modo tuo: sei stili (Classico, Neon, Aurora, Acido, Caramella, Marshmallow) sopra i temi chiaro e scuro, tre forme degli angoli e sette caratteri per tutta l’interfaccia.",
+     "A modo tuo: sette stili (Classico, Neon, Aurora, Acido, Caramella, Marshmallow, Grafite) sopra i temi chiaro e scuro, tre forme degli angoli e sette caratteri per tutta l’interfaccia.",
      "Tema scuro, modalità «nascondi importi» da occhi altrui, palette per il daltonismo rosso-verde, esportazione in CSV."
     ]
    },
@@ -435,7 +435,7 @@
      "Wiek pieniądza - ile dni pieniądze są u ciebie, zanim je wydasz.",
      "Kilka niezależnych budżetów, każdy z własną walutą.",
      "Przejście z YNAB: import pliku YNAB 4 (.y4backup) lub eksportu z YNAB w przeglądarce - konta, kategorie, odbiorcy i operacje przenoszą się w całości.",
-     "Wygląd po swojemu: sześć stylów (Klasyczny, Neonowy, Aurora, Kwasowy, Cukierkowy, Piankowy) na jasnym i ciemnym motywie, trzy kształty rogów i siedem krojów pisma dla całego interfejsu.",
+     "Wygląd po swojemu: siedem stylów (Klasyczny, Neonowy, Aurora, Kwasowy, Cukierkowy, Piankowy, Grafit) na jasnym i ciemnym motywie, trzy kształty rogów i siedem krojów pisma dla całego interfejsu.",
      "Ciemny motyw, tryb „ukryj kwoty\" przed obcym wzrokiem, paleta dla daltonizmu czerwono-zielonego, eksport do CSV."
     ]
    },
@@ -493,7 +493,7 @@
      "Idade do dinheiro - há quantos dias o dinheiro está com você quando o gasta.",
      "Vários orçamentos independentes, cada um com sua moeda.",
      "Mudança do YNAB: importe um arquivo do YNAB 4 (.y4backup) ou uma exportação do YNAB web - contas, categorias, beneficiários e lançamentos vêm por inteiro.",
-     "Do seu jeito: seis estilos (Clássico, Neon, Aurora, Ácido, Doce, Marshmallow) sobre os temas claro e escuro, três formatos de cantos e sete fontes para toda a interface.",
+     "Do seu jeito: sete estilos (Clássico, Neon, Aurora, Ácido, Doce, Marshmallow, Grafite) sobre os temas claro e escuro, três formatos de cantos e sete fontes para toda a interface.",
      "Tema escuro, modo \"ocultar valores\" diante de olhares alheios, paleta para daltonismo vermelho-verde, exportação em CSV."
     ]
    },
@@ -552,7 +552,7 @@
      "Idade do dinheiro - há quantos dias o dinheiro está consigo quando o gasta.",
      "Vários orçamentos independentes, cada um com a sua moeda.",
      "Mudança do YNAB: importe um ficheiro do YNAB 4 (.y4backup) ou uma exportação do YNAB web - contas, categorias, beneficiários e movimentos passam por inteiro.",
-     "À sua maneira: seis estilos (Clássico, Neon, Aurora, Ácido, Doce, Marshmallow) sobre os temas claro e escuro, três formatos de cantos e sete tipos de letra para toda a interface.",
+     "À sua maneira: sete estilos (Clássico, Neon, Aurora, Ácido, Doce, Marshmallow, Grafite) sobre os temas claro e escuro, três formatos de cantos e sete tipos de letra para toda a interface.",
      "Tema escuro, modo «ocultar valores» perante olhares alheios, paleta para daltonismo vermelho-verde, exportação em CSV."
     ]
    },
@@ -610,7 +610,7 @@
      "Leeftijd van je geld - hoeveel dagen je het geld al hebt als je het uitgeeft.",
      "Meerdere onafhankelijke budgetten, elk met een eigen valuta.",
      "Overstappen van YNAB: importeer een YNAB 4-bestand (.y4backup) of een export uit web-YNAB - rekeningen, categorieën, begunstigden en boekingen komen volledig mee.",
-     "Helemaal naar jouw smaak: zes stijlen (Klassiek, Neon, Aurora, Zuur, Snoep, Spekje) boven op het lichte en donkere thema, drie hoekvormen en zeven lettertypen voor de hele interface.",
+     "Helemaal naar jouw smaak: zeven stijlen (Klassiek, Neon, Aurora, Zuur, Snoep, Spekje, Grafiet) boven op het lichte en donkere thema, drie hoekvormen en zeven lettertypen voor de hele interface.",
      "Donker thema, modus \"bedragen verbergen\" voor meekijkers, palet voor rood- groenblindheid, export naar CSV."
     ]
    },
@@ -668,7 +668,7 @@
      "Paranın yaşı - harcadığınız para kaç gündür sizde.",
      "Her biri kendi para biriminde birden çok bağımsız bütçe.",
      "YNAB’den geçiş: YNAB 4 dosyasını (.y4backup) veya web YNAB dışa aktarımını içe aktarın - hesaplar, kategoriler, alıcılar ve işlemler eksiksiz taşınır.",
-     "Görünüm size göre: açık ve koyu temanın üzerine altı stil (Klasik, Neon, Aurora, Asit, Şeker, Lokum), üç köşe biçimi ve tüm arayüz için yedi yazı tipi.",
+     "Görünüm size göre: açık ve koyu temanın üzerine yedi stil (Klasik, Neon, Aurora, Asit, Şeker, Lokum, Grafit), üç köşe biçimi ve tüm arayüz için yedi yazı tipi.",
      "Koyu tema, başkalarının gözünden \"tutarları gizle\" modu, kırmızı-yeşil renk körlüğü için palet, CSV dışa aktarma."
     ]
    },
