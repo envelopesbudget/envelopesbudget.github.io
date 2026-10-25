@@ -23,3 +23,9 @@ exclude:
 # К ней _includes/cta.html дописывает язык витрины: utm_campaign=<код языка>.
 play_url: "https://play.google.com/store/apps/details?id=com.personal.my_budget&referrer=utm_source%3Dsite"
 play_live: true
+# Windows-версия в Microsoft Store (с 25 октября 2026). mode=full — ссылка
+# открывает веб-страницу приложения, а не приложение Store: сайт смотрят с
+# телефонов, Mac и Windows без Store, и прямой запуск там не сработал бы.
+# cid — метка кампании в Partner Center; _includes/cta.html дописывает к ней
+# язык витрины.
+ms_url: "https://apps.microsoft.com/detail/9NGNL6F66GD1?referrer=appbadge&mode=full&cid=site_"

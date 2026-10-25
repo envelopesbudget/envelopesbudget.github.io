@@ -16,6 +16,14 @@ Google Play Badge Guidelines, английский - штатный выход.
 {%- assign badge = '/img/badges/play-' | append: page.lang | append: '.png' -%}
 {%- assign found = site.static_files | where: 'path', badge | size -%}
 {%- if found == 0 -%}{%- assign badge = '/img/badges/play-en.png' -%}{%- endif -%}
+{%- comment -%}
+Значок Microsoft Store — тёмный, по одному на язык, скачан с конструктора
+Microsoft (get.microsoft.com/images/<язык> dark.svg) 25 октября 2026. Тёмный —
+пара чёрному значку Play. Нет файла — английский, как у Play.
+{%- endcomment -%}
+{%- assign msbadge = '/img/badges/ms-' | append: page.lang | append: '.svg' -%}
+{%- assign msfound = site.static_files | where: 'path', msbadge | size -%}
+{%- if msfound == 0 -%}{%- assign msbadge = '/img/badges/ms-en.svg' -%}{%- endif -%}
 
 <div class="cta">
 {%- if site.play_live %}
@@ -26,10 +34,16 @@ Google Play Badge Guidelines, английский - штатный выход.
   незакодированный & оборвал бы метку, и язык ушёл бы отдельным параметром
   ссылки, которого Play не читает.
   {%- endcomment %}
+  <div class="badges">
   <a href="{{ site.play_url }}%26utm_campaign%3D{{ page.lang | default: 'en' }}">
     <img class="badge" src="{{ badge }}" width="239" height="71"
          alt="{{ t.badge_alt }}">
   </a>
+  <a href="{{ site.ms_url }}{{ page.lang | default: 'en' }}">
+    <img class="badge" src="{{ msbadge }}" height="71"
+         alt="Microsoft Store">
+  </a>
+  </div>
 {%- else %}
   <a class="cta-soon" href="https://t.me/Envelopes_My_Budget">{{ t.cta_soon }}</a>
   <div class="cta-note">{{ t.cta_note }}</div>

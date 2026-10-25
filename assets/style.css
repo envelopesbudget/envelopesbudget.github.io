@@ -87,6 +87,10 @@ li { margin: .35em 0; }
    поэтому и живут здесь константами: 71px высоты при 18px поля дают запас.
    Перекрашивать, растягивать и обрезать бейдж нельзя - отсюда width:auto. */
 .cta .badge { height: 71px; width: auto; margin: 18px 0; display: block; }
+/* Play и Microsoft Store рядом, одной высоты. Зазор 18px — то же свободное
+   поле, что выше; на узком экране второй значок уходит под первый, а поле
+   между строками даёт margin самих значков. */
+.cta .badges { display: flex; flex-wrap: wrap; column-gap: 18px; align-items: center; }
 .cta-soon {
   display: inline-block; padding: 12px 20px; border-radius: 8px;
   background: var(--accent); color: #fff; font-weight: 600;
