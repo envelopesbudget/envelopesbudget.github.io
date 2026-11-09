@@ -1,0 +1,37 @@
+/* First-screen review: English and Russian only. Other sections are untouched. */
+.opening{display:grid;grid-template-columns:1.12fr 1fr;column-gap:30px;position:relative;padding-top:68px}
+.opening-copy{padding:12px 0 44px;position:relative;z-index:2}
+.opening-eyebrow{font:11px/1.5 Arial,Helvetica,sans-serif;letter-spacing:.16em;text-transform:uppercase;color:#58634f;margin-bottom:26px}
+.opening h1{font-size:clamp(72px,6.65vw,96px);line-height:.97;letter-spacing:-.06em;font-weight:400;text-wrap:initial}
+.opening h1 em{font-weight:400;color:#73805f}
+.opening-description{font-size:16px;line-height:1.8;max-width:410px;margin-top:29px;color:#596052;text-wrap:pretty}
+.opening-actions{display:flex;align-items:center;gap:25px;margin-top:29px;flex-wrap:wrap}
+.opening-actions .store img{width:180px;height:60px}
+.opening-try{display:flex;align-items:center;gap:14px;font-size:12px;line-height:1.5;color:#344b39;border-bottom:1px solid #acb59e;padding-block:9px;max-width:230px}
+.opening-try:hover{border-color:#344b39}
+.opening-try svg{flex-shrink:0}
+.opening-platform{font-size:10px;line-height:1.7;margin-top:17px;color:#737969}
+.opening-platform a{text-decoration:underline;text-underline-offset:3px;text-decoration-color:#b9bfad}
+.opening-visual{position:relative;margin:0;min-width:0;height:620px;align-self:center}
+.opening-backdrop{position:absolute;left:12%;right:2%;top:28px;bottom:53px;border-radius:46% 46% 8px 8px;background:linear-gradient(150deg,#e8ebdf,#dce2ce);border:1px solid #dce1d1}
+.opening-device{position:absolute;width:275px;top:38px;left:23%;padding:6px;background:#303b30;border-radius:30px;transform:rotate(5deg);box-shadow:2px 2px 0 #78816f,12px 22px 38px #34463025;overflow:hidden;z-index:2}
+.opening-device img{width:100%;border-radius:24px}
+.opening-note{position:absolute;left:0;top:4px;z-index:3;font:14px/1.6 Georgia,'Times New Roman',serif;color:#56634b;transform:rotate(-6deg)}
+.opening-note span,.opening-note em{display:block}
+.opening-envelope{position:absolute;left:1%;bottom:22px;width:263px;height:230px;z-index:3;transform:rotate(-8deg);filter:drop-shadow(4px 12px 11px #3a44221a)}
+.opening-envelope:before{content:'';position:absolute;inset:64px 0 0;border-radius:3px 3px 5px 5px;background:#b8c49e}
+.opening-letter{position:absolute;left:13px;right:13px;top:0;height:192px;padding:20px;background:linear-gradient(125deg,#fffef8,#f7f4e8);border:1px solid #ece9dc;border-radius:3px;transform:rotate(2deg);box-shadow:0 0 12px #2d3b2910}
+.letter-heading{display:block;font:italic 15px/1.3 Georgia,'Times New Roman',serif;color:#42513a;margin-bottom:15px}
+.letter-row{display:flex;align-items:center;gap:9px;padding:9px 0;border-top:1px solid #e0e1d4;font:10px/1.2 Arial,Helvetica,sans-serif;color:#59664d}
+.letter-row i{font-style:normal;font-size:8px;color:#899079}.letter-dot{width:5px;height:5px;border:1px solid #8d9a7c;border-radius:50%;margin-left:auto}
+.opening-fold{position:absolute;inset:100px 0 0;background:linear-gradient(145deg,#c4ceae,#b1be98);clip-path:polygon(0 0,50% 43%,100% 0,100% 100%,0 100%);border-radius:0 0 5px 5px}
+.opening-fold:after{content:'';position:absolute;inset:0;background:linear-gradient(33deg,transparent 49.7%,#a2b08766 50%,transparent 50.4%)}
+.envelope-stamp{position:absolute;bottom:18px;right:20px;opacity:.55;color:#4f6142}
+.opening-visual figcaption{position:absolute;right:0;bottom:3px;font-size:9px;line-height:1.5;color:#787f6c;letter-spacing:.02em}
+.opening-principles{display:flex;flex-wrap:wrap;justify-content:flex-start;gap:12px 22px;max-width:420px;padding:0;border:0;margin-top:22px;color:#68745c;font-size:11px}
+.opening-principles span{display:flex;gap:10px;align-items:center}
+.opening-principles svg{flex-shrink:0}
+@media(max-width:1100px){.opening{column-gap:15px;padding-top:50px}.opening h1{font-size:78px}.opening-device{width:245px;left:18%;top:55px}.opening-visual{height:580px}.opening-envelope{width:230px;height:215px;left:0;bottom:35px}.opening-description{font-size:15px}.opening-actions{gap:18px}.opening-try{max-width:195px}.opening-visual figcaption{bottom:0}}
+@media(max-width:800px){.opening{grid-template-columns:1.15fr 1fr;padding-top:43px;column-gap:20px}.opening h1{font-size:67px}.opening-eyebrow{font-size:9px;letter-spacing:.1em;margin-bottom:24px}.opening-description{font-size:14px;line-height:1.75;margin-top:23px}.opening-actions{gap:8px;margin-top:22px}.opening-platform{font-size:9px;max-width:270px}.opening-visual{height:470px}.opening-device{width:205px;left:8%;top:46px;border-radius:24px;padding:5px}.opening-device img{border-radius:19px}.opening-backdrop{left:0;right:0;top:28px;bottom:26px}.opening-envelope{width:180px;height:180px;left:-10px;bottom:8px}.opening-letter{left:9px;right:9px;padding:14px;height:150px}.letter-heading{font-size:12px;margin-bottom:10px}.letter-row{font-size:8px;padding:7px 0}.opening-fold{top:85px}.opening-note{font-size:12px;left:-8px;top:0}.opening-visual figcaption{bottom:-20px;max-width:185px;text-align:right}.opening-principles{margin-top:15px;font-size:10px;gap:12px}.opening-principles span{gap:7px}}
+@media(max-width:600px){.opening{display:flex;flex-direction:column;padding-top:31px}.opening-copy{padding:0;width:100%}.opening-eyebrow{font-size:9px;margin-bottom:20px}.opening h1{font-size:62px;line-height:.96;letter-spacing:-.055em}.opening-description{font-size:14px;line-height:1.65;max-width:380px;margin-top:22px}.opening-actions{margin-top:21px;gap:14px;flex-wrap:nowrap}.opening-actions .store img{width:157px;height:52px}.opening-try{font-size:11px;gap:9px;max-width:165px}.opening-platform{max-width:none;font-size:9px;margin-top:12px}.opening-visual{align-self:center;width:min(100%,390px);height:400px;margin-top:24px}.opening-device{width:199px;top:20px;left:37%;transform:rotate(4deg)}.opening-backdrop{left:14%;right:0;top:12px;bottom:20px}.opening-note{top:28px;left:0;font-size:12px}.opening-envelope{left:1%;bottom:25px;width:187px;height:185px;transform:rotate(-7deg)}.opening-visual figcaption{bottom:-2px;font-size:8px;max-width:none}.opening-principles{width:100%;margin-top:25px;flex-wrap:wrap;justify-content:start;column-gap:24px;row-gap:12px;padding-block:20px;font-size:10px}.opening-principles span:last-child{flex-basis:100%}}
+@media(max-width:360px){.opening h1{font-size:55px}.opening-actions{gap:11px}.opening-actions .store img{width:138px;height:47px}.opening-try{font-size:10px;gap:7px}.opening-try svg{width:16px;height:16px}.opening-description{font-size:13px}.opening-visual{height:370px}.opening-device{width:178px;left:34%}.opening-envelope{width:166px;height:175px;bottom:22px}.opening-note{font-size:10px}.opening-platform{font-size:8px}}

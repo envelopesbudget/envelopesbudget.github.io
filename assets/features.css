@@ -1,0 +1,24 @@
+.feature-catalog{max-width:1180px}
+.feature-catalog-heading{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:end;margin-bottom:20px}
+.feature-catalog-heading>p{font-size:15px;line-height:1.8;max-width:500px;margin:0}
+.feature-catalog-toolbar{display:flex;justify-content:flex-end;margin-bottom:22px;min-height:32px}
+.feature-catalog-toolbar button{border:0;background:none;color:var(--green);font-size:12px;padding:7px 0;cursor:pointer}
+.feature-catalog-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:start}
+.feature-entry{border:1px solid var(--line);border-radius:12px;background:#fbfaf5;scroll-margin-top:25px;overflow:hidden}
+.feature-entry>summary{display:flex;align-items:flex-start;gap:16px;padding:24px;cursor:pointer}
+.feature-number{font-size:10px;color:#7e8972;padding-top:6px;flex-shrink:0}
+.feature-summary{display:block;min-width:0;flex:1}
+.feature-title{display:block;font:24px/1.2 var(--serif);color:var(--ink);letter-spacing:-.4px}
+.feature-lead{display:block;font-size:12px;line-height:1.7;color:var(--muted);margin-top:12px}
+.feature-toggle-icon{font-size:23px;font-weight:400;line-height:1;flex-shrink:0;color:var(--green)}
+.feature-entry[open]{background:#f1f3e9;border-color:#c9d1bc}
+.feature-entry[open] .feature-toggle-icon{transform:rotate(45deg)}
+.feature-entry>summary:focus-visible{outline:2px solid var(--green);outline-offset:-4px;border-radius:12px}
+.feature-body{padding:0 24px 25px 52px}
+.feature-body ul{list-style:none;padding:0;margin:0;border-top:1px solid #d5ddc9}
+.feature-body li{padding-top:18px}
+.feature-body li strong{display:block;font-size:13px;color:var(--ink);font-weight:600}
+.feature-body li p{font-size:13px;line-height:1.75;color:var(--muted);margin:6px 0 0}
+.feature-body>.text-link{font-size:12px;margin-top:20px}
+@media(max-width:800px){.feature-catalog-heading{grid-template-columns:1fr;gap:22px}.feature-catalog-heading>p{max-width:600px}.feature-entry>summary{padding:20px;gap:12px}.feature-title{font-size:22px}.feature-body{padding:0 20px 22px 44px}}
+@media(max-width:600px){.feature-catalog-list{grid-template-columns:1fr;gap:12px}.feature-catalog-heading>p{font-size:14px}.feature-catalog-toolbar{justify-content:flex-start;margin-bottom:15px}.feature-title{font-size:24px}.feature-lead{font-size:13px}.feature-body li p{font-size:14px}.feature-entry>summary{padding:22px 18px}.feature-body{padding:0 18px 24px 42px}}

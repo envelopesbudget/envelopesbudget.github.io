@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
 Sitemap: https://envelopesbudget.org/sitemap.xml
