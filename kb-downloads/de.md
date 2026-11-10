@@ -1703,7 +1703,7 @@ Mit dem, das Sie noch nicht auf Umschläge verteilt haben. Das Verschieben verri
 
 Budgets, Aussehen des Bildschirms „Überblick“ und Anzeigemodus.
 
-[Menü „⋮“ des Bildschirms „Überblick“: Budgets, Widgets, Beträge ausblenden, Hinweise]
+[Menü „⋮“ des Bildschirms „Überblick“: Budgets, Widgets, Beträge ausblenden, Hinweise, Hilfe-Center]
 
 (A)
 #### Budgets
@@ -1734,7 +1734,12 @@ Solange der Modus an ist, steht im Kopf des Bildschirms „Überblick“ ein dur
 (D)
 #### Hinweise
 
-Alle Hinweise dieses Bildschirms an einem Ort — und ein Link auf diese Seite.
+Alle Hinweise dieses Bildschirms an einem Ort.
+
+(E)
+#### Hilfe-Center
+
+Dieser Artikel auf der Website: Er öffnet sich im Browser, in der Sprache der App.
 
 [Blatt „Widgets des Überblicks“: Blöcke mit Häkchen und Griffen]
 **„Widgets“.** Ein Häkchen — zeigen, der Griff rechts — ziehen.
@@ -1880,7 +1885,7 @@ Tippen Sie auf ein Bild, um es groß zu öffnen.
 
 Ziele, Reihenfolge der Umschläge und was in den Zeilen gezeigt wird.
 
-[Geöffnetes Menü „⋮“ des Bildschirms „Budget“: Ziele, Auf Ziele verteilen, Reihenfolge ändern, Fortschrittsbalken, Prozent vom Einkommen, Ausgeblendete Kategorien, Hinweise]
+[Geöffnetes Menü „⋮“ des Bildschirms „Budget“: Ziele, Auf Ziele verteilen, Reihenfolge ändern, Fortschrittsbalken, Prozent vom Einkommen, Ausgeblendete Kategorien, Hinweise, Hilfe-Center]
 
 (A)
 #### Ziele
@@ -1941,7 +1946,12 @@ Einen Umschlag mit Ausgaben kann man nicht löschen — die Berichte brauchen se
 (G)
 #### Hinweise
 
-Alle Hinweise dieses Bildschirms an einem Ort — und ein Link auf diese Seite.
+Alle Hinweise dieses Bildschirms an einem Ort.
+
+(H)
+#### Hilfe-Center
+
+Dieser Artikel auf der Website: Er öffnet sich im Browser, in der Sprache der App.
 
 ### Was man mit einer Zeile tun kann {#budget-gestures}
 
@@ -2006,7 +2016,7 @@ Auf dem Bild ist „Lebensmittel“ erreicht: Im November liegen schon 400 € i
 
 #### Das Menü „⋮“ {#goals-menu}
 
-[Menü des Bildschirms Ziele: Alle Kategorien, Nur mit Zielen, Unterfinanzierte, Fortschrittsbalken, Hinweise]
+[Menü des Bildschirms Ziele: Alle Kategorien, Nur mit Zielen, Unterfinanzierte, Fortschrittsbalken, Hinweise, Hilfe-Center]
 
 (A, B, C)
 #### Welche Kategorien gezeigt werden
@@ -2022,6 +2032,11 @@ ob Balken und Prozente gezeigt werden. Ohne sie ist die Zeile kürzer, Ziel und 
 #### Hinweise
 
 die Hinweise dieses Bildschirms als Liste.
+
+(F)
+#### Hilfe-Center
+
+Dieser Artikel auf der Website: Er öffnet sich im Browser, in der Sprache der App.
 
 ### Ein Ziel festlegen {#goals-new}
 
@@ -2276,7 +2291,7 @@ In einem vergangenen Monat sehen Sie, wie viel es gab und wie viel damals ausgeg
 
 ### Das Menü „⋮“ {#category-menu}
 
-[Menü: Kategorie ausblenden, Kategorie bearbeiten, Hinweise, Kategorie löschen]
+[Menü: Kategorie ausblenden, Kategorie bearbeiten, Hinweise, Hilfe-Center, Kategorie löschen]
 
 (A)
 ##### „Kategorie ausblenden“
@@ -2294,6 +2309,11 @@ Ein Blatt mit dem Namen und einem Feld „Gruppe“. Einzelheiten — [unten](#c
 Die Hinweise dieser Seite — auch die, die Sie schon geschlossen haben.
 
 (D)
+##### „Hilfe-Center“
+
+Dieser Artikel auf der Website: Er öffnet sich im Browser, in der Sprache der App.
+
+(E)
 ##### „Kategorie löschen“
 
 Nur wenn die Kategorie überhaupt keine Buchungen hat. Dann verschwindet sie nach der Frage „Kategorie löschen?“, ihr Ziel auch, und alles darin Zurückgelegte geht zurück nach „nicht verteilt“.
@@ -2554,7 +2574,7 @@ Außerdem gibt es: **zwei Pfeile** — eine Überweisung zwischen Ihren Konten; 
 
 Hier geht es nur darum, wie die Liste gezeigt wird. Kein einziger Punkt ändert oder löscht Ihre Einträge — probieren Sie ohne Sorge.
 
-[Das geöffnete Menü „⋮“: Buchungen auswählen, Filter, Sortierung, Tagessumme, Hinweise]
+[Das geöffnete Menü „⋮“: Buchungen auswählen, Filter, Sortierung, Tagessumme, Hinweise, Hilfe-Center]
 
 (A)
 #### Buchungen auswählen
@@ -2606,7 +2626,12 @@ Schalten Sie „Nur Ausgaben“ ein — und rechts neben jedem Datum sehen Sie, 
 Alle Hinweise dieses Bildschirms an einem Ort.
 
 *So funktioniert es:*
-In der App erscheinen Hinweise einzeln — wenn sie nützlich sind, damit Sie nicht unter allem auf einmal begraben werden. Hier sind alle gesammelt, auch die, bis zu denen Sie noch nicht gekommen sind. Und unten in der Liste — ein Link auf diese Seite.
+In der App erscheinen Hinweise einzeln — wenn sie nützlich sind, damit Sie nicht unter allem auf einmal begraben werden. Hier sind alle gesammelt, auch die, bis zu denen Sie noch nicht gekommen sind.
+
+(F)
+#### Hilfe-Center
+
+Dieser Artikel auf der Website: Er öffnet sich im Browser, in der Sprache der App.
 
 ### Was man mit einer Zeile tun kann {#transactions-gestures}
 
@@ -3001,7 +3026,7 @@ Ein neues Konto landet von selbst in seinem Abschnitt, nach Art: „Bargeld“ u
 
 Ein neues Konto und wie die Liste angezeigt wird.
 
-[Menü „⋮“ des Bildschirms „Konten“: Konto hinzufügen, Kontostände, Ausgeblendete Konten, Hinweise]
+[Menü „⋮“ des Bildschirms „Konten“: Konto hinzufügen, Kontostände, Ausgeblendete Konten, Hinweise, Hilfe-Center]
 
 (F)
 #### Konto hinzufügen
@@ -3034,7 +3059,12 @@ Die Zahl in Klammern sagt, wie viele es sind. Solange es keine ausgeblendeten Ko
 (I)
 #### Hinweise
 
-Alle Hinweise dieses Bildschirms an einem Ort — und ein Link auf diese Seite.
+Alle Hinweise dieses Bildschirms an einem Ort.
+
+(J)
+#### Hilfe-Center
+
+Dieser Artikel auf der Website: Er öffnet sich im Browser, in der Sprache der App.
 
 ### Was man mit einer Zeile tun kann {#accounts-gestures}
 
@@ -3925,7 +3955,7 @@ Alle Buchungen mit dem Tag, nach Tagen.
 
 #### Das Menü „⋮“ des Tags {#payees-tags-tag-menu}
 
-[Menü des Tags: Umbenennen, In Meine Tags zeigen, Abrechnung angehakt, Aus der Auswahl ausblenden, Hinweise, Löschen]
+[Menü des Tags: Umbenennen, In Meine Tags zeigen, Abrechnung angehakt, Aus der Auswahl ausblenden, Hinweise, Hilfe-Center, Löschen]
 
 (O)
 #### Umbenennen
@@ -3950,9 +3980,14 @@ Der Tag verschwindet aus dem Auswahlblatt im Formular, bleibt aber auf den Buchu
 (S)
 #### Hinweise
 
-Die Hinweise dieses Bildschirms — und ein Link hierher.
+Die Hinweise dieses Bildschirms.
 
 (T)
+#### Hilfe-Center
+
+Dieser Artikel auf der Website: Er öffnet sich im Browser, in der Sprache der App.
+
+(U)
 #### Löschen
 
 Der Tag wird von allen Buchungen entfernt; die Buchungen selbst bleiben. Die App fragt nach.
@@ -4464,7 +4499,7 @@ Die App macht eine Sicherung selbst, wenn sie fällig ist — beim Öffnen der A
 
 #### Das Menü „⋮“ {#sync-menu}
 
-[Menü des Bildschirms Sicherungen: Aus einer Datei wiederherstellen, Lesbare Kopie, Hinweise]
+[Menü des Bildschirms Sicherungen: Aus einer Datei wiederherstellen, Lesbare Kopie, Hinweise, Hilfe-Center]
 
 [Blatt Lesbare Kopie: Archiv mit Fotos und PDFs, Nur Daten, Eine Datei aus der Cloud]
 
@@ -4494,6 +4529,11 @@ Das ist ein Weg zu Ihren Daten an der App vorbei: Auch ohne die App bleibt das B
 #### Hinweise
 
 die Hinweise dieses Bildschirms als Liste.
+
+(D)
+#### Hilfe-Center
+
+Dieser Artikel auf der Website: Er öffnet sich im Browser, in der Sprache der App.
 
 ### Ein Budget aus der Cloud laden {#sync-restore}
 
@@ -4715,9 +4755,11 @@ Bei den ersten beiden verschmelzen Grün und Rot zu einem ähnlichen Bräunlich,
 
 Hinweise und der Kontakt zum Entwickler.
 
-[Abschnitt Hilfe & Kontakt: Hinweise, Telegram-Chat, Fehler melden, Verbesserung vorschlagen]
+[Abschnitt Hilfe & Kontakt: Hinweise, Hilfe-Center, Telegram-Chat, Fehler melden, Verbesserung vorschlagen]
 
 **Hinweise** — alle Hinweise der App als Liste, nach Bildschirmen. Außerdem „Hinweise erneut anzeigen“. Die Hinweise eines einzelnen Bildschirms öffnet auch der Punkt „Hinweise“ in seinem Menü „⋮“.
+
+**Hilfe-Center** — Artikel zu jedem Bildschirm auf der Website, in der Sprache der App; der Punkt öffnet die Startseite. Den Artikel eines einzelnen Bildschirms öffnet der Punkt „Hilfe-Center“ in seinem Menü „⋮“.
 
 **Telegram-Chat** — eine Gruppe, in der Fragen beantwortet werden und Sie andere Nutzer fragen können.
 

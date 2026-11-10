@@ -1703,7 +1703,7 @@ Od tej, której jeszcze nie rozłożyłeś do kopert. Przeniesienie zmniejsza �
 
 Budżety, wygląd ekranu „Przegląd” i tryb wyświetlania.
 
-[Menu „⋮” ekranu „Przegląd”: Budżety, Widżety, Ukryj kwoty, Wskazówki]
+[Menu „⋮” ekranu „Przegląd”: Budżety, Widżety, Ukryj kwoty, Wskazówki, Baza wiedzy]
 
 (A)
 #### Budżety
@@ -1734,7 +1734,12 @@ Dopóki tryb jest włączony, w nagłówku ekranu „Przegląd” jest przekreś
 (D)
 #### Wskazówki
 
-Wszystkie wskazówki tego ekranu w jednym miejscu — i link do tej strony.
+Wszystkie wskazówki tego ekranu w jednym miejscu.
+
+(E)
+#### Baza wiedzy
+
+Ten artykuł na stronie: otworzy się w przeglądarce, w języku aplikacji.
 
 [Arkusz „Widżety przeglądu”: bloki z ptaszkami i uchwytami do przeciągania]
 **„Widżety”.** Ptaszek — pokazuj, uchwyt po prawej — przeciągnij.
@@ -1880,7 +1885,7 @@ Dotknij dowolnego zrzutu, żeby otworzyć go na cały ekran.
 
 Cele, kolejność kopert i co pokazywać w wierszach.
 
-[Otwarte menu „⋮” ekranu „Budżet”: Cele, Rozdysponuj na cele, Zmień kolejność, Paski postępu, Procent dochodu, Ukryte kategorie, Wskazówki]
+[Otwarte menu „⋮” ekranu „Budżet”: Cele, Rozdysponuj na cele, Zmień kolejność, Paski postępu, Procent dochodu, Ukryte kategorie, Wskazówki, Baza wiedzy]
 
 (A)
 #### Cele
@@ -1941,7 +1946,12 @@ Koperty, w której były wydatki, usunąć się nie da — raporty potrzebują j
 (G)
 #### Wskazówki
 
-Wszystkie wskazówki tego ekranu w jednym miejscu — i link do tej strony.
+Wszystkie wskazówki tego ekranu w jednym miejscu.
+
+(H)
+#### Baza wiedzy
+
+Ten artykuł na stronie: otworzy się w przeglądarce, w języku aplikacji.
 
 ### Co można zrobić z wierszem {#budget-gestures}
 
@@ -2006,7 +2016,7 @@ Na zrzucie „Zakupy spożywcze” są osiągnięte: w listopadzie w kopercie od
 
 #### Menu „⋮” {#goals-menu}
 
-[Menu ekranu Cele: Wszystkie kategorie, Tylko z celami, Niedofinansowane, Paski postępu, Wskazówki]
+[Menu ekranu Cele: Wszystkie kategorie, Tylko z celami, Niedofinansowane, Paski postępu, Wskazówki, Baza wiedzy]
 
 (A, B, C)
 #### Które kategorie pokazywać
@@ -2022,6 +2032,11 @@ czy pokazywać paski i procenty. Bez nich wiersz jest krótszy, a cel i kwota zo
 #### Wskazówki
 
 wskazówki tego ekranu listą.
+
+(F)
+#### Baza wiedzy
+
+Ten artykuł na stronie: otworzy się w przeglądarce, w języku aplikacji.
 
 ### Jak ustawić cel {#goals-new}
 
@@ -2276,7 +2291,7 @@ W minionym miesiącu widać, ile było i ile wtedy wydano. Wiersza „≈ … dz
 
 ### Menu „⋮” {#category-menu}
 
-[Menu: Ukryj kategorię, Edytuj kategorię, Wskazówki, Usuń kategorię]
+[Menu: Ukryj kategorię, Edytuj kategorię, Wskazówki, Baza wiedzy, Usuń kategorię]
 
 (A)
 ##### „Ukryj kategorię”
@@ -2294,6 +2309,11 @@ Arkusz z nazwą i polem „Grupa”. Szczegóły — [niżej](#category-edit).
 Wskazówki tego ekranu — także te, które już zamknąłeś.
 
 (D)
+##### „Baza wiedzy”
+
+Ten artykuł na stronie: otworzy się w przeglądarce, w języku aplikacji.
+
+(E)
 ##### „Usuń kategorię”
 
 Tylko jeśli kategoria nie ma żadnych transakcji. Wtedy po pytaniu „Usunąć kategorię?” znika, jej cel też, a wszystko, co w niej odłożono, wraca do „nierozdysponowane”.
@@ -2554,7 +2574,7 @@ Są jeszcze: **dwie strzałki** — przelew między Twoimi kontami; **kalendarzy
 
 Wszystko tutaj dotyczy tego, jak pokazywać taśmę. Żaden punkt nie zmienia ani nie usuwa Twoich wpisów — próbuj bez obaw.
 
-[Otwarte menu „⋮”: Zaznaczanie transakcji, Filtr, Sortowanie, Suma dnia, Wskazówki]
+[Otwarte menu „⋮”: Zaznaczanie transakcji, Filtr, Sortowanie, Suma dnia, Wskazówki, Baza wiedzy]
 
 (A)
 #### Zaznaczanie transakcji
@@ -2606,7 +2626,12 @@ Włącz „Tylko wydatki” — a po prawej od każdej daty zobaczysz, ile wyda�
 Wszystkie wskazówki tego ekranu w jednym miejscu.
 
 *Jak to działa:*
-W aplikacji wskazówki pojawiają się po jednej — kiedy są przydatne, żeby nie zasypać Cię wszystkim naraz. Tutaj są zebrane wszystkie, także te, do których jeszcze nie doszedłeś. A na dole listy — link do tej strony.
+W aplikacji wskazówki pojawiają się po jednej — kiedy są przydatne, żeby nie zasypać Cię wszystkim naraz. Tutaj są zebrane wszystkie, także te, do których jeszcze nie doszedłeś.
+
+(F)
+#### Baza wiedzy
+
+Ten artykuł na stronie: otworzy się w przeglądarce, w języku aplikacji.
 
 ### Co można zrobić z wierszem {#transactions-gestures}
 
@@ -3001,7 +3026,7 @@ Nowe konto samo trafia do swojej sekcji, według typu: „Gotówka” i „Konto
 
 Nowe konto i sposób pokazywania listy.
 
-[Menu „⋮” ekranu „Konta”: Dodaj konto, Salda bieżące, Ukryte konta, Wskazówki]
+[Menu „⋮” ekranu „Konta”: Dodaj konto, Salda bieżące, Ukryte konta, Wskazówki, Baza wiedzy]
 
 (F)
 #### Dodaj konto
@@ -3034,7 +3059,12 @@ Liczba w nawiasie to ile ich jest. Dopóki ukrytych kont nie ma, punkt jest szar
 (I)
 #### Wskazówki
 
-Wszystkie wskazówki tego ekranu w jednym miejscu — i link do tej strony.
+Wszystkie wskazówki tego ekranu w jednym miejscu.
+
+(J)
+#### Baza wiedzy
+
+Ten artykuł na stronie: otworzy się w przeglądarce, w języku aplikacji.
 
 ### Co można zrobić z wierszem {#accounts-gestures}
 
@@ -3925,7 +3955,7 @@ Wszystkie transakcje z tagiem, według dni.
 
 #### Menu „⋮” tagu {#payees-tags-tag-menu}
 
-[Menu tagu: Zmień nazwę, Pokaż w Moich tagach, Rozliczenie zaznaczone, Ukryj z wyboru, Wskazówki, Usuń]
+[Menu tagu: Zmień nazwę, Pokaż w Moich tagach, Rozliczenie zaznaczone, Ukryj z wyboru, Wskazówki, Baza wiedzy, Usuń]
 
 (O)
 #### Zmień nazwę
@@ -3950,9 +3980,14 @@ Tag znika z arkusza wyboru w formularzu, ale zostaje na transakcjach. Wygodne pr
 (S)
 #### Wskazówki
 
-Wskazówki tego ekranu — i link tutaj.
+Wskazówki tego ekranu.
 
 (T)
+#### Baza wiedzy
+
+Ten artykuł na stronie: otworzy się w przeglądarce, w języku aplikacji.
+
+(U)
 #### Usuń
 
 Tag zostaje zdjęty ze wszystkich transakcji; same transakcje zostają. Aplikacja dopyta.
@@ -4464,7 +4499,7 @@ O to pyta „Utwórz kopię teraz”.
 
 #### Menu „⋮” {#sync-menu}
 
-[Menu ekranu Kopie zapasowe: Przywróć z pliku, Czytelna kopia, Wskazówki]
+[Menu ekranu Kopie zapasowe: Przywróć z pliku, Czytelna kopia, Wskazówki, Baza wiedzy]
 
 [Arkusz Czytelna kopia: Archiwum ze zdjęciami i PDF, Tylko dane, Plik z chmury]
 
@@ -4494,6 +4529,11 @@ To droga do Twoich danych z pominięciem aplikacji: nawet bez aplikacji budżet 
 #### Wskazówki
 
 wskazówki tego ekranu listą.
+
+(D)
+#### Baza wiedzy
+
+Ten artykuł na stronie: otworzy się w przeglądarce, w języku aplikacji.
 
 ### Wczytaj budżet z chmury {#sync-restore}
 
@@ -4715,9 +4755,11 @@ Przekroczenie kategorii, dług i stan synchronizacji zostają kolorowe bez wzgl�
 
 Wskazówki i kontakt z twórcą.
 
-[Sekcja Pomoc i kontakt: Wskazówki, Czat na Telegramie, Zgłoś błąd, Zaproponuj ulepszenie]
+[Sekcja Pomoc i kontakt: Wskazówki, Baza wiedzy, Czat na Telegramie, Zgłoś błąd, Zaproponuj ulepszenie]
 
 **Wskazówki** — wszystkie wskazówki aplikacji listą, według ekranów. Tu też „Pokaż wskazówki ponownie”. Wskazówki jednego ekranu otwiera też punkt „Wskazówki” w jego menu „⋮”.
+
+**Baza wiedzy** — artykuły o każdym ekranie na stronie, w języku aplikacji; punkt otwiera stronę główną. Artykuł jednego ekranu otwiera punkt „Baza wiedzy” w jego menu „⋮”.
 
 **Czat na Telegramie** — grupa, w której odpowiadają na pytania i gdzie można zapytać innych użytkowników.
 

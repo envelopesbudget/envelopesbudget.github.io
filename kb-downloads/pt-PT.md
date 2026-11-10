@@ -1703,7 +1703,7 @@ Por aquele que ainda não repartiu pelos envelopes. Passá-lo diminui o «não a
 
 Os orçamentos, o aspeto do «Resumo» e o modo de apresentação.
 
-[Menu «⋮» do ecrã «Resumo»: Orçamentos, Widgets, Ocultar valores, Dicas]
+[Menu «⋮» do ecrã «Resumo»: Orçamentos, Widgets, Ocultar valores, Dicas, Centro de ajuda]
 
 (A)
 #### Orçamentos
@@ -1734,7 +1734,12 @@ Enquanto o modo está ligado, há um olho riscado no cabeçalho do «Resumo» �
 (D)
 #### Dicas
 
-Todas as dicas deste ecrã num só sítio — e uma ligação para esta página.
+Todas as dicas deste ecrã num só sítio.
+
+(E)
+#### Centro de ajuda
+
+Este artigo no site: abre no navegador, no idioma da aplicação.
 
 [Folha «Widgets da visão geral»: blocos com vistos e pegas para arrastar]
 **«Widgets».** Visto — mostrar, a pega à direita — arrastar.
@@ -1880,7 +1885,7 @@ Toque em qualquer captura para a abrir em ecrã inteiro.
 
 Metas, a ordem dos envelopes e o que mostrar nas linhas.
 
-[O menu «⋮» aberto do ecrã «Plano»: Metas, Alocar nas metas, Mudar a ordem, Barras de progresso, Percentagem do rendimento, Categorias ocultas, Dicas]
+[O menu «⋮» aberto do ecrã «Plano»: Metas, Alocar nas metas, Mudar a ordem, Barras de progresso, Percentagem do rendimento, Categorias ocultas, Dicas, Centro de ajuda]
 
 (A)
 #### Metas
@@ -1941,7 +1946,12 @@ Um envelope que tem despesas não se pode eliminar — os relatórios precisam d
 (G)
 #### Dicas
 
-Todas as dicas deste ecrã num só sítio — e uma ligação para esta página.
+Todas as dicas deste ecrã num só sítio.
+
+(H)
+#### Centro de ajuda
+
+Este artigo no site: abre no navegador, no idioma da aplicação.
 
 ### O que pode fazer com uma linha {#budget-gestures}
 
@@ -2006,7 +2016,7 @@ Na captura, o «Supermercado» está atingido: os 400 € já estão postos de l
 
 #### O menu «⋮» {#goals-menu}
 
-[Menu do ecrã Metas: Todas as categorias, Apenas com metas, Subfinanciado, Barras de progresso, Dicas]
+[Menu do ecrã Metas: Todas as categorias, Apenas com metas, Subfinanciado, Barras de progresso, Dicas, Centro de ajuda]
 
 (A, B, C)
 #### Que categorias mostrar
@@ -2022,6 +2032,11 @@ se mostrar barras e percentagens. Sem elas a linha fica mais curta, enquanto a m
 #### Dicas
 
 as dicas deste ecrã em forma de lista.
+
+(F)
+#### Centro de ajuda
+
+Este artigo no site: abre no navegador, no idioma da aplicação.
 
 ### Como definir uma meta {#goals-new}
 
@@ -2276,7 +2291,7 @@ Num mês passado vê quanto havia e quanto se gastou nessa altura. Lá não há 
 
 ### O menu «⋮» {#category-menu}
 
-[Menu: Ocultar a categoria, Editar a categoria, Dicas, Eliminar a categoria]
+[Menu: Ocultar a categoria, Editar a categoria, Dicas, Centro de ajuda, Eliminar a categoria]
 
 (A)
 ##### «Ocultar a categoria»
@@ -2294,6 +2309,11 @@ Uma folha com o nome e um campo «Grupo». Pormenores — [mais abaixo](#categor
 As dicas deste ecrã — incluindo as que já fechou.
 
 (D)
+##### «Centro de ajuda»
+
+Este artigo no site: abre no navegador, no idioma da aplicação.
+
+(E)
 ##### «Eliminar a categoria»
 
 Só se a categoria não tiver nenhuma transação. Então, depois da pergunta «Eliminar a categoria?», desaparece, a meta dela também, e tudo o que estava posto de lado nela volta para «não alocado».
@@ -2554,7 +2574,7 @@ Há ainda: **duas setas** — uma transferência entre as suas contas; **um cale
 
 Tudo aqui é sobre como mostrar o feed. Nenhum item muda ou elimina os seus registos — experimente sem receio.
 
-[O menu «⋮» aberto: Selecionar transações, Filtro, Ordenação, Total do dia, Dicas]
+[O menu «⋮» aberto: Selecionar transações, Filtro, Ordenação, Total do dia, Dicas, Centro de ajuda]
 
 (A)
 #### Selecionar transações
@@ -2606,7 +2626,12 @@ Ligue «Só despesas» — e à direita de cada data vê quanto gastou nesse dia
 Todas as dicas deste ecrã num só sítio.
 
 *Como funciona:*
-Na aplicação, as dicas aparecem uma de cada vez — quando são úteis, para não o soterrar com tudo de uma vez. Aqui estão todas reunidas, mesmo as que ainda não alcançou. E no fim da lista — uma ligação para esta página.
+Na aplicação, as dicas aparecem uma de cada vez — quando são úteis, para não o soterrar com tudo de uma vez. Aqui estão todas reunidas, mesmo as que ainda não alcançou.
+
+(F)
+#### Centro de ajuda
+
+Este artigo no site: abre no navegador, no idioma da aplicação.
 
 ### O que pode fazer com uma linha {#transactions-gestures}
 
@@ -3001,7 +3026,7 @@ Uma conta nova vai sozinha para a sua secção, pelo tipo: «Dinheiro» e «Cont
 
 Uma conta nova e como mostrar a lista.
 
-[Menu «⋮» do ecrã «Contas»: Adicionar conta, Saldos correntes, Contas ocultas, Dicas]
+[Menu «⋮» do ecrã «Contas»: Adicionar conta, Saldos correntes, Contas ocultas, Dicas, Centro de ajuda]
 
 (F)
 #### Adicionar conta
@@ -3034,7 +3059,12 @@ O número entre parênteses é quantas são. Enquanto não há contas ocultas, o
 (I)
 #### Dicas
 
-Todas as dicas deste ecrã num só sítio — e uma ligação para esta página.
+Todas as dicas deste ecrã num só sítio.
+
+(J)
+#### Centro de ajuda
+
+Este artigo no site: abre no navegador, no idioma da aplicação.
 
 ### O que pode fazer com uma linha {#accounts-gestures}
 
@@ -3925,7 +3955,7 @@ Todas as transações com a tag, por dia.
 
 #### O menu «⋮» da tag {#payees-tags-tag-menu}
 
-[Menu da tag: Renomear, Mostrar em Minhas tags, Acerto de contas marcado, Ocultar da seleção, Dicas, Eliminar]
+[Menu da tag: Renomear, Mostrar em Minhas tags, Acerto de contas marcado, Ocultar da seleção, Dicas, Centro de ajuda, Eliminar]
 
 (O)
 #### Renomear
@@ -3950,9 +3980,14 @@ A tag desaparece da folha de escolha do formulário, mas fica nas transações. 
 (S)
 #### Dicas
 
-As dicas deste ecrã — e uma ligação para aqui.
+As dicas deste ecrã.
 
 (T)
+#### Centro de ajuda
+
+Este artigo no site: abre no navegador, no idioma da aplicação.
+
+(U)
 #### Eliminar
 
 A tag é retirada de todas as transações; as transações em si ficam. A aplicação volta a perguntar.
@@ -4464,7 +4499,7 @@ A aplicação faz uma cópia sozinha quando chega a altura — quando abre a apl
 
 #### O menu «⋮» {#sync-menu}
 
-[Menu do ecrã Cópias de segurança: Restaurar de um ficheiro, Cópia legível, Dicas]
+[Menu do ecrã Cópias de segurança: Restaurar de um ficheiro, Cópia legível, Dicas, Centro de ajuda]
 
 [Folha Cópia legível: Ficheiro comprimido com fotos e PDF, Só os dados, Um ficheiro da nuvem]
 
@@ -4494,6 +4529,11 @@ Três opções:
 #### Dicas
 
 as dicas deste ecrã em forma de lista.
+
+(D)
+#### Centro de ajuda
+
+Este artigo no site: abre no navegador, no idioma da aplicação.
 
 ### Carregar um orçamento da nuvem {#sync-restore}
 
@@ -4715,9 +4755,11 @@ A despesa excedida de uma categoria, a dívida e o estado da sincronização con
 
 As dicas e o contacto com o programador.
 
-[Secção Ajuda e contacto: Dicas, Conversa no Telegram, Relatar um erro, Sugerir uma melhoria]
+[Secção Ajuda e contacto: Dicas, Centro de ajuda, Conversa no Telegram, Relatar um erro, Sugerir uma melhoria]
 
 **Dicas** — todas as dicas da aplicação em lista, por ecrã. E também «Mostrar as dicas de novo». As dicas de um ecrã abrem-se também pelo item «Dicas» do menu «⋮» dele.
+
+**Centro de ajuda** — artigos sobre cada ecrã no site, no idioma da aplicação; o item abre a página inicial. O artigo de um ecrã abre-se pelo item «Centro de ajuda» do menu «⋮» dele.
 
 **Conversa no Telegram** — um grupo onde se respondem perguntas e onde pode perguntar a outros utilizadores.
 

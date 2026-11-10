@@ -1703,7 +1703,7 @@ Con la que todavía no has repartido entre los sobres. Pasarla reduce el «sin a
 
 Los presupuestos, cómo se ve «Resumen» y el modo de visualización.
 
-[El menú «⋮» de la pantalla «Resumen»: Presupuestos, Widgets, Ocultar importes, Consejos]
+[El menú «⋮» de la pantalla «Resumen»: Presupuestos, Widgets, Ocultar importes, Consejos, Centro de ayuda]
 
 (A)
 #### Presupuestos
@@ -1734,7 +1734,12 @@ Mientras el modo está activado, en la cabecera de «Resumen» hay un ojo tachad
 (D)
 #### Consejos
 
-Todos los consejos de esta pantalla en un solo sitio, y un enlace a esta página.
+Todos los consejos de esta pantalla en un solo sitio.
+
+(E)
+#### Centro de ayuda
+
+Este artículo en la web: se abre en el navegador, en el idioma de la app.
 
 [Hoja «Widgets del resumen»: bloques con marcas y asas para arrastrar]
 **«Widgets».** Una marca: mostrarlo; el asa de la derecha: arrastrarlo.
@@ -1880,7 +1885,7 @@ Toca cualquier captura para abrirla a pantalla completa.
 
 Objetivos, orden de los sobres y qué mostrar en las filas.
 
-[El menú «⋮» abierto de la pantalla «Plan»: Objetivos, Asignar a los objetivos, Cambiar el orden, Barras de progreso, Porcentaje del ingreso, Categorías ocultas, Consejos]
+[El menú «⋮» abierto de la pantalla «Plan»: Objetivos, Asignar a los objetivos, Cambiar el orden, Barras de progreso, Porcentaje del ingreso, Categorías ocultas, Consejos, Centro de ayuda]
 
 (A)
 #### Objetivos
@@ -1941,7 +1946,12 @@ Un sobre que tiene gastos no se puede eliminar: los informes necesitan su histor
 (G)
 #### Consejos
 
-Todos los consejos de esta pantalla en un solo sitio, y un enlace a esta página.
+Todos los consejos de esta pantalla en un solo sitio.
+
+(H)
+#### Centro de ayuda
+
+Este artículo en la web: se abre en el navegador, en el idioma de la app.
 
 ### Qué puedes hacer con una fila {#budget-gestures}
 
@@ -2006,7 +2016,7 @@ En la captura, «Comestibles» está alcanzado: ya hay 400 € apartados en el s
 
 #### El menú «⋮» {#goals-menu}
 
-[Menú de la pantalla Objetivos: Todas las categorías, Solo con objetivos, Sin cubrir, Barras de progreso, Consejos]
+[Menú de la pantalla Objetivos: Todas las categorías, Solo con objetivos, Sin cubrir, Barras de progreso, Consejos, Centro de ayuda]
 
 (A, B, C)
 #### Qué categorías mostrar
@@ -2022,6 +2032,11 @@ si se muestran las barras y los porcentajes. Sin ellas la fila es más corta, y 
 #### Consejos
 
 los consejos de esta pantalla como lista.
+
+(F)
+#### Centro de ayuda
+
+Este artículo en la web: se abre en el navegador, en el idioma de la app.
 
 ### Cómo fijar un objetivo {#goals-new}
 
@@ -2276,7 +2291,7 @@ En un mes pasado ves cuánto había y cuánto se gastó entonces. Ahí no está 
 
 ### El menú «⋮» {#category-menu}
 
-[Menú: Ocultar la categoría, Editar la categoría, Consejos, Eliminar la categoría]
+[Menú: Ocultar la categoría, Editar la categoría, Consejos, Centro de ayuda, Eliminar la categoría]
 
 (A)
 ##### «Ocultar la categoría»
@@ -2294,6 +2309,11 @@ Una hoja con el nombre y un campo «Grupo». Los detalles, [más abajo](#categor
 Los consejos de esta pantalla, incluidos los que ya cerraste.
 
 (D)
+##### «Centro de ayuda»
+
+Este artículo en la web: se abre en el navegador, en el idioma de la app.
+
+(E)
 ##### «Eliminar la categoría»
 
 Solo si la categoría no tiene ninguna transacción. Entonces, tras la pregunta «¿Eliminar la categoría?», desaparece, su objetivo también, y todo lo apartado en ella vuelve a «sin asignar».
@@ -2554,7 +2574,7 @@ También hay: **dos flechas**: una transferencia entre tus cuentas; **un calenda
 
 Todo aquí trata de cómo mostrar la lista. Ningún punto cambia ni borra tus entradas: pruébalos sin miedo.
 
-[El menú «⋮» abierto: Seleccionar transacciones, Filtro, Orden, Total del día, Consejos]
+[El menú «⋮» abierto: Seleccionar transacciones, Filtro, Orden, Total del día, Consejos, Centro de ayuda]
 
 (A)
 #### Seleccionar transacciones
@@ -2606,7 +2626,12 @@ Activa «Solo gastos», y a la derecha de cada fecha verás cuánto gastaste ese
 Todos los consejos de esta pantalla en un solo sitio.
 
 *Cómo funciona:*
-En la app, los consejos aparecen de uno en uno, cuando son útiles, para no enterrarte en todo de golpe. Aquí están todos juntos, incluso los que todavía no te han salido. Y al final de la lista, un enlace a esta página.
+En la app, los consejos aparecen de uno en uno, cuando son útiles, para no enterrarte en todo de golpe. Aquí están todos juntos, incluso los que todavía no te han salido.
+
+(F)
+#### Centro de ayuda
+
+Este artículo en la web: se abre en el navegador, en el idioma de la app.
 
 ### Qué puedes hacer con una fila {#transactions-gestures}
 
@@ -3001,7 +3026,7 @@ Una cuenta nueva va sola a su sección, según el tipo: «Efectivo» y «Cuenta 
 
 Una cuenta nueva y cómo mostrar la lista.
 
-[Menú «⋮» de la pantalla «Cuentas»: Añadir una cuenta, Saldos acumulados, Cuentas ocultas, Consejos]
+[Menú «⋮» de la pantalla «Cuentas»: Añadir una cuenta, Saldos acumulados, Cuentas ocultas, Consejos, Centro de ayuda]
 
 (F)
 #### Añadir una cuenta
@@ -3034,7 +3059,12 @@ El número entre paréntesis es cuántas hay. Mientras no hay cuentas ocultas, e
 (I)
 #### Consejos
 
-Todos los consejos de esta pantalla en un solo sitio, y un enlace a esta página.
+Todos los consejos de esta pantalla en un solo sitio.
+
+(J)
+#### Centro de ayuda
+
+Este artículo en la web: se abre en el navegador, en el idioma de la app.
 
 ### Qué puedes hacer con una fila {#accounts-gestures}
 
@@ -3925,7 +3955,7 @@ Todas las transacciones con la etiqueta, por días.
 
 #### El menú «⋮» de la etiqueta {#payees-tags-tag-menu}
 
-[Menú de la etiqueta: Renombrar, Mostrar en Mis etiquetas, Liquidación marcada, Ocultar de la selección, Consejos, Eliminar]
+[Menú de la etiqueta: Renombrar, Mostrar en Mis etiquetas, Liquidación marcada, Ocultar de la selección, Consejos, Centro de ayuda, Eliminar]
 
 (O)
 #### Renombrar
@@ -3950,9 +3980,14 @@ La etiqueta desaparece de la hoja de selección del formulario, pero se queda en
 (S)
 #### Consejos
 
-Los consejos de esta pantalla, y un enlace hasta aquí.
+Los consejos de esta pantalla.
 
 (T)
+#### Centro de ayuda
+
+Este artículo en la web: se abre en el navegador, en el idioma de la app.
+
+(U)
 #### Eliminar
 
 La etiqueta se quita de todas las transacciones; las transacciones se quedan. La app vuelve a preguntar.
@@ -4464,7 +4499,7 @@ Lo pregunta «Crear una copia ahora».
 
 #### El menú «⋮» {#sync-menu}
 
-[Menú de la pantalla Copias de seguridad: Restaurar desde un archivo, Copia legible, Consejos]
+[Menú de la pantalla Copias de seguridad: Restaurar desde un archivo, Copia legible, Consejos, Centro de ayuda]
 
 [Hoja Copia legible: Archivo comprimido con fotos y PDF, Solo datos, Un archivo de la nube]
 
@@ -4494,6 +4529,11 @@ Es un camino a tus datos que no pasa por la app: incluso sin la app, el presupue
 #### Consejos
 
 los consejos de esta pantalla como lista.
+
+(D)
+#### Centro de ayuda
+
+Este artículo en la web: se abre en el navegador, en el idioma de la app.
 
 ### Cargar un presupuesto desde la nube {#sync-restore}
 
@@ -4715,9 +4755,11 @@ El sobregasto de una categoría, la deuda y el estado de la sincronización sigu
 
 Los consejos y el contacto con el desarrollador.
 
-[Sección Ayuda y contacto: Consejos, Chat de Telegram, Informar de un error, Sugerir una mejora]
+[Sección Ayuda y contacto: Consejos, Centro de ayuda, Chat de Telegram, Informar de un error, Sugerir una mejora]
 
 **Consejos**: todos los consejos de la app como lista, por pantallas. También «Mostrar los consejos de nuevo». Los consejos de una pantalla también los abre el punto «Consejos» de su menú «⋮».
+
+**Centro de ayuda**: artículos sobre cada pantalla en la web, en el idioma de la app; este punto abre la portada. El artículo de una pantalla lo abre el punto «Centro de ayuda» de su menú «⋮».
 
 **Chat de Telegram**: un grupo donde se responden preguntas y donde puedes preguntar a otros usuarios.
 

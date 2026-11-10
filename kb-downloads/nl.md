@@ -1703,7 +1703,7 @@ Met het salaris dat je nog niet over enveloppen hebt verdeeld. Het verplaatsen v
 
 Budgetten, hoe “Overzicht” eruitziet, en de weergavemodus.
 
-[Het menu “⋮” van het scherm “Overzicht”: Budgetten, Widgets, Bedragen verbergen, Tips]
+[Het menu “⋮” van het scherm “Overzicht”: Budgetten, Widgets, Bedragen verbergen, Tips, Kennisbank]
 
 (A)
 #### Budgetten
@@ -1734,7 +1734,12 @@ Zolang de modus aanstaat, staat er een doorgestreept oog in de kop van “Overzi
 (D)
 #### Tips
 
-Alle tips van dit scherm op één plek — en een link naar deze pagina.
+Alle tips van dit scherm op één plek.
+
+(E)
+#### Kennisbank
+
+Dit artikel op de website: het opent in de browser, in de taal van de app.
 
 [Blad “Overzichtswidgets”: blokken met vinkjes en sleepgrepen]
 **“Widgets”.** Een vinkje — tonen, de greep rechts — slepen.
@@ -1880,7 +1885,7 @@ Tik op een schermafbeelding om haar schermvullend te openen.
 
 Doelen, de volgorde van enveloppen, en wat de regels tonen.
 
-[Het geopende menu “⋮” van het scherm “Budget”: Doelen, Toewijzen aan doelen, Volgorde wijzigen, Voortgangsbalken, Percentage van inkomen, Verborgen categorieën, Tips]
+[Het geopende menu “⋮” van het scherm “Budget”: Doelen, Toewijzen aan doelen, Volgorde wijzigen, Voortgangsbalken, Percentage van inkomen, Verborgen categorieën, Tips, Kennisbank]
 
 (A)
 #### Doelen
@@ -1941,7 +1946,12 @@ Een envelop met uitgaven kun je niet verwijderen — rapporten hebben haar gesch
 (G)
 #### Tips
 
-Alle tips van dit scherm op één plek — en een link naar deze pagina.
+Alle tips van dit scherm op één plek.
+
+(H)
+#### Kennisbank
+
+Dit artikel op de website: het opent in de browser, in de taal van de app.
 
 ### Wat je met een regel kunt doen {#budget-gestures}
 
@@ -2006,7 +2016,7 @@ Op de schermafbeelding is “Boodschappen” bereikt: er staat in november al �
 
 #### Het menu “⋮” {#goals-menu}
 
-[Menu van het scherm Doelen: Alle categorieën, Alleen met doelen, Te weinig gefinancierd, Voortgangsbalken, Tips]
+[Menu van het scherm Doelen: Alle categorieën, Alleen met doelen, Te weinig gefinancierd, Voortgangsbalken, Tips, Kennisbank]
 
 (A, B, C)
 #### Welke categorieën je toont
@@ -2022,6 +2032,11 @@ of balken en percentages getoond worden. Zonder wordt de regel korter, terwijl d
 #### Tips
 
 de tips van dit scherm als lijst.
+
+(F)
+#### Kennisbank
+
+Dit artikel op de website: het opent in de browser, in de taal van de app.
 
 ### Hoe je een doel instelt {#goals-new}
 
@@ -2276,7 +2291,7 @@ In een voorbije maand zie je hoeveel er toen was en hoeveel er werd uitgegeven. 
 
 ### Het menu “⋮” {#category-menu}
 
-[Menu: Categorie verbergen, Categorie bewerken, Tips, Categorie verwijderen]
+[Menu: Categorie verbergen, Categorie bewerken, Tips, Kennisbank, Categorie verwijderen]
 
 (A)
 ##### “Categorie verbergen”
@@ -2294,6 +2309,11 @@ Een blad met de naam en een veld “Groep”. Details — [hieronder](#category-
 De tips van dit scherm — ook die je al hebt gesloten.
 
 (D)
+##### “Kennisbank”
+
+Dit artikel op de website: het opent in de browser, in de taal van de app.
+
+(E)
 ##### “Categorie verwijderen”
 
 Alleen als de categorie helemaal geen transacties heeft. Dan verdwijnt ze na de vraag “Categorie verwijderen?”, haar doel ook, en alles wat erin opzij stond, gaat terug naar “niet toegewezen”.
@@ -2554,7 +2574,7 @@ Er zijn ook: **twee pijlen** — een overboeking tussen je rekeningen; **een kal
 
 Alles hier gaat over hoe de stroom getoond wordt. Geen enkel item wijzigt of verwijdert je boekingen — probeer ze gerust.
 
-[Het geopende menu “⋮”: Transacties selecteren, Filter, Sorteren, Dagtotaal, Tips]
+[Het geopende menu “⋮”: Transacties selecteren, Filter, Sorteren, Dagtotaal, Tips, Kennisbank]
 
 (A)
 #### Transacties selecteren
@@ -2606,7 +2626,12 @@ Zet “Alleen uitgaven” aan — en rechts van elke datum zie je hoeveel je die
 Alle tips van dit scherm op één plek.
 
 *Hoe het werkt:*
-In de app verschijnen tips één tegelijk — als ze van pas komen, om je niet met alles tegelijk te bedelven. Hier zijn ze allemaal verzameld, ook die je nog niet tegenkwam. En onderaan de lijst — een link naar deze pagina.
+In de app verschijnen tips één tegelijk — als ze van pas komen, om je niet met alles tegelijk te bedelven. Hier zijn ze allemaal verzameld, ook die je nog niet tegenkwam.
+
+(F)
+#### Kennisbank
+
+Dit artikel op de website: het opent in de browser, in de taal van de app.
 
 ### Wat je met een regel kunt doen {#transactions-gestures}
 
@@ -3001,7 +3026,7 @@ Een nieuwe rekening komt vanzelf in haar onderdeel, naar type: “Contant” en 
 
 Een nieuwe rekening en hoe de lijst getoond wordt.
 
-[Het menu “⋮” van het scherm “Saldo's”: Rekening toevoegen, Lopende saldi, Verborgen rekeningen, Tips]
+[Het menu “⋮” van het scherm “Saldo's”: Rekening toevoegen, Lopende saldi, Verborgen rekeningen, Tips, Kennisbank]
 
 (F)
 #### Rekening toevoegen
@@ -3034,7 +3059,12 @@ Het getal tussen haakjes is hoeveel het er zijn. Zolang er geen verborgen rekeni
 (I)
 #### Tips
 
-Alle tips van dit scherm op één plek — en een link naar deze pagina.
+Alle tips van dit scherm op één plek.
+
+(J)
+#### Kennisbank
+
+Dit artikel op de website: het opent in de browser, in de taal van de app.
 
 ### Wat je met een regel kunt doen {#accounts-gestures}
 
@@ -3927,7 +3957,7 @@ Alle transacties met de tag, per dag.
 
 #### Het menu “⋮” van de tag {#payees-tags-tag-menu}
 
-[Menu van de tag: Naam wijzigen, Tonen in Mijn tags, Verrekening aangevinkt, Verbergen uit keuze, Tips, Verwijderen]
+[Menu van de tag: Naam wijzigen, Tonen in Mijn tags, Verrekening aangevinkt, Verbergen uit keuze, Tips, Kennisbank, Verwijderen]
 
 (O)
 #### Naam wijzigen
@@ -3952,9 +3982,14 @@ De tag verdwijnt uit het keuzeblad in het formulier, maar blijft op de transacti
 (S)
 #### Tips
 
-De tips van dit scherm — en een link hierheen.
+De tips van dit scherm.
 
 (T)
+#### Kennisbank
+
+Dit artikel op de website: het opent in de browser, in de taal van de app.
+
+(U)
 #### Verwijderen
 
 De tag wordt van alle transacties gehaald; de transacties zelf blijven. De app vraagt nog eens.
@@ -4466,7 +4501,7 @@ De app maakt zelf een back-up als dat aan de beurt is — als je de app opent en
 
 #### Het menu “⋮” {#sync-menu}
 
-[Menu van het scherm Back-ups: Herstellen uit een bestand, Leesbare kopie, Tips]
+[Menu van het scherm Back-ups: Herstellen uit een bestand, Leesbare kopie, Tips, Kennisbank]
 
 [Blad Leesbare kopie: Archief met foto’s en pdf’s, Alleen gegevens, Een bestand uit de cloud]
 
@@ -4496,6 +4531,11 @@ Het is een weg naar je gegevens buiten de app om: ook zonder de app blijft het b
 #### Tips
 
 de tips van dit scherm als lijst.
+
+(D)
+#### Kennisbank
+
+Dit artikel op de website: het opent in de browser, in de taal van de app.
 
 ### Een budget uit de cloud laden {#sync-restore}
 
@@ -4717,9 +4757,11 @@ Een overschrijding van een categorie, schuld en de stand van de synchronisatie b
 
 Tips en contact met de ontwikkelaar.
 
-[Onderdeel Help en contact: Tips, Telegram-chat, Probleem melden, Verbetering voorstellen]
+[Onderdeel Help en contact: Tips, Kennisbank, Telegram-chat, Probleem melden, Verbetering voorstellen]
 
 **Tips** — alle tips van de app als lijst, per scherm. Ook “Tips opnieuw tonen”. De tips van één scherm open je ook via het item “Tips” in zijn menu “⋮”.
+
+**Kennisbank** — artikelen over elk scherm op de website, in de taal van de app; het item opent de startpagina. Het artikel van één scherm open je via het item “Kennisbank” in zijn menu “⋮”.
 
 **Telegram-chat** — een groep waar vragen beantwoord worden en waar je andere gebruikers iets kunt vragen.
 

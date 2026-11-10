@@ -1703,7 +1703,7 @@ The one you haven't divided among envelopes yet. Moving it reduces this month's 
 
 Budgets, how “Overview” looks, and display mode.
 
-[The “Overview” screen's “⋮” menu: Budgets, Widgets, Hide amounts, Hints]
+[The “Overview” screen's “⋮” menu: Budgets, Widgets, Hide amounts, Hints, Help Center]
 
 (A)
 #### Budgets
@@ -1734,7 +1734,12 @@ While the mode is on, there's a crossed-out eye in the “Overview” header —
 (D)
 #### Hints
 
-All of this screen's hints in one place — and a link to this page.
+All of this screen's hints in one place.
+
+(E)
+#### Help Center
+
+This article on the website: it opens in your browser, in the app's language.
 
 [“Overview widgets” sheet: blocks with check marks and drag handles]
 **“Widgets”.** A check mark — show it, the handle on the right — drag it.
@@ -1880,7 +1885,7 @@ Tap any screenshot to open it full screen.
 
 Goals, envelope order, and what to show in the rows.
 
-[The “Budget” screen's open “⋮” menu: Goals, Assign to goals, Change the order, Progress bars, Percent of income, Hidden categories, Hints]
+[The “Budget” screen's open “⋮” menu: Goals, Assign to goals, Change the order, Progress bars, Percent of income, Hidden categories, Hints, Help Center]
 
 (A)
 #### Goals
@@ -1941,7 +1946,12 @@ An envelope that has spending can't be deleted — reports need its history. You
 (G)
 #### Hints
 
-All of this screen's hints in one place — and a link to this page.
+All of this screen's hints in one place.
+
+(H)
+#### Help Center
+
+This article on the website: it opens in your browser, in the app's language.
 
 ### What you can do with a row {#budget-gestures}
 
@@ -2006,7 +2016,7 @@ In the screenshot, “Groceries” is reached: $400 is already set aside in the 
 
 #### The “⋮” menu {#goals-menu}
 
-[Goals screen menu: All categories, With goals only, Underfunded, Progress bars, Hints]
+[Goals screen menu: All categories, With goals only, Underfunded, Progress bars, Hints, Help Center]
 
 (A, B, C)
 #### Which categories to show
@@ -2022,6 +2032,11 @@ whether to show bars and percentages. Without them the row is shorter, while the
 #### Hints
 
 this screen's hints as a list.
+
+(F)
+#### Help Center
+
+This article on the website: it opens in your browser, in the app's language.
 
 ### How to set a goal {#goals-new}
 
@@ -2276,7 +2291,7 @@ In a past month you see how much there was and how much was spent then. There's 
 
 ### The “⋮” menu {#category-menu}
 
-[Menu: Hide the category, Edit the category, Hints, Delete the category]
+[Menu: Hide the category, Edit the category, Hints, Help Center, Delete the category]
 
 (A)
 ##### “Hide the category”
@@ -2294,6 +2309,11 @@ A sheet with the name and a “Group” field. Details — [below](#category-edi
 This screen's hints — including the ones you've already closed.
 
 (D)
+##### “Help Center”
+
+This article on the website: it opens in your browser, in the app's language.
+
+(E)
 ##### “Delete the category”
 
 Only if the category has no transactions at all. Then, after the question “Delete the category?”, it disappears, its goal too, and everything set aside in it goes back to “unassigned”.
@@ -2554,7 +2574,7 @@ There are also: **two arrows** — a transfer between your accounts; **a little 
 
 Everything here is about how to show the feed. Not a single item changes or deletes your entries — try them without worry.
 
-[The open “⋮” menu: Select transactions, Filter, Sorting, Daily total, Hints]
+[The open “⋮” menu: Select transactions, Filter, Sorting, Daily total, Hints, Help Center]
 
 (A)
 #### Select transactions
@@ -2606,7 +2626,12 @@ Turn on “Expenses only” — and to the right of each date you'll see how muc
 All of this screen's hints in one place.
 
 *How it works:*
-In the app, hints appear one at a time — when they're useful, so as not to bury you in everything at once. Here they're all gathered, even the ones you haven't reached yet. And at the bottom of the list — a link to this page.
+In the app, hints appear one at a time — when they're useful, so as not to bury you in everything at once. Here they're all gathered, even the ones you haven't reached yet.
+
+(F)
+#### Help Center
+
+This article on the website: it opens in your browser, in the app's language.
 
 ### What you can do with a row {#transactions-gestures}
 
@@ -3001,7 +3026,7 @@ A new account lands in its section by itself, by type: “Cash” and “Bank ac
 
 A new account and how to show the list.
 
-[The “Accounts” screen's “⋮” menu: Add an account, Running balances, Hidden accounts, Hints]
+[The “Accounts” screen's “⋮” menu: Add an account, Running balances, Hidden accounts, Hints, Help Center]
 
 (F)
 #### Add an account
@@ -3034,7 +3059,12 @@ The number in parentheses is how many there are. While there are no hidden accou
 (I)
 #### Hints
 
-All of this screen's hints in one place — and a link to this page.
+All of this screen's hints in one place.
+
+(J)
+#### Help Center
+
+This article on the website: it opens in your browser, in the app's language.
 
 ### What you can do with a row {#accounts-gestures}
 
@@ -3925,7 +3955,7 @@ All transactions with the tag, by day.
 
 #### The tag's “⋮” menu {#payees-tags-tag-menu}
 
-[Tag menu: Rename, Show in My tags, Settle up checked, Hide from picker, Hints, Delete]
+[Tag menu: Rename, Show in My tags, Settle up checked, Hide from picker, Hints, Help Center, Delete]
 
 (O)
 #### Rename
@@ -3950,9 +3980,14 @@ The tag disappears from the picker sheet in the form, but stays on the transacti
 (S)
 #### Hints
 
-This screen's hints — and a link here.
+This screen's hints.
 
 (T)
+#### Help Center
+
+This article on the website: it opens in your browser, in the app's language.
+
+(U)
 #### Delete
 
 The tag is removed from all transactions; the transactions themselves stay. The app asks again.
@@ -4464,7 +4499,7 @@ The app makes a backup by itself when it's due — when you open the app and whe
 
 #### The “⋮” menu {#sync-menu}
 
-[Backups screen menu: Restore from a file, Readable copy, Hints]
+[Backups screen menu: Restore from a file, Readable copy, Hints, Help Center]
 
 [Readable copy sheet: Archive with photos and PDFs, Data only, A file from the cloud]
 
@@ -4494,6 +4529,11 @@ It's a road to your data that bypasses the app: even without the app, the budget
 #### Hints
 
 this screen's hints as a list.
+
+(D)
+#### Help Center
+
+This article on the website: it opens in your browser, in the app's language.
 
 ### Load a budget from the cloud {#sync-restore}
 
@@ -4715,9 +4755,11 @@ Category overspending, debt and sync state stay colored whatever you choose: the
 
 Hints and getting in touch with the developer.
 
-[Help & contact section: Hints, Telegram chat, Report a problem, Suggest an improvement]
+[Help & contact section: Hints, Help Center, Telegram chat, Report a problem, Suggest an improvement]
 
 **Hints** — all of the app's hints as a list, by screen. Also “Show hints again”. One screen's hints are also opened by the “Hints” item in its “⋮” menu.
+
+**Help Center** — articles about every screen on the website, in the app's language; this item opens the main page. One screen's article is opened by the “Help Center” item in its “⋮” menu.
 
 **Telegram chat** — a group where questions get answered and where you can ask other users.
 

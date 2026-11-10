@@ -1703,7 +1703,7 @@ Por aquele que você ainda não dividiu entre os envelopes. Passá-lo diminui o 
 
 Os orçamentos, a aparência do “Resumo” e o modo de exibição.
 
-[Menu “⋮” da tela “Resumo”: Orçamentos, Widgets, Ocultar valores, Dicas]
+[Menu “⋮” da tela “Resumo”: Orçamentos, Widgets, Ocultar valores, Dicas, Central de ajuda]
 
 (A)
 #### Orçamentos
@@ -1734,7 +1734,12 @@ Enquanto o modo está ligado, há um olho riscado no cabeçalho do “Resumo” 
 (D)
 #### Dicas
 
-Todas as dicas desta tela num lugar só — e um link para esta página.
+Todas as dicas desta tela num lugar só.
+
+(E)
+#### Central de ajuda
+
+Este artigo no site: abre no navegador, no idioma do app.
 
 [Folha “Widgets da visão geral”: blocos com vistos e alças de arrastar]
 **“Widgets”.** Visto — mostrar, a alça à direita — arrastar.
@@ -1880,7 +1885,7 @@ Toque em qualquer captura para abri-la em tela cheia.
 
 Metas, a ordem dos envelopes e o que mostrar nas linhas.
 
-[O menu “⋮” aberto da tela “Plano”: Metas, Alocar nas metas, Mudar a ordem, Barras de progresso, Porcentagem da renda, Categorias ocultas, Dicas]
+[O menu “⋮” aberto da tela “Plano”: Metas, Alocar nas metas, Mudar a ordem, Barras de progresso, Porcentagem da renda, Categorias ocultas, Dicas, Central de ajuda]
 
 (A)
 #### Metas
@@ -1941,7 +1946,12 @@ Um envelope que tem gastos não pode ser excluído — os relatórios precisam d
 (G)
 #### Dicas
 
-Todas as dicas desta tela num lugar só — e um link para esta página.
+Todas as dicas desta tela num lugar só.
+
+(H)
+#### Central de ajuda
+
+Este artigo no site: abre no navegador, no idioma do app.
 
 ### O que dá para fazer com uma linha {#budget-gestures}
 
@@ -2006,7 +2016,7 @@ Na captura, o “Mercado” está atingido: os R$ 1.200 já estão separados no 
 
 #### O menu “⋮” {#goals-menu}
 
-[Menu da tela Metas: Todas as categorias, Apenas com metas, Subfinanciado, Barras de progresso, Dicas]
+[Menu da tela Metas: Todas as categorias, Apenas com metas, Subfinanciado, Barras de progresso, Dicas, Central de ajuda]
 
 (A, B, C)
 #### Quais categorias mostrar
@@ -2022,6 +2032,11 @@ se mostrar barras e porcentagens. Sem elas a linha fica mais curta, enquanto a m
 #### Dicas
 
 as dicas desta tela em forma de lista.
+
+(F)
+#### Central de ajuda
+
+Este artigo no site: abre no navegador, no idioma do app.
 
 ### Como definir uma meta {#goals-new}
 
@@ -2276,7 +2291,7 @@ Num mês passado você vê quanto havia e quanto foi gasto então. Lá não há 
 
 ### O menu “⋮” {#category-menu}
 
-[Menu: Ocultar a categoria, Editar a categoria, Dicas, Excluir a categoria]
+[Menu: Ocultar a categoria, Editar a categoria, Dicas, Central de ajuda, Excluir a categoria]
 
 (A)
 ##### “Ocultar a categoria”
@@ -2294,6 +2309,11 @@ Uma folha com o nome e um campo “Grupo”. Detalhes — [abaixo](#category-edi
 As dicas desta tela — inclusive as que você já fechou.
 
 (D)
+##### “Central de ajuda”
+
+Este artigo no site: abre no navegador, no idioma do app.
+
+(E)
 ##### “Excluir a categoria”
 
 Só se a categoria não tiver nenhuma transação. Então, depois da pergunta “Excluir a categoria?”, ela some, a meta dela também, e tudo o que estava separado nela volta para “não alocado”.
@@ -2554,7 +2574,7 @@ Há também: **duas setas** — uma transferência entre as suas contas; **um ca
 
 Tudo aqui é sobre como mostrar o feed. Nenhum item muda ou apaga os seus lançamentos — experimente sem medo.
 
-[O menu “⋮” aberto: Selecionar transações, Filtro, Ordenação, Total do dia, Dicas]
+[O menu “⋮” aberto: Selecionar transações, Filtro, Ordenação, Total do dia, Dicas, Central de ajuda]
 
 (A)
 #### Selecionar transações
@@ -2606,7 +2626,12 @@ Ligue “Só despesas” — e à direita de cada data você vê quanto gastou n
 Todas as dicas desta tela num lugar só.
 
 *Como funciona:*
-No app, as dicas aparecem uma de cada vez — quando são úteis, para não soterrar você com tudo de uma vez. Aqui estão todas reunidas, até as que você ainda não alcançou. E no fim da lista — um link para esta página.
+No app, as dicas aparecem uma de cada vez — quando são úteis, para não soterrar você com tudo de uma vez. Aqui estão todas reunidas, até as que você ainda não alcançou.
+
+(F)
+#### Central de ajuda
+
+Este artigo no site: abre no navegador, no idioma do app.
 
 ### O que dá para fazer com uma linha {#transactions-gestures}
 
@@ -3001,7 +3026,7 @@ Uma conta nova cai na sua seção sozinha, pelo tipo: “Dinheiro” e “Conta 
 
 Uma conta nova e como mostrar a lista.
 
-[Menu “⋮” da tela “Contas”: Adicionar conta, Saldos correntes, Contas ocultas, Dicas]
+[Menu “⋮” da tela “Contas”: Adicionar conta, Saldos correntes, Contas ocultas, Dicas, Central de ajuda]
 
 (F)
 #### Adicionar conta
@@ -3034,7 +3059,12 @@ O número entre parênteses é quantas são. Enquanto não há contas ocultas, o
 (I)
 #### Dicas
 
-Todas as dicas desta tela num lugar só — e um link para esta página.
+Todas as dicas desta tela num lugar só.
+
+(J)
+#### Central de ajuda
+
+Este artigo no site: abre no navegador, no idioma do app.
 
 ### O que dá para fazer com uma linha {#accounts-gestures}
 
@@ -3925,7 +3955,7 @@ Todas as transações com a tag, por dia.
 
 #### O menu “⋮” da tag {#payees-tags-tag-menu}
 
-[Menu da tag: Renomear, Mostrar em Minhas tags, Acerto de contas marcado, Ocultar da seleção, Dicas, Excluir]
+[Menu da tag: Renomear, Mostrar em Minhas tags, Acerto de contas marcado, Ocultar da seleção, Dicas, Central de ajuda, Excluir]
 
 (O)
 #### Renomear
@@ -3950,9 +3980,14 @@ A tag some da folha de escolha do formulário, mas fica nas transações. Práti
 (S)
 #### Dicas
 
-As dicas desta tela — e um link para cá.
+As dicas desta tela.
 
 (T)
+#### Central de ajuda
+
+Este artigo no site: abre no navegador, no idioma do app.
+
+(U)
 #### Excluir
 
 A tag é tirada de todas as transações; as transações em si ficam. O app pergunta de novo.
@@ -4464,7 +4499,7 @@ O app faz um backup sozinho quando chega a hora — quando você abre o app e qu
 
 #### O menu “⋮” {#sync-menu}
 
-[Menu da tela Backups: Restaurar de um arquivo, Cópia legível, Dicas]
+[Menu da tela Backups: Restaurar de um arquivo, Cópia legível, Dicas, Central de ajuda]
 
 [Folha Cópia legível: Arquivo compactado com fotos e PDF, Só os dados, Um arquivo da nuvem]
 
@@ -4494,6 +4529,11 @@ Três opções:
 #### Dicas
 
 as dicas desta tela em forma de lista.
+
+(D)
+#### Central de ajuda
+
+Este artigo no site: abre no navegador, no idioma do app.
 
 ### Carregar um orçamento da nuvem {#sync-restore}
 
@@ -4715,9 +4755,11 @@ O gasto excedido de uma categoria, a dívida e o estado da sincronização conti
 
 As dicas e o contato com o desenvolvedor.
 
-[Seção Ajuda e contato: Dicas, Bate-papo no Telegram, Relatar um erro, Sugerir uma melhoria]
+[Seção Ajuda e contato: Dicas, Central de ajuda, Bate-papo no Telegram, Relatar um erro, Sugerir uma melhoria]
 
 **Dicas** — todas as dicas do app em lista, por tela. E também “Mostrar as dicas de novo”. As dicas de uma tela também são abertas pelo item “Dicas” do menu “⋮” dela.
+
+**Central de ajuda** — artigos sobre cada tela no site, no idioma do app; o item abre a página inicial. O artigo de uma tela é aberto pelo item “Central de ajuda” do menu “⋮” dela.
 
 **Bate-papo no Telegram** — um grupo onde as perguntas são respondidas e onde dá para perguntar a outros usuários.
 

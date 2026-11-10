@@ -1703,7 +1703,7 @@ Da quello che non hai ancora diviso tra le buste. Spostarlo riduce il «non asse
 
 I budget, l'aspetto della «Panoramica» e la modalità di visualizzazione.
 
-[Il menu «⋮» della schermata «Panoramica»: Budget, Widget, Nascondi gli importi, Suggerimenti]
+[Il menu «⋮» della schermata «Panoramica»: Budget, Widget, Nascondi gli importi, Suggerimenti, Centro assistenza]
 
 (A)
 #### Budget
@@ -1734,7 +1734,12 @@ Finché la modalità è attiva, nell'intestazione della «Panoramica» c'è un o
 (D)
 #### Suggerimenti
 
-Tutti i suggerimenti di questa schermata in un posto, e un link a questa pagina.
+Tutti i suggerimenti di questa schermata in un posto.
+
+(E)
+#### Centro assistenza
+
+Questo articolo sul sito: si apre nel browser, nella lingua dell'app.
 
 [Foglio «Widget della panoramica»: blocchi con spunte e maniglie di trascinamento]
 **«Widget».** Una spunta, mostralo; la maniglia a destra, trascinalo.
@@ -1880,7 +1885,7 @@ Tocca uno screenshot per aprirlo a schermo intero.
 
 Obiettivi, ordine delle buste e che cosa mostrare nelle righe.
 
-[Il menu «⋮» aperto della schermata «Budget»: Obiettivi, Assegna agli obiettivi, Cambia l'ordine, Barre di avanzamento, Percentuale del reddito, Categorie nascoste, Suggerimenti]
+[Il menu «⋮» aperto della schermata «Budget»: Obiettivi, Assegna agli obiettivi, Cambia l'ordine, Barre di avanzamento, Percentuale del reddito, Categorie nascoste, Suggerimenti, Centro assistenza]
 
 (A)
 #### Obiettivi
@@ -1941,7 +1946,12 @@ Una busta con delle spese non si può eliminare: ai report serve la sua storia. 
 (G)
 #### Suggerimenti
 
-Tutti i suggerimenti di questa schermata in un posto, e un link a questa pagina.
+Tutti i suggerimenti di questa schermata in un posto.
+
+(H)
+#### Centro assistenza
+
+Questo articolo sul sito: si apre nel browser, nella lingua dell'app.
 
 ### Che cosa si può fare con una riga {#budget-gestures}
 
@@ -2006,7 +2016,7 @@ Nello screenshot «Spesa» è raggiunta: a novembre nella busta sono già messi 
 
 #### Il menu «⋮» {#goals-menu}
 
-[Menu della schermata Obiettivi: Tutte le categorie, Solo con obiettivi, Sottofinanziate, Barre di avanzamento, Suggerimenti]
+[Menu della schermata Obiettivi: Tutte le categorie, Solo con obiettivi, Sottofinanziate, Barre di avanzamento, Suggerimenti, Centro assistenza]
 
 (A, B, C)
 #### Quali categorie mostrare
@@ -2022,6 +2032,11 @@ se mostrare barre e percentuali. Senza, la riga è più corta, mentre obiettivo 
 #### Suggerimenti
 
 i suggerimenti di questa schermata come elenco.
+
+(F)
+#### Centro assistenza
+
+Questo articolo sul sito: si apre nel browser, nella lingua dell'app.
 
 ### Come impostare un obiettivo {#goals-new}
 
@@ -2276,7 +2291,7 @@ In un mese passato vedi quanto c'era e quanto si è speso allora. Lì la riga «
 
 ### Il menu «⋮» {#category-menu}
 
-[Menu: Nascondi la categoria, Modifica la categoria, Suggerimenti, Elimina la categoria]
+[Menu: Nascondi la categoria, Modifica la categoria, Suggerimenti, Centro assistenza, Elimina la categoria]
 
 (A)
 ##### «Nascondi la categoria»
@@ -2294,6 +2309,11 @@ Un foglio con il nome e un campo «Gruppo». I dettagli sono [più sotto](#categ
 I suggerimenti di questa schermata, anche quelli che hai già chiuso.
 
 (D)
+##### «Centro assistenza»
+
+Questo articolo sul sito: si apre nel browser, nella lingua dell'app.
+
+(E)
 ##### «Elimina la categoria»
 
 Solo se la categoria non ha nessuna transazione. Allora, dopo la domanda «Eliminare la categoria?», sparisce, insieme al suo obiettivo, e tutto ciò che vi era messo da parte torna in «non assegnato».
@@ -2554,7 +2574,7 @@ Ci sono anche: **due frecce**, un trasferimento tra i tuoi conti; **un calendari
 
 Qui tutto riguarda come mostrare l'elenco. Nessuna voce cambia o elimina le tue registrazioni: provale senza timore.
 
-[Il menu «⋮» aperto: Seleziona transazioni, Filtro, Ordinamento, Totale del giorno, Suggerimenti]
+[Il menu «⋮» aperto: Seleziona transazioni, Filtro, Ordinamento, Totale del giorno, Suggerimenti, Centro assistenza]
 
 (A)
 #### Seleziona transazioni
@@ -2606,7 +2626,12 @@ Attiva «Solo spese», e a destra di ogni data vedrai quanto hai speso quel gior
 Tutti i suggerimenti di questa schermata in un posto.
 
 *Come funziona:*
-Nell'app i suggerimenti compaiono uno alla volta, quando servono, per non seppellirti sotto tutto insieme. Qui sono raccolti tutti, anche quelli a cui non sei ancora arrivato. E in fondo all'elenco c'è un link a questa pagina.
+Nell'app i suggerimenti compaiono uno alla volta, quando servono, per non seppellirti sotto tutto insieme. Qui sono raccolti tutti, anche quelli a cui non sei ancora arrivato.
+
+(F)
+#### Centro assistenza
+
+Questo articolo sul sito: si apre nel browser, nella lingua dell'app.
 
 ### Che cosa si può fare con una riga {#transactions-gestures}
 
@@ -3001,7 +3026,7 @@ Un conto nuovo finisce da solo nella sua sezione, secondo il tipo: «Contanti» 
 
 Un conto nuovo e come mostrare l'elenco.
 
-[Il menu «⋮» della schermata «Conti»: Aggiungi un conto, Saldi progressivi, Conti nascosti, Suggerimenti]
+[Il menu «⋮» della schermata «Conti»: Aggiungi un conto, Saldi progressivi, Conti nascosti, Suggerimenti, Centro assistenza]
 
 (F)
 #### Aggiungi un conto
@@ -3034,7 +3059,12 @@ Il numero tra parentesi è quanti sono. Finché non ci sono conti nascosti, la v
 (I)
 #### Suggerimenti
 
-Tutti i suggerimenti di questa schermata in un posto, e un link a questa pagina.
+Tutti i suggerimenti di questa schermata in un posto.
+
+(J)
+#### Centro assistenza
+
+Questo articolo sul sito: si apre nel browser, nella lingua dell'app.
 
 ### Che cosa si può fare con una riga {#accounts-gestures}
 
@@ -3927,7 +3957,7 @@ Tutte le transazioni con il tag, per giorno.
 
 #### Il menu «⋮» del tag {#payees-tags-tag-menu}
 
-[Menu del tag: Rinomina, Mostra in I miei tag, Conguaglio spuntato, Nascondi dalla scelta, Suggerimenti, Elimina]
+[Menu del tag: Rinomina, Mostra in I miei tag, Conguaglio spuntato, Nascondi dalla scelta, Suggerimenti, Centro assistenza, Elimina]
 
 (O)
 #### Rinomina
@@ -3952,9 +3982,14 @@ Il tag sparisce dal foglio di scelta nel modulo, ma resta sulle transazioni. Com
 (S)
 #### Suggerimenti
 
-I suggerimenti di questa schermata, e un link qui.
+I suggerimenti di questa schermata.
 
 (T)
+#### Centro assistenza
+
+Questo articolo sul sito: si apre nel browser, nella lingua dell'app.
+
+(U)
 #### Elimina
 
 Il tag viene tolto da tutte le transazioni; le transazioni stesse restano. L'app chiede di nuovo.
@@ -4466,7 +4501,7 @@ Lo chiede «Crea un backup adesso».
 
 #### Il menu «⋮» {#sync-menu}
 
-[Menu della schermata Backup: Ripristina da un file, Copia leggibile, Suggerimenti]
+[Menu della schermata Backup: Ripristina da un file, Copia leggibile, Suggerimenti, Centro assistenza]
 
 [Foglio Copia leggibile: Archivio con foto e PDF, Solo dati, Un file dal cloud]
 
@@ -4496,6 +4531,11 @@ Tre opzioni:
 #### Suggerimenti
 
 i suggerimenti di questa schermata come elenco.
+
+(D)
+#### Centro assistenza
+
+Questo articolo sul sito: si apre nel browser, nella lingua dell'app.
 
 ### Caricare un budget dal cloud {#sync-restore}
 
@@ -4717,9 +4757,11 @@ Lo sforamento delle categorie, il debito e lo stato della sincronizzazione resta
 
 Suggerimenti e contatti con lo sviluppatore.
 
-[Sezione Aiuto e contatti: Suggerimenti, Chat su Telegram, Segnala un problema, Proponi un miglioramento]
+[Sezione Aiuto e contatti: Suggerimenti, Centro assistenza, Chat su Telegram, Segnala un problema, Proponi un miglioramento]
 
 **Suggerimenti**: tutti i suggerimenti dell'app come elenco, per schermata. Anche «Mostra di nuovo i suggerimenti». I suggerimenti di una schermata si aprono anche con la voce «Suggerimenti» nel suo menu «⋮».
+
+**Centro assistenza**: articoli su ogni schermata sul sito, nella lingua dell'app; la voce apre la pagina principale. L'articolo di una schermata si apre con la voce «Centro assistenza» nel suo menu «⋮».
 
 **Chat su Telegram**: un gruppo dove si risponde alle domande e dove puoi chiedere ad altri utenti.
 

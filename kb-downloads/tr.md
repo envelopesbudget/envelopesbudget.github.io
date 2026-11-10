@@ -1703,7 +1703,7 @@ Henüz zarflara bölmediğiniz maaşla. Onu taşımak, bu ayın “dağıtılmad
 
 Bütçeler, “Özet”in görünümü ve görüntüleme modu.
 
-[“Özet” ekranının “⋮” menüsü: Bütçeler, Widget’lar, Tutarları gizle, İpuçları]
+[“Özet” ekranının “⋮” menüsü: Bütçeler, Widget’lar, Tutarları gizle, İpuçları, Bilgi bankası]
 
 (A)
 #### Bütçeler
@@ -1734,7 +1734,12 @@ Mod açıkken “Özet” başlığında üstü çizili bir göz vardır — tut
 (D)
 #### İpuçları
 
-Bu ekranın tüm ipuçları tek bir yerde — ve bu sayfaya bir bağlantı.
+Bu ekranın tüm ipuçları tek bir yerde.
+
+(E)
+#### Bilgi bankası
+
+Web sitesindeki bu makale: tarayıcıda, uygulamanın dilinde açılır.
 
 [“Özet widget’ları” sayfası: onay işaretli bloklar ve sürükleme tutamakları]
 **“Widget’lar”.** Onay işareti — gösterilir, sağdaki tutamak — sürükleyin.
@@ -1880,7 +1885,7 @@ Tam ekran açmak için herhangi bir ekran görüntüsüne dokunun.
 
 Hedefler, zarfların sırası ve satırlarda neyin gösterileceği.
 
-[“Bütçe” ekranının açık “⋮” menüsü: Hedefler, Hedeflere dağıt, Sırayı değiştir, İlerleme çubukları, Gelirden yüzde, Gizli kategoriler, İpuçları]
+[“Bütçe” ekranının açık “⋮” menüsü: Hedefler, Hedeflere dağıt, Sırayı değiştir, İlerleme çubukları, Gelirden yüzde, Gizli kategoriler, İpuçları, Bilgi bankası]
 
 (A)
 #### Hedefler
@@ -1941,7 +1946,12 @@ Harcaması olan bir zarf silinemez — raporların onun geçmişine ihtiyacı va
 (G)
 #### İpuçları
 
-Bu ekranın tüm ipuçları tek bir yerde — ve bu sayfaya bir bağlantı.
+Bu ekranın tüm ipuçları tek bir yerde.
+
+(H)
+#### Bilgi bankası
+
+Web sitesindeki bu makale: tarayıcıda, uygulamanın dilinde açılır.
 
 ### Satırla neler yapabilirsiniz {#budget-gestures}
 
@@ -2006,7 +2016,7 @@ Ekran görüntüsünde “Market” tamam: Kasım ayında zarfa ₺10.000 zaten 
 
 #### “⋮” menüsü {#goals-menu}
 
-[Hedefler ekranı menüsü: Tüm kategoriler, Yalnızca hedefli, Eksik, İlerleme çubukları, İpuçları]
+[Hedefler ekranı menüsü: Tüm kategoriler, Yalnızca hedefli, Eksik, İlerleme çubukları, İpuçları, Bilgi bankası]
 
 (A, B, C)
 #### Hangi kategoriler gösterilsin
@@ -2022,6 +2032,11 @@ Ekran görüntüsünde “Market” tamam: Kasım ayında zarfa ₺10.000 zaten 
 #### İpuçları
 
 bu ekranın ipuçları liste olarak.
+
+(F)
+#### Bilgi bankası
+
+Web sitesindeki bu makale: tarayıcıda, uygulamanın dilinde açılır.
 
 ### Hedef nasıl belirlenir {#goals-new}
 
@@ -2276,7 +2291,7 @@ Geçmiş bir ayda o zaman ne kadar olduğunu ve ne kadar harcandığını görü
 
 ### “⋮” menüsü {#category-menu}
 
-[Menü: Kategoriyi gizle, Kategoriyi düzenle, İpuçları, Kategoriyi sil]
+[Menü: Kategoriyi gizle, Kategoriyi düzenle, İpuçları, Bilgi bankası, Kategoriyi sil]
 
 (A)
 ##### “Kategoriyi gizle”
@@ -2294,6 +2309,11 @@ Ad ve bir “Grup” alanı olan bir sayfa. Ayrıntılar — [aşağıda](#categ
 Bu ekranın ipuçları — zaten kapattıklarınız dahil.
 
 (D)
+##### “Bilgi bankası”
+
+Web sitesindeki bu makale: tarayıcıda, uygulamanın dilinde açılır.
+
+(E)
 ##### “Kategoriyi sil”
 
 Yalnızca kategorinin hiç işlemi yoksa. O zaman “Kategori silinsin mi?” sorusundan sonra kaybolur, hedefi de; içinde ayrılan her şey de “dağıtılmadı”ya döner.
@@ -2554,7 +2574,7 @@ Ayrıca şunlar var: **iki ok** — hesaplarınız arasında bir transfer; **okl
 
 Buradaki her şey akışın nasıl gösterileceğiyle ilgilidir. Tek bir madde bile kayıtlarınızı değiştirmez ya da silmez — gönül rahatlığıyla deneyin.
 
-[Açık “⋮” menüsü: İşlem seçimi, Filtre, Sıralama, Günlük toplam, İpuçları]
+[Açık “⋮” menüsü: İşlem seçimi, Filtre, Sıralama, Günlük toplam, İpuçları, Bilgi bankası]
 
 (A)
 #### İşlem seçimi
@@ -2606,7 +2626,12 @@ Bir günde ne kadar çıktığı — doğrudan tarihin yanında.
 Bu ekranın tüm ipuçları tek bir yerde.
 
 *Nasıl çalışır:*
-Uygulamada ipuçları her seferinde bir tane belirir — sizi her şeyle birden boğmamak için, işe yaradıkları anda. Burada hepsi toplanmış, henüz ulaşmadıklarınız bile. Listenin altında da bu sayfaya bir bağlantı var.
+Uygulamada ipuçları her seferinde bir tane belirir — sizi her şeyle birden boğmamak için, işe yaradıkları anda. Burada hepsi toplanmış, henüz ulaşmadıklarınız bile.
+
+(F)
+#### Bilgi bankası
+
+Web sitesindeki bu makale: tarayıcıda, uygulamanın dilinde açılır.
 
 ### Satırla neler yapabilirsiniz {#transactions-gestures}
 
@@ -3001,7 +3026,7 @@ Yeni bir hesap türüne göre kendi bölümüne kendiliğinden düşer: “Nakit
 
 Yeni bir hesap ve listenin nasıl gösterileceği.
 
-[“Hesaplar” ekranının “⋮” menüsü: Hesap ekle, Yürüyen bakiyeler, Gizli hesaplar, İpuçları]
+[“Hesaplar” ekranının “⋮” menüsü: Hesap ekle, Yürüyen bakiyeler, Gizli hesaplar, İpuçları, Bilgi bankası]
 
 (F)
 #### Hesap ekle
@@ -3034,7 +3059,12 @@ Parantez içindeki sayı kaç tane olduklarıdır. Gizli hesap olmadığı süre
 (I)
 #### İpuçları
 
-Bu ekranın tüm ipuçları tek bir yerde — ve bu sayfaya bir bağlantı.
+Bu ekranın tüm ipuçları tek bir yerde.
+
+(J)
+#### Bilgi bankası
+
+Web sitesindeki bu makale: tarayıcıda, uygulamanın dilinde açılır.
 
 ### Satırla neler yapabilirsiniz {#accounts-gestures}
 
@@ -3925,7 +3955,7 @@ Etiketli tüm işlemler, günlere göre.
 
 #### Etiketin “⋮” menüsü {#payees-tags-tag-menu}
 
-[Etiket menüsü: Yeniden adlandır, Etiketlerim'de göster, Hesaplaşma işaretli, Seçimden gizle, İpuçları, Sil]
+[Etiket menüsü: Yeniden adlandır, Etiketlerim'de göster, Hesaplaşma işaretli, Seçimden gizle, İpuçları, Bilgi bankası, Sil]
 
 (O)
 #### Yeniden adlandır
@@ -3950,9 +3980,14 @@ Etiket formdaki seçim sayfasından kaybolur, ama işlemlerde kalır. Biten bir 
 (S)
 #### İpuçları
 
-Bu ekranın ipuçları — ve buraya bir bağlantı.
+Bu ekranın ipuçları.
 
 (T)
+#### Bilgi bankası
+
+Web sitesindeki bu makale: tarayıcıda, uygulamanın dilinde açılır.
+
+(U)
 #### Sil
 
 Etiket tüm işlemlerden kaldırılır; işlemlerin kendisi kalır. Uygulama tekrar sorar.
@@ -4464,7 +4499,7 @@ Uygulama vakti geldiğinde yedeği kendisi alır — uygulamayı açtığınızd
 
 #### “⋮” menüsü {#sync-menu}
 
-[Yedekler ekranı menüsü: Dosyadan geri yükle, Okunabilir kopya, İpuçları]
+[Yedekler ekranı menüsü: Dosyadan geri yükle, Okunabilir kopya, İpuçları, Bilgi bankası]
 
 [Okunabilir kopya sayfası: Fotoğraflı ve PDF’li arşiv, Yalnızca veriler, Buluttan bir dosya]
 
@@ -4494,6 +4529,11 @@ Bu, verilerinize uygulamayı atlayarak giden bir yoldur: uygulama olmasa bile b�
 #### İpuçları
 
 bu ekranın ipuçları liste olarak.
+
+(D)
+#### Bilgi bankası
+
+Web sitesindeki bu makale: tarayıcıda, uygulamanın dilinde açılır.
 
 ### Bütçeyi buluttan yükleyin {#sync-restore}
 
@@ -4715,9 +4755,11 @@ Kategori aşımı, borç ve eşitleme durumu, neyi seçerseniz seçin renkli kal
 
 İpuçları ve geliştiriciyle iletişim.
 
-[Yardım ve iletişim bölümü: İpuçları, Telegram sohbeti, Hata bildir, İyileştirme öner]
+[Yardım ve iletişim bölümü: İpuçları, Bilgi bankası, Telegram sohbeti, Hata bildir, İyileştirme öner]
 
 **İpuçları** — uygulamanın tüm ipuçları, ekrana göre bir liste olarak. Ayrıca “İpuçlarını yeniden göster”. Bir ekranın ipuçları, onun “⋮” menüsündeki “İpuçları” maddesiyle de açılır.
+
+**Bilgi bankası** — web sitesinde her ekran için makaleler, uygulamanın dilinde; bu madde ana sayfayı açar. Bir ekranın makalesi, onun “⋮” menüsündeki “Bilgi bankası” maddesiyle açılır.
 
 **Telegram sohbeti** — soruların yanıtlandığı ve diğer kullanıcılara sorabileceğiniz bir grup.
 

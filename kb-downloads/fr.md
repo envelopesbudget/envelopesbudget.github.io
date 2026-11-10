@@ -1703,7 +1703,7 @@ Par celui que vous n'avez pas encore réparti entre les enveloppes. Le déplacem
 
 Les budgets, l'apparence d'« Aperçu » et le mode d'affichage.
 
-[Le menu « ⋮ » de l'écran « Aperçu » : Budgets, Widgets, Masquer les montants, Astuces]
+[Le menu « ⋮ » de l'écran « Aperçu » : Budgets, Widgets, Masquer les montants, Astuces, Centre d'aide]
 
 (A)
 #### Budgets
@@ -1734,7 +1734,12 @@ Tant que le mode est actif, un œil barré figure en haut d'« Aperçu » — to
 (D)
 #### Astuces
 
-Toutes les astuces de cet écran au même endroit — et un lien vers cette page.
+Toutes les astuces de cet écran au même endroit.
+
+(E)
+#### Centre d'aide
+
+Cet article sur le site : il s'ouvre dans le navigateur, dans la langue de l'application.
 
 [Fiche « Widgets de l'aperçu » : blocs avec coches et poignées de déplacement]
 **« Widgets ».** Une coche — afficher, la poignée à droite — déplacer.
@@ -1880,7 +1885,7 @@ Touchez une capture — elle s'ouvre en plein écran.
 
 Les objectifs, l'ordre des enveloppes et ce qu'affichent les lignes.
 
-[Le menu « ⋮ » ouvert de l'écran « Budget » : Objectifs, Répartir sur les objectifs, Changer l'ordre, Barres de progression, Pourcentage du revenu, Catégories masquées, Astuces]
+[Le menu « ⋮ » ouvert de l'écran « Budget » : Objectifs, Répartir sur les objectifs, Changer l'ordre, Barres de progression, Pourcentage du revenu, Catégories masquées, Astuces, Centre d'aide]
 
 (A)
 #### Objectifs
@@ -1941,7 +1946,12 @@ Une enveloppe qui a eu des dépenses ne peut pas être supprimée — les rappor
 (G)
 #### Astuces
 
-Toutes les astuces de cet écran au même endroit — et un lien vers cette page.
+Toutes les astuces de cet écran au même endroit.
+
+(H)
+#### Centre d'aide
+
+Cet article sur le site : il s'ouvre dans le navigateur, dans la langue de l'application.
 
 ### Ce qu'on peut faire avec une ligne {#budget-gestures}
 
@@ -2006,7 +2016,7 @@ Sur la capture, « Courses » est atteint : 400 € sont déjà mis de côté po
 
 #### Le menu « ⋮ » {#goals-menu}
 
-[Menu de l'écran Objectifs : Toutes les catégories, Avec objectifs seulement, Sous-financées, Barres de progression, Astuces]
+[Menu de l'écran Objectifs : Toutes les catégories, Avec objectifs seulement, Sous-financées, Barres de progression, Astuces, Centre d'aide]
 
 (A, B, C)
 #### Quelles catégories afficher
@@ -2022,6 +2032,11 @@ afficher ou non les barres et les pourcentages. Sans elles, la ligne est plus co
 #### Astuces
 
 les astuces de cet écran sous forme de liste.
+
+(F)
+#### Centre d'aide
+
+Cet article sur le site : il s'ouvre dans le navigateur, dans la langue de l'application.
 
 ### Créer un objectif {#goals-new}
 
@@ -2276,7 +2291,7 @@ Pour un mois passé, on voit ce qu'il y avait et ce qui a été dépensé à l'�
 
 ### Le menu « ⋮ » {#category-menu}
 
-[Menu : Masquer la catégorie, Modifier la catégorie, Astuces, Supprimer la catégorie]
+[Menu : Masquer la catégorie, Modifier la catégorie, Astuces, Centre d'aide, Supprimer la catégorie]
 
 (A)
 ##### « Masquer la catégorie »
@@ -2294,6 +2309,11 @@ Une fiche avec le nom et un champ « Groupe ». En détail — [plus bas](#categ
 Les astuces de cet écran — y compris celles que vous avez déjà fermées.
 
 (D)
+##### « Centre d'aide »
+
+Cet article sur le site : il s'ouvre dans le navigateur, dans la langue de l'application.
+
+(E)
 ##### « Supprimer la catégorie »
 
 Seulement si la catégorie n'a aucune opération. Alors, après la question « Supprimer la catégorie ? », elle disparaît, son objectif aussi, et tout ce qui y était mis de côté revient dans « non réparti ».
@@ -2554,7 +2574,7 @@ Il existe aussi : **deux flèches** — un virement entre vos comptes ; **un pet
 
 Tout ici concerne l'affichage du fil. Aucun élément ne modifie ni ne supprime vos entrées — essayez sans crainte.
 
-[Le menu « ⋮ » ouvert : Sélectionner des opérations, Filtre, Tri, Total du jour, Astuces]
+[Le menu « ⋮ » ouvert : Sélectionner des opérations, Filtre, Tri, Total du jour, Astuces, Centre d'aide]
 
 (A)
 #### Sélectionner des opérations
@@ -2606,7 +2626,12 @@ Activez « Dépenses seulement » — à droite de chaque date apparaît ce que 
 Toutes les astuces de cet écran au même endroit.
 
 *Comment ça marche:*
-Dans l'application, les astuces apparaissent une par une — au moment où elles servent, pour ne pas tout vous déverser d'un coup. Ici, elles sont toutes réunies, même celles que vous n'avez pas encore rencontrées. Et en bas de la liste — un lien vers cette page.
+Dans l'application, les astuces apparaissent une par une — au moment où elles servent, pour ne pas tout vous déverser d'un coup. Ici, elles sont toutes réunies, même celles que vous n'avez pas encore rencontrées.
+
+(F)
+#### Centre d'aide
+
+Cet article sur le site : il s'ouvre dans le navigateur, dans la langue de l'application.
 
 ### Ce qu'on peut faire avec une ligne {#transactions-gestures}
 
@@ -3001,7 +3026,7 @@ Un nouveau compte va de lui-même dans sa section, selon son type : « Espèces 
 
 Un nouveau compte et l'affichage de la liste.
 
-[Le menu « ⋮ » de l'écran « Comptes » : Ajouter un compte, Soldes des comptes, Comptes masqués, Astuces]
+[Le menu « ⋮ » de l'écran « Comptes » : Ajouter un compte, Soldes des comptes, Comptes masqués, Astuces, Centre d'aide]
 
 (F)
 #### Ajouter un compte
@@ -3034,7 +3059,12 @@ Entre parenthèses — combien il y en a. Tant qu'il n'y a pas de compte masqué
 (I)
 #### Astuces
 
-Toutes les astuces de cet écran au même endroit — et un lien vers cette page.
+Toutes les astuces de cet écran au même endroit.
+
+(J)
+#### Centre d'aide
+
+Cet article sur le site : il s'ouvre dans le navigateur, dans la langue de l'application.
 
 ### Ce qu'on peut faire avec une ligne {#accounts-gestures}
 
@@ -3925,7 +3955,7 @@ Toutes les opérations avec ce tag, par jour.
 
 #### Le menu « ⋮ » du tag {#payees-tags-tag-menu}
 
-[Menu du tag : Renommer, Afficher dans Mes tags, Règlement coché, Masquer du choix, Astuces, Supprimer]
+[Menu du tag : Renommer, Afficher dans Mes tags, Règlement coché, Masquer du choix, Astuces, Centre d'aide, Supprimer]
 
 (O)
 #### Renommer
@@ -3950,9 +3980,14 @@ Le tag disparaît de la fiche de choix du formulaire, mais reste sur les opérat
 (S)
 #### Astuces
 
-Les astuces de cet écran — et un lien vers ici.
+Les astuces de cet écran.
 
 (T)
+#### Centre d'aide
+
+Cet article sur le site : il s'ouvre dans le navigateur, dans la langue de l'application.
+
+(U)
 #### Supprimer
 
 Le tag est retiré de toutes les opérations ; les opérations elles-mêmes restent. L'application redemande.
@@ -4464,7 +4499,7 @@ C'est la question que pose « Créer une sauvegarde maintenant ».
 
 #### Le menu « ⋮ » {#sync-menu}
 
-[Menu de l'écran Sauvegardes : Restaurer depuis un fichier, Copie lisible, Astuces]
+[Menu de l'écran Sauvegardes : Restaurer depuis un fichier, Copie lisible, Astuces, Centre d'aide]
 
 [Fiche Copie lisible : Archive avec photos et PDF, Données seules, Un fichier du cloud]
 
@@ -4494,6 +4529,11 @@ C'est un chemin vers vos données qui passe à côté de l'application : même s
 #### Astuces
 
 les astuces de cet écran sous forme de liste.
+
+(D)
+#### Centre d'aide
+
+Cet article sur le site : il s'ouvre dans le navigateur, dans la langue de l'application.
 
 ### Charger un budget depuis le cloud {#sync-restore}
 
@@ -4715,9 +4755,11 @@ Le dépassement d'une catégorie, la dette et l'état de la synchronisation rest
 
 Astuces et contact avec le développeur.
 
-[Section Aide et contact : Astuces, Discussion Telegram, Signaler un problème, Proposer une amélioration]
+[Section Aide et contact : Astuces, Centre d'aide, Discussion Telegram, Signaler un problème, Proposer une amélioration]
 
 **Astuces** — toutes les astuces de l'application en une liste, par écran. Ici aussi — « Réafficher les astuces ». Les astuces d'un écran s'ouvrent aussi par l'élément « Astuces » de son menu « ⋮ ».
+
+**Centre d'aide** — des articles sur chaque écran, sur le site, dans la langue de l'application ; cet élément ouvre l'accueil. L'article d'un écran s'ouvre par l'élément « Centre d'aide » de son menu « ⋮ ».
 
 **Discussion Telegram** — un groupe où l'on répond aux questions et où l'on peut interroger d'autres utilisateurs.
 
