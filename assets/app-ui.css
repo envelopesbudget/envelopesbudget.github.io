@@ -6,7 +6,8 @@
 .app-phone .phone-status{flex:none;font-family:inherit;color:var(--app-muted);padding:5px 10px;font-size:9px;line-height:12px}
 .app-phone .phone-budget-header,.app-phone .daily-phone-header{flex:none;background:color-mix(in srgb,var(--app-page),var(--app-ink) 4%);color:var(--app-ink);margin-inline:-8px;padding:12px 10px;min-height:57px;border:0;font-family:inherit;font-size:17px}
 .app-phone .daily-phone-header strong{font-size:17px;line-height:1.25}
-.app-phone .app-phone-scroll{flex:1;min-height:0;overflow:auto;overscroll-behavior:contain;scrollbar-width:thin;padding-top:10px;padding-bottom:46px}
+/* Let gestures continue to the page at either edge of a mockup. */
+.app-phone .app-phone-scroll{flex:1;min-height:0;overflow:auto;overscroll-behavior:auto;scrollbar-width:thin;padding-top:10px;padding-bottom:46px}
 .app-phone .phone-filters{padding:2px 0 14px}
 .app-phone .phone-group{font-size:12px;margin-bottom:12px}
 .app-phone .phone-budget-rows{border-radius:var(--app-radius);background:var(--app-card)}

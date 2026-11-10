@@ -21,7 +21,7 @@
  .appearance-theme-switch button{border:1px solid var(--line);background:#fffdf7;border-radius:20px;padding:10px 14px;font-size:12px;color:var(--ink);min-height:40px}
  .appearance-theme-switch button[aria-pressed=true]{background:#344e40;color:white;border-color:#344e40}
  .appearance-theme-switch span{font-size:10px;color:var(--muted);margin-left:auto}
- .appearance-preview .appearance-phones{display:block;height:320px;overflow:hidden;padding:0 8px;border-radius:18px 18px 0 0;max-width:340px}
+ .appearance-preview .appearance-phones{display:block;height:320px;overflow:clip;padding:0 8px;border-radius:18px 18px 0 0;max-width:340px}
  .appearance-preview .appearance-phone-figure{max-width:300px;margin:auto}
  .appearance-preview .appearance-phone-figure>figcaption{display:none}
  .appearance-preview[data-preview-theme=light] .appearance-phone-figure:last-child,.appearance-preview[data-preview-theme=dark] .appearance-phone-figure:first-child{display:none}
