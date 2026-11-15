@@ -2796,7 +2796,7 @@ Wiersz albo wycinek otwiera ekran odbiorcy: wszystkie wydatki u niego, według k
 
 Gdzie w tym miesiącu wydajesz więcej albo mniej niż zwykle — na pierwszy rzut oka. Porównanie dotyczy Twoich 12 miesięcy przed okresem: bieżący miesiąc porównuje się z tymi samymi dniami minionych miesięcy, od 1. do dzisiejszego dnia, a okres kilku miesięcy — ze zwykłym miesiącem pomnożonym przez ich liczbę.
 
-[Odchylenie — wydatki listopada: kafelki według kategorii, kolor pokazuje więcej albo mniej niż zwykle, podsumowanie: Transport +27]
+[Odchylenie — wydatki listopada: kafelki według kategorii, kolor pokazuje więcej albo mniej niż zwykle]
 
 (•)
 #### Kafelki
@@ -3272,6 +3272,11 @@ Zakup w „Biedronka” z artykułu „Transakcje”: z tagiem, paragonem elektr
 [Edycja transakcji Biedronka 143,00: pola, Dodatkowo z tagiem działka, paragon, zdjęcie, Zaksięgowane, Flaga, Usuń transakcję, Zapisz]
 
 9. **Notatka** — co kupiłeś albo po co: „Mleko, jajka, chleb”. Widać ją w taśmie kursywą i da się ją znaleźć wyszukiwaniem.
+
+   *Jak to działa:*
+   Kwota nie jest obowiązkowa: wpis bez kwoty to notatka o zdarzeniu. Na przykład: wymiana oleju przy 85 000 km, oddaliśmy Andrzejowi klucze do działki. Konto i kategoria są jednak potrzebne. Na pierwsze naciśnięcie „Zapisz” aplikacja odpowie „Wpisz kwotę”, na drugie — „Wpisz kwotę. Jeszcze raz — zapiszę bez kwoty”, a trzecie zapisze wpis.
+
+   Potem znajdzie go wyszukiwanie w „Transakcje”: szuka też w tekście notatki — wpisz na przykład olej.
 
 10. **„Dodatkowo”** — rzadko używane pola w jednej karcie. Dotknij nagłówka, by zwinąć albo rozwinąć kartę.
 

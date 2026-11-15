@@ -19,8 +19,8 @@ if(dialog){
 function revealHash(){if(!location.hash)return;const target=document.getElementById(decodeURIComponent(location.hash.slice(1)));if(!target)return;let p=target.parentElement;while(p){if(p.tagName==='DETAILS')p.open=true;p=p.parentElement;}}
 addEventListener('hashchange',revealHash);revealHash();
 
-// Reflow the two number rails after image loading and resizing. Leader lines stay
-// outside the image and point to the original row even when badges need spacing.
+// Keep badges on the rails, but connect them to the actual source rectangle,
+// including its horizontal position and the requested attachment edge.
 const annotated=[...document.querySelectorAll('.kb-shot-image')].filter(s=>s.querySelector('.kb-marker'));
 function layoutMarkers(frame){
  const width=frame.clientWidth,height=frame.clientHeight;if(!width||!height)return;
@@ -34,8 +34,17 @@ function layoutMarkers(frame){
   if(positions.length&&positions.at(-1)>height-11){positions[positions.length-1]=height-11;for(let i=positions.length-2;i>=0;i--)positions[i]=Math.min(positions[i],positions[i+1]-gap);}
   for(const [i,m] of markers.entries()){
    const y=positions[i],target=+m.dataset.markerY*height;m.style.top=y+'px';
-   const path=document.createElementNS(svg.namespaceURI,'path'),from=side==='left'?-5:width+5,to=side==='left'?0:width;
-   path.setAttribute('d',`M ${from} ${y} L ${to} ${target}`);svg.append(path);
+   const path=document.createElementNS(svg.namespaceURI,'path'),from=side==='left'?-5:width+5,to=+m.dataset.markerX*width;
+   const direction=m.dataset.sourceSide;
+   // Approach above/below targets vertically, so a line does not run through
+   // the label or icon it describes. Other targets attach at their side edge.
+   const offset=4+i*3;
+   const approach=direction==='below'?Math.min(height,target+offset):direction==='above'?Math.max(0,target-offset):target;
+   const edge=side==='left'?-2:width+2;
+   path.dataset.markerKey=m.dataset.markerKey;
+   path.setAttribute('d',`M ${from} ${y} L ${edge} ${approach} L ${to} ${approach} L ${to} ${target}`);svg.append(path);
+   const dot=document.createElementNS(svg.namespaceURI,'circle');
+   dot.setAttribute('cx',to);dot.setAttribute('cy',target);dot.setAttribute('r','2');svg.append(dot);
   }
  }
 }

@@ -2796,7 +2796,7 @@ Uma linha ou uma fatia abre a tela do beneficiário: todos os gastos com ele, po
 
 Onde você está gastando mais ou menos que o normal neste mês — de relance. A comparação é com os seus 12 meses antes do período: o mês em andamento é comparado com os mesmos dias dos meses passados, do dia 1 até a data de hoje, e um período de vários meses com um mês habitual multiplicado pelo número deles.
 
-[Desvio de novembro: blocos por categoria, a cor mostra mais ou menos que o normal, resumo: Transporte +27, novos: Itens de casa]
+[Desvio de novembro: blocos por categoria, a cor mostra mais ou menos que o normal]
 
 (•)
 #### Blocos
@@ -3272,6 +3272,11 @@ A compra no “Carrefour” do artigo “Transações”: com uma tag, uma nota 
 [Editando a transação Carrefour 143,00: campos, Adicional com a tag sítio, nota fiscal, foto, Compensado, Marcador, Excluir a transação, Salvar]
 
 9. **Nota** — o que você comprou ou por quê: “Leite, ovos, pão”. Ela aparece no feed em itálico e pode ser encontrada pela busca.
+
+   *Como funciona:*
+   O valor não é obrigatório: um registro sem valor é uma nota sobre um acontecimento. Por exemplo: troca de óleo aos 85.000 km, entregamos ao André as chaves do sítio. Ele ainda precisa de conta e categoria. No primeiro toque em “Salvar” o app responde “Informe um valor”, no segundo “Informe um valor. Toque de novo e será salvo sem valor”, e o terceiro salva o registro.
+
+   Depois, a busca em “Transações” encontra o registro: ela procura também no texto da nota; digite, por exemplo, óleo.
 
 10. **“Adicional”** — os campos pouco usados num cartão só. Toque no cabeçalho para recolher ou abrir o cartão.
 

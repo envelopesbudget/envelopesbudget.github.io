@@ -2796,7 +2796,7 @@ Uma linha ou uma fatia abre o ecrã do beneficiário: todas as despesas com ele,
 
 Onde está a gastar mais ou menos do que o habitual este mês — de relance. A comparação é feita com os seus 12 meses anteriores ao período: o mês em curso é comparado com os mesmos dias dos meses anteriores, do dia 1 até à data de hoje, e um período de vários meses com um mês habitual multiplicado pelo número deles.
 
-[Desvio de novembro: blocos por categoria, a cor mostra mais ou menos do que o habitual, resumo: Transportes +8,71, novos: Itens de casa]
+[Desvio de novembro: blocos por categoria, a cor mostra mais ou menos do que o habitual]
 
 (•)
 #### Blocos
@@ -3272,6 +3272,11 @@ A compra no «Continente» do artigo «Transações»: com uma tag, um recibo el
 [A editar a transação Continente 47,55: campos, Adicional com a tag casa de campo, recibo, foto, Contabilizado, Marcador, Eliminar a transação, Guardar]
 
 9. **Nota** — o que comprou ou porquê: «Leite, ovos, pão». Aparece no feed em itálico e pode ser encontrada pela pesquisa.
+
+   *Como funciona:*
+   O valor não é obrigatório: um registo sem valor é uma nota sobre um acontecimento. Por exemplo: mudança de óleo aos 85 000 km, entregámos ao André as chaves da casa de campo. Ainda precisa de conta e categoria. No primeiro toque em «Guardar» a aplicação responde «Informe um valor», no segundo «Informe um valor. Toque de novo e será guardado sem valor», e o terceiro guarda o registo.
+
+   Depois, a pesquisa em «Transações» encontra o registo: procura também no texto da nota; escreva, por exemplo, óleo.
 
 10. **«Adicional»** — os campos pouco usados num só cartão. Toque no cabeçalho para recolher ou abrir o cartão.
 

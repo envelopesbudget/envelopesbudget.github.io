@@ -2796,7 +2796,7 @@ Eine Zeile oder ein Stück öffnet die Seite des Empfängers: alle Ausgaben bei 
 
 Wo Sie diesen Monat mehr oder weniger ausgeben als üblich — auf einen Blick. Verglichen wird mit Ihren 12 Monaten vor dem Zeitraum: Der laufende Monat wird mit denselben Tagen früherer Monate verglichen, vom 1. bis zum heutigen Tag, ein Zeitraum von mehreren Monaten mit einem üblichen Monat mal ihrer Anzahl.
 
-[Abweichung für November: Kacheln nach Kategorien, die Farbe zeigt mehr oder weniger als üblich, Zusammenfassung: Transport +8,71, neu: Haushaltsbedarf]
+[Abweichung für November: Kacheln nach Kategorien, die Farbe zeigt mehr oder weniger als üblich]
 
 (•)
 #### Kacheln
@@ -3272,6 +3272,11 @@ Der Einkauf bei „REWE“ aus dem Artikel „Umsätze“: mit Tag, elektronisch
 [Bearbeiten der Buchung REWE 47,55: Felder, Zusätzlich mit dem Tag Datsche, Beleg, Foto, Gebucht, Markierung, Buchung löschen, Speichern]
 
 9. **Notiz** — was Sie gekauft haben oder wozu: „Milch, Eier, Brot“. Sie steht in der Liste kursiv und lässt sich mit der Suche finden.
+
+   *So funktioniert es:*
+   Der Betrag ist nicht Pflicht: Ein Eintrag ohne Betrag ist eine Notiz zu einem Ereignis. Zum Beispiel: Ölwechsel bei 85.000 km, Andreas die Schlüssel zum Gartenhaus gegeben. Konto und Kategorie braucht er trotzdem. Beim ersten Tippen auf „Speichern“ antwortet die App „Betrag eingeben“, beim zweiten „Betrag eingeben. Noch einmal tippen — und es wird ohne Betrag gespeichert“, und das dritte Tippen speichert den Eintrag.
+
+   Später findet ihn die Suche in „Umsätze“: Sie durchsucht auch den Text der Notiz — tippen Sie zum Beispiel Öl ein.
 
 10. **„Zusätzlich“** — die selten genutzten Felder in einer Karte. Tippen auf den Kopf klappt die Karte zu oder auf.
 

@@ -2796,7 +2796,7 @@ Een regel of een stuk opent het scherm van de begunstigde: alle uitgaven met hem
 
 Waar je deze maand meer of minder uitgeeft dan gewoonlijk — in één oogopslag. Vergeleken wordt met je 12 maanden vóór de periode: de lopende maand met dezelfde dagen van voorbije maanden, van de 1e tot vandaag, en een periode van meerdere maanden met een gewone maand maal hun aantal.
 
-[Afwijking voor november: tegels per categorie, de kleur toont meer of minder dan gewoonlijk, samenvatting: Vervoer +8,71]
+[Afwijking voor november: tegels per categorie, de kleur toont meer of minder dan gewoonlijk]
 
 (•)
 #### Tegels
@@ -3272,6 +3272,11 @@ De aankoop bij “Albert Heijn” uit het artikel “Boekingen”: met een tag, 
 [De transactie Albert Heijn 47,55 bewerken: velden, Aanvullend met de tag huisje, bon, foto, Verwerkt, Vlag, Transactie verwijderen, Opslaan]
 
 9. **Notitie** — wat je kocht of waarom: “Melk, eieren, brood”. Ze staat cursief in de stroom en is te vinden met zoeken.
+
+   *Hoe het werkt:*
+   Een bedrag is niet verplicht: een boeking zonder bedrag is een notitie over een gebeurtenis. Bijvoorbeeld: olie ververst bij 85.000 km, Andreas de sleutels van het vakantiehuisje gegeven. Een rekening en een categorie zijn wel nodig. Bij de eerste tik op “Opslaan” antwoordt de app “Voer een bedrag in”, bij de tweede “Voer een bedrag in. Nog een keer en het wordt zonder bedrag opgeslagen”, en de derde slaat de boeking op.
+
+   Later vindt het zoeken in “Boekingen” haar terug: het zoekt ook in de tekst van de notitie — typ bijvoorbeeld olie.
 
 10. **“Aanvullend”** — de weinig gebruikte velden in één kaart. Tik op de kop om de kaart in of uit te klappen.
 

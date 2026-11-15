@@ -2796,7 +2796,7 @@ Una riga o una fetta apre la schermata del beneficiario: tutte le spese con lui,
 
 Dove questo mese spendi più o meno del solito, a colpo d'occhio. Il confronto è con i tuoi 12 mesi prima del periodo: il mese in corso si confronta con gli stessi giorni dei mesi passati, dal 1° alla data di oggi, e un periodo di più mesi con un mese abituale moltiplicato per il loro numero.
 
-[Scostamento di novembre: riquadri per categoria, il colore indica più o meno del solito, riepilogo: Trasporti +8,71, nuovo: Casalinghi]
+[Scostamento di novembre: riquadri per categoria, il colore indica più o meno del solito]
 
 (•)
 #### Riquadri
@@ -3272,6 +3272,11 @@ L'acquisto all'«Esselunga» dell'articolo «Attività»: con un tag, uno scontr
 [Modifica della transazione Esselunga 47,55: campi, Dati aggiuntivi con il tag casa in campagna, scontrino, foto, Contabilizzato, Contrassegno, Elimina la transazione, Salva]
 
 9. **Nota**: che cosa hai comprato o perché, «Latte, uova, pane». Nell'elenco si vede in corsivo e si trova con la ricerca.
+
+   *Come funziona:*
+   L'importo non è obbligatorio: una registrazione senza importo è una nota su un fatto. Per esempio: cambio olio a 85.000 km, chiavi della casa di campagna date ad Andrea. Servono comunque conto e categoria. Al primo tocco su «Salva» l'app risponde «Inserisci un importo», al secondo «Inserisci un importo. Tocca di nuovo e verrà salvato senza importo», e il terzo salva la registrazione.
+
+   Poi la trova la ricerca in «Attività»: cerca anche nel testo della nota; scrivi, per esempio, olio.
 
 10. **«Dati aggiuntivi»**: i campi usati di rado in una sola scheda. Tocca l'intestazione per chiudere o aprire la scheda.
 

@@ -2796,7 +2796,7 @@ Bir satır ya da bir dilim alıcı ekranını açar: onunla tüm harcamalar, kat
 
 Bu ay nerede olağandan fazla ya da az harcadığınız — bir bakışta. Karşılaştırma, dönemden önceki 12 ayınızla yapılır: devam eden ay, geçmiş ayların ayın 1’inden bugünkü tarihe kadarki aynı günleriyle; birkaç aylık bir dönem ise ay sayısıyla çarpılmış olağan bir ayla karşılaştırılır.
 
-[Kasım için Sapma: kategorilere göre kutucuklar, renk olağandan fazla mı az mı olduğunu gösterir, özet: Ulaşım +218]
+[Kasım için Sapma: kategorilere göre kutucuklar, renk olağandan fazla mı az mı olduğunu gösterir]
 
 (•)
 #### Kutucuklar
@@ -3272,6 +3272,11 @@ Tek bir alışveriş — birkaç kategori. [Aşağıda](#entry-split) anlatılı
 [Migros 1.189 işleminin düzenlenmesi: alanlar, yazlık etiketli Ek bilgiler, fiş, fotoğraf, Hesaba geçti, Bayrak, İşlemi sil, Kaydet]
 
 9. **Not** — ne aldığınız ya da neden: “Süt, yumurta, ekmek”. Akışta italik görünür ve aramayla bulunabilir.
+
+   *Nasıl çalışır:*
+   Tutar zorunlu değildir: tutarsız bir kayıt, bir olay hakkında nottur. Örneğin: 85.000 km'de yağ değişti, yazlığın anahtarlarını Andrey'e verdik. Yine de hesap ve kategori gerekir. “Kaydet”e ilk dokunuşta uygulama “Bir tutar girin” der, ikincisinde “Bir tutar girin. Bir daha dokunursanız tutarsız kaydedilir” der, üçüncü dokunuş kaydı saklar.
+
+   Sonra onu “İşlemler” içindeki arama bulur: arama notun metninde de arar — örneğin yağ yazın.
 
 10. **“Ek bilgiler”** — nadir kullanılan alanlar tek bir kartta. Kartı katlamak ya da açmak için başlığa dokunun.
 

@@ -2796,7 +2796,7 @@ Una fila o un sector abre la pantalla del beneficiario: todos los gastos con él
 
 Dónde gastas este mes más o menos de lo habitual, de un vistazo. La comparación es con tus 12 meses anteriores al periodo: el mes en curso se compara con los mismos días de los meses anteriores, del día 1 a la fecha de hoy, y un periodo de varios meses con un mes habitual multiplicado por su número.
 
-[Desviación de noviembre: mosaicos por categorías, el color muestra más o menos de lo habitual, resumen: Transporte +8,71]
+[Desviación de noviembre: mosaicos por categorías, el color muestra más o menos de lo habitual]
 
 (•)
 #### Mosaicos
@@ -3272,6 +3272,11 @@ La compra en «Mercadona» del artículo «Actividad»: con una etiqueta, un rec
 [Edición de la transacción Mercadona 47,55: campos, Adicional con la etiqueta casa de campo, recibo, foto, Contabilizado, Marca, Eliminar la transacción, Guardar]
 
 9. **Nota**: qué compraste o por qué: «Leche, huevos, pan». Se ve en la lista en cursiva y se puede encontrar con la búsqueda.
+
+   *Cómo funciona:*
+   El importe no es obligatorio: un registro sin importe es una nota sobre un hecho. Por ejemplo: cambio de aceite a los 85.000 km, le dimos a Andrés las llaves de la casa de campo. Aun así necesita cuenta y categoría. Al primer toque de «Guardar» la app responde «Introduce un importe», al segundo «Introduce un importe. Toca otra vez y se guardará sin importe», y el tercero guarda el registro.
+
+   Después lo encuentra la búsqueda en «Actividad»: también busca en el texto de la nota; escribe, por ejemplo, aceite.
 
 10. **«Adicional»**: los campos poco usados en una tarjeta. Toca la cabecera para plegar o desplegar la tarjeta.
 

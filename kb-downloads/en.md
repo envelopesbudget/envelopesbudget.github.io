@@ -2796,7 +2796,7 @@ A row or a slice opens the payee screen: all spending with them, by category and
 
 Where you're spending more or less than usual this month — at a glance. It compares with your 12 months before the period: the month in progress is compared with the same days of past months, from the 1st to today's date, and a period of several months with a usual month multiplied by their number.
 
-[Deviation for November: tiles by category, color shows more or less than usual, summary: Transport +8.71, new: Household supplies]
+[Deviation for November: tiles by category, color shows more or less than usual]
 
 (•)
 #### Tiles
@@ -3272,6 +3272,11 @@ The purchase at “Whole Foods” from the “Activity” article: with a tag, a
 [Editing the Whole Foods 47.55 transaction: fields, Additional with the cottage tag, receipt, photo, Cleared, Flag, Delete the transaction, Save]
 
 9. **Note** — what you bought or why: “Milk, eggs, bread”. It shows in the feed in italics and can be found with search.
+
+   *How it works:*
+   The amount is optional: an entry without an amount is a note about an event. For example: oil changed at 85,000 km, gave Andrew the keys to the cottage. It still needs an account and a category. On the first tap of “Save” the app answers “Enter an amount”, on the second “Enter an amount. Tap again and it will be saved without one”, and the third tap saves the entry.
+
+   Later, search in “Activity” finds it: search looks at note text too — type oil, for example.
 
 10. **“Additional”** — the rarely used fields in one card. Tap the header to collapse or expand the card.
 

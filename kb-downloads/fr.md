@@ -2796,7 +2796,7 @@ Une ligne ou une part — l'écran du bénéficiaire : toutes les dépenses chez
 
 Où vous dépensez plus ou moins que d'habitude ce mois-ci — d'un seul coup d'œil. La comparaison se fait avec vos 12 mois précédant la période : le mois en cours est comparé aux mêmes jours des mois passés, du 1er à la date du jour, et une période de plusieurs mois à un mois habituel multiplié par leur nombre.
 
-[Écart de novembre : tuiles par catégorie, la couleur indique plus ou moins que d'habitude, conclusion : Transports +8,71, nouvelles : Produits ménagers]
+[Écart de novembre : tuiles par catégorie, la couleur indique plus ou moins que d'habitude]
 
 (•)
 #### Les tuiles
@@ -3272,6 +3272,11 @@ L'achat chez « Carrefour » de l'article « Activité » : avec un tag, un reç
 [Modification de l'opération Carrefour 47,55 : champs, Supplémentaire avec le tag campagne, reçu, photo, Débité, Drapeau, Supprimer l'opération, Enregistrer]
 
 9. **Note** — ce que vous avez acheté ou pourquoi : « Lait, œufs, pain ». Elle apparaît en italique dans le fil et se retrouve par la recherche.
+
+   *Comment ça marche:*
+   Le montant n'est pas obligatoire : une saisie sans montant est une note sur un événement. Par exemple : vidange à 85 000 km, clés de la maison de campagne données à André. Il lui faut quand même un compte et une catégorie. Au premier appui sur « Enregistrer », l'appli répond « Saisissez un montant », au deuxième « Saisissez un montant. Touchez encore et ce sera enregistré sans montant », et le troisième enregistre la saisie.
+
+   Ensuite, la recherche dans « Activité » la retrouve : elle cherche aussi dans le texte de la note — tapez par exemple vidange.
 
 10. **« Supplémentaire »** — les champs rares dans une seule carte. Touchez l'en-tête — la carte se replie ou se déplie.
 
