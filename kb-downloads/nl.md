@@ -2486,6 +2486,8 @@ In beide weergaven kun je op “+” tikken: het opent altijd het formulier voor
 
 Kleine pictogrammen naast een transactie zeggen dat er iets extra's bij hoort: een gekoppelde bon, een bestand of meerdere categorieën. Zelf doen ze niets — om te zien wat er gekoppeld is, tik je op de regel.
 
+Geen begunstigde — op de plek van de naam staat een streep “———”. Dat is geen fout: de begunstigde is alleen niet ingevuld, en het teken van het bedrag toont de richting.
+
 #### Camera — een bonfoto
 
 Een foto van een papieren bon, een prijskaartje of iets anders dat je bij de aankoop wilt bewaren.

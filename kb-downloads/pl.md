@@ -2486,6 +2486,8 @@ Nie martw się, jeśli Twój ekran nie wygląda jak na obrazku wyżej. Przyciski
 
 Małe ikony obok transakcji mówią, że ma coś dodatkowego: dołączony paragon, plik albo kilka kategorii. Same niczego nie robią — żeby zobaczyć, co dołączono, dotknij wiersza.
 
+Brak odbiorcy — w miejscu nazwy jest kreska „———”. To nie błąd: odbiorcy po prostu nie wpisano, a kierunek pokazuje znak kwoty.
+
 #### Aparat — zdjęcie paragonu
 
 Zdjęcie papierowego paragonu, metki albo czegokolwiek, co chcesz zachować obok zakupu.

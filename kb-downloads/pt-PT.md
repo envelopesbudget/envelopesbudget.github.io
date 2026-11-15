@@ -2486,6 +2486,8 @@ Pode tocar no «+» das duas formas: abre sempre o formulário de nova transaç�
 
 Os ícones pequenos ao lado de uma transação dizem que ela tem algo mais: um recibo anexado, um ficheiro ou várias categorias. Sozinhos não fazem nada — para ver o que está anexado, toque na linha.
 
+Sem beneficiário: no lugar do nome aparece um traço «———». Não é um erro: o beneficiário só não foi indicado, e o sinal do valor mostra o sentido.
+
 #### Câmara — uma foto do recibo
 
 Uma fotografia de um talão em papel, de uma etiqueta de preço ou de qualquer coisa que queira guardar junto da compra.

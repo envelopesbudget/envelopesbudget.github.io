@@ -2486,6 +2486,8 @@ Kamerayı ve mikrofonu geri getirmek için akışı biraz yukarı kaydırın —
 
 Bir işlemin yanındaki küçük simgeler, onda fazladan bir şey olduğunu söyler: eklenmiş bir fiş, bir dosya ya da birkaç kategori. Kendi başlarına bir şey yapmazlar — neyin eklendiğini görmek için satıra dokunun.
 
+Alıcı yoksa adın yerinde bir çizgi “———” olur. Bu bir hata değildir: alıcı yalnızca girilmemiştir, yönü tutarın işareti gösterir.
+
 #### Kamera — bir fiş fotoğrafı
 
 Kâğıt bir fişin, bir fiyat etiketinin ya da alışverişin yanında saklamak istediğiniz herhangi bir şeyin resmi.

@@ -2486,6 +2486,8 @@ Puedes tocar «+» en cualquiera de los dos aspectos: siempre abre el formulario
 
 Los iconos pequeños junto a una transacción dicen que tiene algo más: un recibo adjunto, un archivo o varias categorías. No hacen nada por sí solos: para ver qué hay adjunto, toca la fila.
 
+Sin beneficiario: en lugar del nombre hay una raya «———». No es un error: el beneficiario simplemente no se indicó, y el signo del importe muestra el sentido.
+
 #### Cámara: una foto del recibo
 
 Una foto de un recibo de papel, una etiqueta de precio o cualquier otra cosa que quieras guardar junto a la compra.

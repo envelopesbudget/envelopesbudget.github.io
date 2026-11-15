@@ -2486,6 +2486,8 @@ Il «+» si può toccare in tutti e due gli aspetti: apre sempre il modulo della
 
 Piccole icone accanto a una transazione dicono che ha qualcosa in più: uno scontrino allegato, un file o più categorie. Da sole non fanno niente: per vedere che cosa è allegato, tocca la riga.
 
+Nessun beneficiario: al posto del nome c'è un trattino «———». Non è un errore: il beneficiario non è stato indicato, e il segno dell'importo mostra la direzione.
+
 #### Fotocamera: una foto dello scontrino
 
 Una foto di uno scontrino di carta, di un cartellino del prezzo o di qualsiasi cosa tu voglia tenere accanto all'acquisto.

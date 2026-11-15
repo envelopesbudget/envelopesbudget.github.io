@@ -2486,6 +2486,8 @@ Auf „+“ können Sie in beiden Ansichten tippen: Es öffnet immer das Formula
 
 Kleine Symbole neben einer Buchung sagen, dass sie etwas Zusätzliches hat: einen angehängten Beleg, eine Datei oder mehrere Kategorien. Von selbst tun sie nichts — um zu sehen, was angehängt ist, tippen Sie auf die Zeile.
 
+Kein Empfänger — an der Stelle des Namens steht ein Strich „———“. Das ist kein Fehler: Der Empfänger wurde nur nicht angegeben, und die Richtung zeigt das Vorzeichen des Betrags.
+
 #### Kamera — ein Belegfoto
 
 Ein Bild eines Papierbelegs, eines Preisschilds oder von etwas anderem, das Sie neben dem Kauf aufbewahren möchten.

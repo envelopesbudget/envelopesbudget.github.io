@@ -2486,6 +2486,8 @@ You can tap “+” in either view: it always opens the new transaction form.
 
 Small icons next to a transaction say it has something extra: an attached receipt, a file or several categories. They don't do anything by themselves — to see what's attached, tap the row.
 
+No payee — there's a dash “———” in place of the name. It's not an error: the payee just wasn't entered, and the sign of the amount shows the direction.
+
 #### Camera — a receipt photo
 
 A picture of a paper receipt, a price tag or anything else you'd like to keep next to the purchase.

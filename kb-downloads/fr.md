@@ -2486,6 +2486,8 @@ On peut toucher le « + » sous les deux formes : il ouvre toujours le formulair
 
 Les petites icônes à côté d'une opération indiquent qu'elle a quelque chose en plus : un ticket joint, un fichier ou plusieurs catégories. Elles ne font rien par elles-mêmes — pour voir ce qui est joint, touchez la ligne.
 
+Pas de bénéficiaire — un tiret « ——— » remplace le nom. Ce n'est pas une erreur : le bénéficiaire n'a simplement pas été saisi, et le signe du montant indique le sens.
+
 #### Appareil photo — la photo du ticket
 
 Une photo d'un ticket papier, d'une étiquette de prix ou de tout ce qu'on veut garder à côté de l'achat.

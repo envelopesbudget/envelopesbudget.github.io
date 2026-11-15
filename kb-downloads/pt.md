@@ -2486,6 +2486,8 @@ Dá para tocar no “+” nos dois jeitos: ele sempre abre o formulário de nova
 
 Os ícones pequenos ao lado de uma transação dizem que ela tem algo a mais: uma nota fiscal anexada, um arquivo ou várias categorias. Eles não fazem nada sozinhos — para ver o que está anexado, toque na linha.
 
+Sem beneficiário: no lugar do nome aparece um traço “———”. Não é um erro: o beneficiário só não foi informado, e o sinal do valor mostra o sentido.
+
 #### Câmera — uma foto da nota fiscal
 
 Uma foto de uma nota em papel, de uma etiqueta de preço ou de qualquer coisa que você queira guardar junto com a compra.

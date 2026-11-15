@@ -6,6 +6,16 @@
 .kb-shot-image{position:relative;display:block}
 .kb-article > :is(.kb-card,.kb-figure){margin-block:24px}
 .kb-screen-text > .kb-card + .kb-card{margin-top:24px}
+/* Framed content owns its edge spacing; inner text must not add a second inset. */
+.kb-article :is(.kb-card,.kb-note,.kb-aside,.kb-callout-body)>:first-child{margin-top:0}
+.kb-article :is(.kb-card,.kb-note,.kb-aside,.kb-callout-body)>:last-child{margin-bottom:0}
+.kb-article :is(.kb-card,.kb-note,.kb-aside,.kb-callout-body)>:is(ul,ol):first-child>li:first-child,
+.kb-article :is(.kb-card,.kb-note,.kb-aside,.kb-callout-body)>:is(ul,ol):first-child>li:first-child>:first-child{margin-top:0}
+.kb-article :is(.kb-card,.kb-note,.kb-aside,.kb-callout-body,.kb-more)>:is(ul,ol):last-child>li:last-child,
+.kb-article :is(.kb-card,.kb-note,.kb-aside,.kb-callout-body,.kb-more)>:is(ul,ol):last-child>li:last-child>:last-child{margin-bottom:0}
+.kb-article .kb-cards{align-items:start}
+.kb-more[open]{padding-bottom:18px}
+.kb-more>:last-child{margin-bottom:0}
 .kb-article .kb-callout{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:12px;padding:14px 16px;align-items:start}
 .kb-card-number{display:grid;place-items:center;min-width:26px;height:26px;padding-inline:7px;margin-top:1px;border-radius:50%;background:var(--peach);color:var(--ink);font:700 13px/1 Arial,Helvetica,sans-serif}
 .kb-card-number.is-number{background:var(--green);color:#fff}
