@@ -26,15 +26,29 @@
 .kb-download{margin-top:48px;padding:24px 0;border-top:1px solid var(--line,#d5d9cc)}
 .kb-download a{display:block;width:fit-content;max-width:100%;padding:12px 0;line-height:1.6;overflow-wrap:anywhere}
 
-/* Number rails are outside the screenshot: never cover the app's text or controls. */
-.kb-figure{padding-inline:28px}
+/* Reserve a narrow fallback rail when the screenshot has no empty space. */
+.kb-figure{padding:14px 14px 0}
 .kb-shot{overflow:visible}
 .kb-shot img{border-radius:11px 11px 0 0}
 .kb-zoom-label{border-radius:0 0 11px 11px}
-.kb-marker{width:22px;min-width:22px;padding:0;z-index:1;box-shadow:0 0 0 2px var(--paper);transform:translateY(-50%)}
-.kb-marker-left{left:-27px}
-.kb-marker-right{right:-27px}
+.kb-marker{width:22px;min-width:22px;padding:0;z-index:1;box-shadow:0 0 0 2px var(--paper);transform:translate(-50%,-50%)}
+.kb-marker-left{left:-16px}
+.kb-marker-right{left:calc(100% + 16px);right:auto}
 .kb-marker-lines{position:absolute;inset:0;overflow:visible;pointer-events:none;width:100%;height:100%}
 .kb-marker-lines path{fill:none;stroke:#657b6a;stroke-width:1;vector-effect:non-scaling-stroke}
 .kb-marker-lines circle{fill:#344e40;stroke:#fff;stroke-width:.75;vector-effect:non-scaling-stroke}
 @media(min-width:1001px){.kb-screen{grid-template-columns:minmax(240px,38%) minmax(0,1fr)}}
+
+/* The enlarged image and its explanations share one scrollable dialog. */
+.kb-lightbox{width:min(1180px,96vw);max-width:96vw;box-sizing:border-box;padding:16px;overscroll-behavior:contain}
+.kb-lightbox form{background:var(--paper);padding-bottom:12px}
+.kb-zoom-content{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px;align-items:start}
+.kb-zoom-figure{min-width:0;padding:14px 28px}
+.kb-lightbox .kb-shot-image{width:100%;max-width:540px;margin:auto}
+.kb-lightbox .kb-shot-image img{display:block;width:100%;max-width:100%;height:auto;margin:0}
+.kb-lightbox .kb-screen-text{min-width:0;overflow-wrap:anywhere;line-height:1.65}
+.kb-lightbox .kb-screen-text ol,.kb-lightbox .kb-screen-text ul{padding-left:24px}
+.kb-lightbox .kb-screen-text li{margin:0 0 18px}
+.kb-lightbox .kb-screen-text p{margin:0 0 12px}
+.kb-lightbox .kb-screen-text li::marker{color:var(--green);font-weight:bold}
+@media(max-width:760px){.kb-zoom-content{grid-template-columns:minmax(0,1fr);gap:24px}.kb-lightbox{padding:10px}.kb-zoom-figure{padding:8px 28px}}
